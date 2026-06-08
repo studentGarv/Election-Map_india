@@ -104,7 +104,8 @@ export function getPartyColor(partyName: string): string {
   const trimmed = partyName.trim();
 
   // Check known parties (case-sensitive first, then case-insensitive)
-  if (KNOWN_PARTY_COLORS[trimmed] !== undefined) {
+  // Use Object.hasOwn to avoid prototype property collisions (e.g. "constructor", "toString")
+  if (Object.hasOwn(KNOWN_PARTY_COLORS, trimmed)) {
     return KNOWN_PARTY_COLORS[trimmed];
   }
 
@@ -126,7 +127,8 @@ export function getPartyColor(partyName: string): string {
  * Each party is guaranteed to receive the same color on every call.
  */
 export function buildPartyColorMap(partyNames: string[]): Record<string, string> {
-  const map: Record<string, string> = {};
+  // Use Object.create(null) to avoid prototype property collisions (e.g. "toString", "valueOf")
+  const map: Record<string, string> = Object.create(null) as Record<string, string>;
   for (const name of partyNames) {
     map[name] = getPartyColor(name);
   }

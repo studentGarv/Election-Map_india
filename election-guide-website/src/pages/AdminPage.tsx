@@ -1,14 +1,16 @@
 import React from 'react';
+import { CSVImporter } from '../components/CSVImporter';
 
 const AdminPage: React.FC = () => {
   return (
-    <main className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-gray-900 mb-4">Admin — Data Upload</h1>
-      <p className="text-gray-600">
-        Upload CSV files to populate the election data store. Supported files:
-        Chief Minister history, Lok Sabha ruling party history, and state party tenure summaries.
+    <main className="container mx-auto px-4 py-8 max-w-4xl">
+      <h1 className="text-3xl font-bold text-gray-900 mb-4">Administration</h1>
+      <p className="text-gray-600 mb-8">
+        Manage the application's underlying data. You can manually upload new CSV files
+        to update the history and records shown across the website.
       </p>
-      <p className="mt-4 text-sm text-orange-600 font-medium">Coming Soon — CSV upload UI will be available shortly.</p>
+
+      <CSVImporter />
     </main>
   );
 };

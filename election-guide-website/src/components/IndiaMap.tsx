@@ -19,44 +19,12 @@ import {
 } from 'react-simple-maps';
 import type { StatePartyTenure } from '../types';
 import { getPartyColor } from '../utils/partyColors';
+import { getStateName, getCurrentParty } from '../utils/mapUtils';
 
 // ─── India TopoJSON source ────────────────────────────────────────────────────
 
 const INDIA_TOPO_URL =
   'https://raw.githubusercontent.com/deldersveld/topojson/master/countries/india/india-states.json';
-
-// ─── Helpers ──────────────────────────────────────────────────────────────────
-
-/**
- * Derives the current ruling party for a state from StatePartyTenure records.
- * Returns the party with the highest lastYearInPower (most recently in power).
- */
-function getCurrentParty(
-  stateName: string,
-  stateData: StatePartyTenure[]
-): string {
-  const tenures = stateData.filter(
-    (t) => t.state.toLowerCase() === stateName.toLowerCase()
-  );
-  if (tenures.length === 0) return '';
-
-  const sorted = [...tenures].sort((a, b) => b.lastYearInPower - a.lastYearInPower);
-  return sorted[0].party;
-}
-
-/**
- * Extracts the state name from a GeoJSON feature's properties.
- * The TopoJSON from deldersveld uses "NAME_1" for Indian state names.
- */
-function getStateName(geo: { properties: Record<string, string> }): string {
-  return (
-    geo.properties['NAME_1'] ||
-    geo.properties['name'] ||
-    geo.properties['NAME'] ||
-    geo.properties['st_nm'] ||
-    ''
-  );
-}
 
 // ─── ColorLegend ──────────────────────────────────────────────────────────────
 

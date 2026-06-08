@@ -1,14 +1,14 @@
 import React, { useState, useCallback } from 'react';
-import { IndiaMap } from '../components';
+import { IndiaMap, StateHistoryPanel } from '../components';
 import { useAppData } from '../context/AppContext';
 
 /**
  * MapPage — `/map` route
  *
- * Composes the IndiaMap with state-selection management.
+ * Composes IndiaMap and StateHistoryPanel with state-selection management.
  * Clicking a state sets `selectedState`, which:
  *  - highlights the region in #1E40AF blue (handled inside IndiaMap)
- *  - will open the StateHistoryPanel (task 6.7/6.8)
+ *  - opens the StateHistoryPanel with CM history and party tenure data
  *
  * Requirements: 2.3 — clicking a state on the India Map displays the
  * State Election History panel for the selected state.
@@ -40,40 +40,25 @@ const MapPage: React.FC = () => {
           />
         </div>
 
-        {/* Side panel — StateHistoryPanel will be composed here in task 6.8 */}
-        {selectedState && (
-          <div className="lg:w-80 xl:w-96">
-            <div className="bg-white rounded-lg shadow border border-gray-200 p-4">
-              <div className="flex items-center justify-between mb-3">
-                <h2 className="text-lg font-semibold text-gray-900">{selectedState}</h2>
-                <button
-                  type="button"
-                  onClick={() => setSelectedState(null)}
-                  className="text-gray-400 hover:text-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 rounded"
-                  aria-label={`Close ${selectedState} history panel`}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </button>
-              </div>
-              <p className="text-sm text-gray-500">
-                Election history for <strong>{selectedState}</strong> will be displayed here
-                once the StateHistoryPanel component is implemented (task 6.7).
-              </p>
+        {/* Side panel */}
+        <div className="lg:w-96">
+          {selectedState ? (
+            <StateHistoryPanel
+              state={selectedState}
+              cmHistory={state.cmRecords.filter(
+                (cm) => cm.state.toLowerCase() === selectedState.toLowerCase()
+              )}
+              partyTenure={state.statePartyTenures.filter(
+                (t) => t.state.toLowerCase() === selectedState.toLowerCase()
+              )}
+              onClose={() => setSelectedState(null)}
+            />
+          ) : (
+            <div className="flex items-center justify-center h-48 bg-white rounded-xl border border-dashed border-gray-300 text-gray-400 text-sm text-center px-4">
+              Click on a state to view its election history
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </main>
   );

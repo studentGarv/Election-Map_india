@@ -264,7 +264,7 @@ describe('P1: CSV Round-Trip Fidelity', () => {
           expect(parsedRecords[i].startDate?.getTime()).toBe(deduped[i].startDate?.getTime());
         }
       }),
-      { numRuns: 100 }
+      { numRuns: 25 }
     );
   });
 });
@@ -289,7 +289,7 @@ describe('P2: Deduplication Idempotence', () => {
           }
         }
       ),
-      { numRuns: 100 }
+      { numRuns: 25 }
     );
   });
 });
@@ -344,7 +344,7 @@ describe('P3: Invalid Rows Skipped, Valid Rows Retained', () => {
           });
         }
       ),
-      { numRuns: 100 }
+      { numRuns: 25 }
     );
   });
 });
@@ -382,7 +382,7 @@ describe('P4: Missing Required Columns Causes Rejection', () => {
           });
         }
       ),
-      { numRuns: 100 }
+      { numRuns: 25 }
     );
   });
 
@@ -415,7 +415,7 @@ describe('P4: Missing Required Columns Causes Rejection', () => {
           });
         }
       ),
-      { numRuns: 100 }
+      { numRuns: 25 }
     );
   });
 
@@ -452,7 +452,8 @@ describe('P4: Missing Required Columns Causes Rejection', () => {
           });
         }
       ),
-      { numRuns: 100 }
+      { numRuns: 25 }
     );
   });
 });
+

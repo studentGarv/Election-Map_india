@@ -6,3 +6,10 @@
 *:focus-visible {
   @apply outline-2 outline-offset-2 outline-blue-500;
 }
+
+/* Focus ring for SVG path elements (India map regions).
+   Uses !important to override the inline outline:none set by react-simple-maps. */
+path:focus-visible {
+  outline: 2px solid #2563EB !important;
+  outline-offset: 2px;
+}
