@@ -24,7 +24,7 @@ import { getStateName, getCurrentParty } from '../utils/mapUtils';
 // ─── India TopoJSON source ────────────────────────────────────────────────────
 
 const INDIA_TOPO_URL =
-  'https://raw.githubusercontent.com/deldersveld/topojson/master/countries/india/india-states.json';
+  "D:\Project\Test\Kick hack 8\election-guide-website\src\components\ind.json";
 
 // ─── ColorLegend ──────────────────────────────────────────────────────────────
 
