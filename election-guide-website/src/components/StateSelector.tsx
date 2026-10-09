@@ -23,7 +23,7 @@ export function StateSelector({ selectedState, onChange }: StateSelectorProps) {
         </span>
         <div>
           <label htmlFor="state-select" className="text-sm font-bold text-gray-800 block">
-            Select State or National Overview
+            Filter by State or National Overview
           </label>
           <span className="text-xs text-gray-500">
             View national Lok Sabha records or state-level party governance

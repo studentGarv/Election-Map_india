@@ -38,7 +38,7 @@ const ElectionResultsHistoryPage: React.FC = () => {
           <div className="flex items-center justify-between pb-3 mb-4 border-b border-gray-200/80">
             <div>
               <h2 className="text-xl sm:text-2xl font-bold text-gray-900">
-                {selectedState} Governance History
+                {selectedState} Election History
               </h2>
               <p className="text-xs text-gray-500 mt-0.5">
                 Chief Ministers and cumulative party tenures for {selectedState}
@@ -58,7 +58,7 @@ const ElectionResultsHistoryPage: React.FC = () => {
         <div className="mt-8 animate-fade-in">
           <div className="pb-3 mb-4 border-b border-gray-200/80">
             <h2 className="text-xl sm:text-2xl font-bold text-gray-900">
-              National Lok Sabha Results Archive
+              National Election History
             </h2>
             <p className="text-xs text-gray-500 mt-0.5">
               1st through 18th Lok Sabha general election results, ruling coalitions, and mandates

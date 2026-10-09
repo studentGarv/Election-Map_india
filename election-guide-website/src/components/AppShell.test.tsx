@@ -60,8 +60,9 @@ describe('NavBar', () => {
     expect(screen.getByRole('link', { name: 'President History' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Election History' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'FAQ' })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: 'Search' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Admin' })).toBeInTheDocument();
+    // Search is handled via the integrated search input, not a redundant tab link
+    expect(screen.queryByRole('link', { name: 'Search' })).not.toBeInTheDocument();
   });
 
   it('renders a search input', () => {

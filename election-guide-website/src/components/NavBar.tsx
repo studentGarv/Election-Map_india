@@ -6,7 +6,7 @@ interface NavItem {
   label: string;
 }
 
-const NAV_ITEMS: NavItem[] = [
+const PUBLIC_NAV_ITEMS: NavItem[] = [
   { to: '/', label: 'Home' },
   { to: '/map', label: 'Map' },
   { to: '/guide', label: 'Guide' },
@@ -14,8 +14,11 @@ const NAV_ITEMS: NavItem[] = [
   { to: '/president-history', label: 'President History' },
   { to: '/election-history', label: 'Election History' },
   { to: '/faq', label: 'FAQ' },
-  { to: '/search', label: 'Search' },
-  { to: '/admin', label: 'Admin' },
+];
+
+const NAV_ITEMS: NavItem[] = [
+  ...PUBLIC_NAV_ITEMS,
+  ...(import.meta.env.DEV ? [{ to: '/admin', label: 'Admin' }] : []),
 ];
 
 const NavBar: React.FC = () => {

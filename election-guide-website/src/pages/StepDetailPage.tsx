@@ -62,9 +62,8 @@ const StepDetailPage: React.FC = () => {
           {/* Key Dates & Responsible Parties */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
             <div className="bg-slate-50/70 border border-slate-200/80 rounded-xl p-5">
-              <h2 className="text-sm font-bold text-gray-900 mb-3 flex items-center gap-2">
-                <span>📅</span>
-                <span>Key Dates & Windows</span>
+              <h2 className="text-sm font-bold text-gray-900 mb-3 flex items-center">
+                <span aria-hidden="true" className="mr-2">📅</span>Key Dates
               </h2>
               <ul className="space-y-1.5 text-xs sm:text-sm text-gray-600">
                 {step.keyDates.map((date, idx) => (
@@ -77,9 +76,8 @@ const StepDetailPage: React.FC = () => {
             </div>
 
             <div className="bg-slate-50/70 border border-slate-200/80 rounded-xl p-5">
-              <h2 className="text-sm font-bold text-gray-900 mb-3 flex items-center gap-2">
-                <span>🏛️</span>
-                <span>Responsible Authorities</span>
+              <h2 className="text-sm font-bold text-gray-900 mb-3 flex items-center">
+                <span aria-hidden="true" className="mr-2">🏛️</span>Responsible Parties
               </h2>
               <ul className="space-y-1.5 text-xs sm:text-sm text-gray-600">
                 {step.responsibleParties.map((party, idx) => (
@@ -94,9 +92,8 @@ const StepDetailPage: React.FC = () => {
 
           {/* Citizen Actions */}
           <div className="mb-8 bg-emerald-50/60 p-5 sm:p-6 rounded-xl border border-emerald-200/80">
-            <h2 className="text-sm font-bold text-emerald-950 mb-3 flex items-center gap-2">
-              <span className="text-base">✅</span>
-              <span>Citizen Action Items</span>
+            <h2 className="text-sm font-bold text-emerald-950 mb-3 flex items-center">
+              <span aria-hidden="true" className="mr-2">✅</span>Citizen Action Items
             </h2>
             <ul className="space-y-2 text-xs sm:text-sm text-emerald-900">
               {step.citizenActions.map((action, idx) => (
@@ -111,9 +108,8 @@ const StepDetailPage: React.FC = () => {
           {/* External Links */}
           {step.externalLinks && step.externalLinks.length > 0 && (
             <div className="mb-8 pt-4 border-t border-gray-100">
-              <h2 className="text-sm font-bold text-gray-900 mb-3 flex items-center gap-2">
-                <span>🔗</span>
-                <span>Official Resources & Guidelines</span>
+              <h2 className="text-sm font-bold text-gray-900 mb-3 flex items-center">
+                <span aria-hidden="true" className="mr-2">🔗</span>Official Resources & Guidelines
               </h2>
               <div className="flex flex-wrap gap-2.5">
                 {step.externalLinks.map((link, idx) => (
@@ -136,20 +132,22 @@ const StepDetailPage: React.FC = () => {
           {step.relatedStepIds && step.relatedStepIds.length > 0 && (
             <div className="border-t border-gray-100 pt-5">
               <h2 className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">
-                Related Process Steps
+                Related Steps
               </h2>
               <div className="flex flex-wrap gap-2">
-                {step.relatedStepIds.map((relatedId) => {
-                  const relatedStep = state.electionSteps.find((s) => s.id === relatedId);
-                  if (!relatedStep) return null;
+                {step.relatedStepIds.map((relId) => {
+                  const relStep = state.electionSteps.find((s) => s.id === relId);
+                  if (!relStep) return null;
                   return (
                     <Link
-                      key={relatedId}
-                      to={`/guide/${relatedId}`}
-                      className="inline-flex items-center gap-1 bg-gray-50 hover:bg-orange-50 text-gray-700 hover:text-orange-700 border border-gray-200 hover:border-orange-200 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors"
+                      key={relId}
+                      to={`/guide/${relId}`}
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-gray-50 hover:bg-orange-50 border border-gray-200 hover:border-orange-300 rounded-lg text-xs font-medium text-gray-700 hover:text-orange-700 transition-colors"
                     >
-                      <span>{relatedStep.title}</span>
-                      <span className="text-gray-400">&rarr;</span>
+                      <span className="w-4 h-4 rounded-full bg-gray-200 text-gray-700 text-[10px] flex items-center justify-center font-bold">
+                        {relStep.order}
+                      </span>
+                      <span>{relStep.title}</span>
                     </Link>
                   );
                 })}

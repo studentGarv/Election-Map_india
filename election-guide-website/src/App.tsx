@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       { path: 'search', element: <SearchPage /> },
       { path: 'faq', element: <FAQPage /> },
       { path: 'election-history', element: <ElectionResultsHistoryPage /> },
-      { path: 'admin', element: <AdminPage /> },
+      ...(import.meta.env.DEV ? [{ path: 'admin', element: <AdminPage /> }] : []),
       { path: '*', element: <NotFoundPage /> },
     ],
   },

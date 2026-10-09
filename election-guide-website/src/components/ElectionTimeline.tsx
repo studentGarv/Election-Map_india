@@ -14,10 +14,6 @@ interface ProgressTrackerProps {
 
 /**
  * ProgressTracker — shows visited / total steps for the current election type.
- *
- * Reads from `useGuideProgress` when that hook is fully wired; for now it
- * accepts counts as props so the parent can pass sessionStorage-derived values
- * or defaults (0 visited until the hook is ready).
  */
 export const ProgressTracker: React.FC<ProgressTrackerProps> = ({ visited, total }) => {
   const allDone = total > 0 && visited >= total;
@@ -25,32 +21,33 @@ export const ProgressTracker: React.FC<ProgressTrackerProps> = ({ visited, total
 
   return (
     <div
-      className="flex flex-col gap-1 bg-white/90 backdrop-blur-sm border border-orange-200 rounded-lg px-4 py-2 shadow-sm text-sm"
+      className="flex flex-col gap-1.5 bg-amber-50/70 border border-amber-200/80 rounded-xl px-4 py-3 shadow-sm text-sm"
       aria-label={`Progress: ${visited} of ${total} steps visited`}
       role="status"
     >
       <div className="flex items-center justify-between gap-4">
-        <span className="font-medium text-gray-700">
-          {visited} / {total} steps
+        <span className="font-semibold text-slate-800 text-xs">
+          Completed {visited} of {total} Key Steps
         </span>
-        <span className="text-orange-600 font-semibold">{pct}%</span>
+        <span className="text-amber-800 font-bold text-xs bg-amber-100 px-2 py-0.5 rounded-full">{pct}%</span>
       </div>
       {/* Progress bar */}
       <div
-        className="h-1.5 w-full bg-orange-100 rounded-full overflow-hidden"
+        className="h-2 w-full bg-slate-200 rounded-full overflow-hidden"
         role="progressbar"
         aria-valuenow={visited}
         aria-valuemin={0}
         aria-valuemax={total}
       >
         <div
-          className="h-full bg-orange-500 rounded-full transition-all duration-300"
+          className="h-full bg-gradient-to-r from-amber-500 to-emerald-600 rounded-full transition-all duration-300"
           style={{ width: `${pct}%` }}
         />
       </div>
       {allDone && (
-        <p className="text-green-700 font-medium mt-0.5">
-          ✓ You've reviewed the full election process!
+        <p className="text-emerald-700 text-xs font-semibold mt-0.5 flex items-center gap-1">
+          <span>✓</span>
+          <span>You've reviewed the full election cycle!</span>
         </p>
       )}
     </div>
@@ -72,8 +69,6 @@ export interface ElectionTimelineProps {
   selectedStepId: string | null;
   /**
    * Number of steps visited this session (forwarded to ProgressTracker).
-   * Defaults to 0 — callers should wire this to `useGuideProgress` once
-   * that hook is available.
    */
   visitedCount?: number;
 }
@@ -108,7 +103,7 @@ const ElectionTimeline: React.FC<ElectionTimelineProps> = ({
 
   if (sorted.length === 0) {
     return (
-      <div className="text-center py-8 text-gray-500">
+      <div className="text-center py-8 text-slate-500 font-medium">
         No steps available for this election type.
       </div>
     );
@@ -117,17 +112,13 @@ const ElectionTimeline: React.FC<ElectionTimelineProps> = ({
   return (
     <div className="w-full">
       {/* Progress Tracker — overlaid above the timeline */}
-      <div className="mb-4">
+      <div className="mb-6">
         <ProgressTracker visited={visitedCount} total={sorted.length} />
       </div>
 
-      {/*
-        Timeline wrapper
-        - Mobile (default): vertical flex column, steps stacked top-to-bottom.
-        - Desktop (md+): horizontal flex row, steps arranged left-to-right.
-      */}
+      {/* Timeline track */}
       <div
-        className="relative flex flex-col md:flex-row md:items-start md:overflow-x-auto gap-0 md:gap-0"
+        className="relative flex flex-col md:flex-row md:items-start md:overflow-x-auto gap-0 md:gap-0 pb-2"
         role="list"
         aria-label="Election process timeline"
       >
@@ -142,27 +133,22 @@ const ElectionTimeline: React.FC<ElectionTimelineProps> = ({
               className={`
                 relative flex
                 /* Mobile: vertical — step node left, content right */
-                flex-row items-start gap-3
+                flex-row items-start gap-4
                 /* Desktop: vertical stack within horizontal track — node on top, content below */
                 md:flex-col md:items-center md:gap-2
                 /* Horizontal sizing on desktop */
-                md:flex-1 md:min-w-[120px] md:max-w-[200px]
-                pb-6 md:pb-0
+                md:flex-1 md:min-w-[130px] md:max-w-[210px]
+                pb-8 md:pb-0
               `}
             >
-              {/* ── Connector line ─────────────────────────────────────────
-                Mobile: a vertical line running from the node down to the
-                next item (left edge, centred under the circle).
-                Desktop: a horizontal line running right from this node to
-                the next node (hidden on last item).
-              ─────────────────────────────────────────────────────────── */}
+              {/* Connector line */}
               {!isLast && (
                 <>
                   {/* Mobile vertical connector */}
                   <div
                     className="
-                      absolute left-[18px] top-[36px] w-0.5 h-full -z-0
-                      bg-orange-200
+                      absolute left-[19px] top-[40px] w-0.5 h-full -z-0
+                      bg-amber-200
                       md:hidden
                     "
                     aria-hidden="true"
@@ -171,15 +157,15 @@ const ElectionTimeline: React.FC<ElectionTimelineProps> = ({
                   <div
                     className="
                       hidden md:block
-                      absolute top-[18px] left-1/2 w-full h-0.5
-                      bg-orange-200 -z-0
+                      absolute top-[20px] left-1/2 w-full h-0.5
+                      bg-amber-200 -z-0
                     "
                     aria-hidden="true"
                   />
                 </>
               )}
 
-              {/* ── Step node (circle) ──────────────────────────────────── */}
+              {/* Step node (circle) */}
               <button
                 type="button"
                 onClick={() => handleStepClick(step.id)}
@@ -188,35 +174,35 @@ const ElectionTimeline: React.FC<ElectionTimelineProps> = ({
                 aria-current={isSelected ? 'step' : undefined}
                 className={`
                   relative z-10 flex-shrink-0 flex items-center justify-center
-                  w-9 h-9 rounded-full border-2 text-sm font-bold
-                  transition-all duration-200 cursor-pointer
-                  focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2
+                  w-10 h-10 rounded-full border-2 text-sm font-bold
+                  transition-all duration-200 cursor-pointer shadow-xs
+                  focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2
                   ${
                     isSelected
-                      ? 'bg-orange-500 border-orange-600 text-white shadow-md scale-110'
-                      : 'bg-white border-orange-300 text-orange-600 hover:bg-orange-50 hover:border-orange-500 hover:scale-105'
+                      ? 'bg-amber-600 border-amber-700 text-white shadow-md scale-110'
+                      : 'bg-white border-amber-300 text-amber-700 hover:bg-amber-50 hover:border-amber-500 hover:scale-105'
                   }
                 `}
               >
                 {step.order}
               </button>
 
-              {/* ── Step label ──────────────────────────────────────────── */}
+              {/* Step label */}
               <div
                 className={`
                   flex-1 md:flex-none
                   md:text-center
                   cursor-pointer
-                  ${isSelected ? 'text-orange-700' : 'text-gray-700'}
+                  ${isSelected ? 'text-amber-800' : 'text-slate-700'}
                 `}
                 onClick={() => handleStepClick(step.id)}
                 aria-hidden="true"
               >
                 <p
                   className={`
-                    text-xs leading-snug font-medium
-                    ${isSelected ? 'text-orange-700' : 'text-gray-700'}
-                    hover:text-orange-600 transition-colors
+                    text-xs font-semibold leading-snug
+                    ${isSelected ? 'text-amber-700' : 'text-slate-800'}
+                    hover:text-amber-600 transition-colors
                     md:mt-1
                   `}
                 >
@@ -225,7 +211,7 @@ const ElectionTimeline: React.FC<ElectionTimelineProps> = ({
                 <p
                   className={`
                     text-xs mt-0.5 leading-tight
-                    ${isSelected ? 'text-orange-500' : 'text-gray-400'}
+                    ${isSelected ? 'text-amber-600 font-medium' : 'text-slate-400'}
                     hidden md:block
                   `}
                 >

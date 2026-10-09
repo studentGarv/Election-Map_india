@@ -19,8 +19,9 @@ const GuidePage: React.FC = () => {
   }, [currentStepId, navigate, state.electionSteps]);
 
   return (
-    <main className="container mx-auto px-4 py-8 text-center flex justify-center items-center h-[50vh]">
-      <p className="text-gray-600">Loading guide...</p>
+    <main className="container mx-auto px-4 py-16 text-center flex flex-col justify-center items-center min-h-[50vh]">
+      <div className="w-8 h-8 border-3 border-amber-500 border-t-transparent rounded-full animate-spin mb-3" />
+      <p className="text-slate-500 text-sm font-medium">Navigating to Election Guide...</p>
     </main>
   );
 };
