@@ -13,6 +13,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
+    "@vishalvoid/react-india-map": "^1.2.0",
     "d3-geo": "^3.1.1",
     "papaparse": "^5.4.1",
     "react": "^18.2.0",
@@ -30,15 +31,15 @@
     "@types/react-dom": "^18.2.22",
     "@types/react-simple-maps": "^3.0.6",
     "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/coverage-v8": "^1.4.0",
+    "autoprefixer": "^10.4.19",
     "axe-core": "^4.9.1",
     "fast-check": "^3.19.0",
     "jsdom": "^24.0.0",
-    "tailwindcss": "^3.4.3",
-    "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
-    "@vitest/coverage-v8": "^1.4.0",
     "vitest": "^1.4.0"
   }
 }
