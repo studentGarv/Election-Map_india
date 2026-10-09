@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { useAppData } from '../context/AppContext';
 
 const VISITED_STEPS_KEY = 'election-guide-visited-steps';

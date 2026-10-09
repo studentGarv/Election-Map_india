@@ -1,3 +1,38 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production build artifacts
+dist/
+**/dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+.venv
+
+# Test coverage
+coverage/
+**/coverage/
+
+# IDE / Editor
 /.kiro
 /.vscode
 /.codex
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python & Jupyter
+.venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/

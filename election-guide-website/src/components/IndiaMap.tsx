@@ -64,9 +64,6 @@ export const STATE_ID_TO_NAME: Record<string, string> = {
   'IN-PY': 'Puducherry',
 };
 
-const STATE_NAME_TO_ID: Record<string, string> = Object.fromEntries(
-  Object.entries(STATE_ID_TO_NAME).map(([id, name]) => [name.toLowerCase(), id])
-);
 
 // ─── Political map colors (distinct per-state) ────────────────────────────────
 
@@ -262,43 +259,45 @@ const IndiaMap: React.FC<IndiaMapProps> = ({
   // Build stateData for the base component (we only need the IDs; color is via CSS)
   const baseStateData = Object.keys(STATE_ID_TO_NAME).map(id => ({ id }));
 
-  // Determine the selected state's ISO id for highlighting
-  const selectedId = selectedState
-    ? STATE_NAME_TO_ID[selectedState.toLowerCase()]
-    : null;
-
   return (
     <div className="relative w-full">
       {/* View-mode toggle */}
-      <div className="flex items-center gap-2 mb-3">
-        <span className="text-xs font-medium text-gray-600">Color by:</span>
-        <button
-          onClick={() => setInternalMode('map')}
-          className={`px-3 py-1 rounded-full text-xs font-medium border transition-colors ${
-            activeMode === 'map'
-              ? 'bg-indigo-600 text-white border-indigo-600'
-              : 'bg-white text-gray-600 border-gray-300 hover:bg-gray-50'
-          }`}
-        >
-          Political Map
-        </button>
-        <button
-          onClick={() => setInternalMode('party')}
-          className={`px-3 py-1 rounded-full text-xs font-medium border transition-colors ${
-            activeMode === 'party'
-              ? 'bg-indigo-600 text-white border-indigo-600'
-              : 'bg-white text-gray-600 border-gray-300 hover:bg-gray-50'
-          }`}
-        >
-          Ruling Party
-        </button>
+      <div className="flex items-center justify-between gap-3 mb-3 bg-white p-2 rounded-xl border border-gray-200/80 shadow-2xs">
+        <div className="flex items-center gap-2">
+          <span className="text-xs font-bold uppercase tracking-wider text-gray-400">Map View:</span>
+          <div className="inline-flex rounded-lg bg-slate-100 p-0.5 border border-slate-200">
+            <button
+              onClick={() => setInternalMode('map')}
+              className={`px-3 py-1 rounded-md text-xs font-semibold transition-all ${
+                activeMode === 'map'
+                  ? 'bg-white text-orange-600 shadow-xs'
+                  : 'text-gray-600 hover:text-gray-900'
+              }`}
+            >
+              Political Map
+            </button>
+            <button
+              onClick={() => setInternalMode('party')}
+              className={`px-3 py-1 rounded-md text-xs font-semibold transition-all ${
+                activeMode === 'party'
+                  ? 'bg-white text-orange-600 shadow-xs'
+                  : 'text-gray-600 hover:text-gray-900'
+              }`}
+            >
+              Ruling Party Map
+            </button>
+          </div>
+        </div>
+        <span className="text-[11px] text-gray-400 hidden sm:inline">
+          {activeMode === 'party' ? 'Colored by current governing party' : 'Standard administrative coloring'}
+        </span>
       </div>
 
       {/* Tooltip */}
       {tooltip.visible && (
         <div
           role="tooltip"
-          className="fixed z-50 px-2 py-1 bg-gray-900 text-white text-xs rounded shadow-lg pointer-events-none whitespace-nowrap"
+          className="fixed z-50 px-2.5 py-1 bg-gray-900/95 text-white text-xs font-medium rounded-lg shadow-xl pointer-events-none whitespace-nowrap border border-gray-700 backdrop-blur-xs"
           style={{ left: tooltip.x, top: tooltip.y - 28 }}
         >
           {tooltip.content}
@@ -310,22 +309,27 @@ const IndiaMap: React.FC<IndiaMapProps> = ({
 
       {/* Map container */}
       <div
-        className="rounded-xl overflow-hidden shadow-lg border border-gray-200"
-        style={{ background: 'linear-gradient(135deg, #AED6F1 0%, #85C1E9 100%)' }}
+        className="rounded-2xl overflow-hidden shadow-xs border border-slate-200/90 bg-white"
+        style={{ background: 'radial-gradient(ellipse at center, #F0F9FF 0%, #E0F2FE 100%)' }}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
         {/* Title bar */}
-        <div className="bg-white bg-opacity-90 px-4 py-2 border-b border-gray-200">
-          <h2 className="text-base font-bold text-gray-800 tracking-wide">INDIA</h2>
-          <p className="text-xs text-gray-500 uppercase tracking-wider">
-            States &amp; UTs Political Map
-          </p>
+        <div className="bg-white/90 backdrop-blur-sm px-4 py-2.5 border-b border-slate-200/80 flex items-center justify-between">
+          <div>
+            <h2 className="text-sm font-bold text-gray-800 tracking-wide">REPUBLIC OF INDIA</h2>
+            <p className="text-[10px] text-gray-600 uppercase tracking-wider">
+              States &amp; Union Territories (Post-2019 Boundaries)
+            </p>
+          </div>
+          <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200">
+            28 States • 8 UTs
+          </span>
         </div>
 
         {/* The base component renders the correct SVG with proper J&K + Ladakh boundaries */}
         <div
-          className="india-map-wrapper p-2"
+          className="india-map-wrapper p-3"
           style={{ background: 'transparent' }}
           aria-label="Interactive map of India"
         >
@@ -347,9 +351,10 @@ const IndiaMap: React.FC<IndiaMapProps> = ({
         </div>
 
         {/* Footer */}
-        <div className="bg-white bg-opacity-80 px-4 py-1.5 border-t border-gray-200 text-center">
-          <p className="text-[10px] text-gray-400">
-            Click any state to view its election history
+        <div className="bg-white/80 backdrop-blur-sm px-4 py-2 border-t border-slate-200/80 text-center">
+          <p className="text-[11px] text-gray-600 font-medium flex items-center justify-center gap-1">
+            <span>👆</span>
+            <span>Click any state or union territory to inspect election tenure history</span>
           </p>
         </div>
       </div>

@@ -70,7 +70,7 @@ const ElectionTypeSwitcher: React.FC<ElectionTypeSwitcherProps> = ({
     <div
       role="tablist"
       aria-label="Election type"
-      className="inline-flex rounded-lg border border-orange-200 bg-orange-50 p-1 gap-1"
+      className="inline-flex rounded-xl bg-slate-100 p-1 border border-slate-200/80 shadow-2xs gap-1"
     >
       {TABS.map(({ type, label }, index) => {
         const isSelected = type === selectedType;
@@ -84,12 +84,12 @@ const ElectionTypeSwitcher: React.FC<ElectionTypeSwitcherProps> = ({
             onClick={() => onChange(type)}
             onKeyDown={(e) => handleKeyDown(e, index)}
             className={`
-              px-4 py-2 rounded-md text-sm font-medium transition-all duration-200
-              focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-1
+              px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-150
+              focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-1 whitespace-nowrap
               ${
                 isSelected
-                  ? 'bg-orange-500 text-white shadow-sm'
-                  : 'text-orange-700 hover:bg-orange-100 hover:text-orange-900'
+                  ? 'bg-white text-orange-600 shadow-xs border border-gray-200/60'
+                  : 'text-gray-600 hover:text-gray-900 hover:bg-slate-200/50'
               }
             `}
           >

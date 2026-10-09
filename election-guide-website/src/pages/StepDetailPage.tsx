@@ -2,7 +2,6 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useAppData } from '../context/AppContext';
 import { InteractiveGuide } from '../components/InteractiveGuide';
-import NotFoundPage from './NotFoundPage';
 
 const StepDetailPage: React.FC = () => {
   const { stepId } = useParams<{ stepId: string }>();
@@ -12,14 +11,17 @@ const StepDetailPage: React.FC = () => {
 
   if (!step) {
     return (
-      <main className="container mx-auto px-4 py-12 text-center">
-        <h1 className="text-3xl font-bold text-red-600 mb-4">Step Not Found</h1>
-        <p className="text-gray-600 mb-6">
+      <main className="container mx-auto px-4 py-16 text-center max-w-lg">
+        <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-red-50 border border-red-200 flex items-center justify-center text-2xl">
+          🔍
+        </div>
+        <h1 className="text-2xl font-bold text-gray-900 mb-2">Step Not Found</h1>
+        <p className="text-gray-600 mb-6 text-sm">
           The election step you are looking for does not exist or has been removed.
         </p>
         <Link
           to="/"
-          className="bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition-colors"
+          className="inline-flex items-center gap-2 bg-orange-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:bg-orange-700 transition-colors shadow-xs"
         >
           Return to Timeline
         </Link>
@@ -30,81 +32,112 @@ const StepDetailPage: React.FC = () => {
   return (
     <main className="container mx-auto px-4 py-8 max-w-3xl">
       <InteractiveGuide stepId={step.id}>
-        <div className="bg-white shadow-sm rounded-lg border border-gray-200 p-6 sm:p-8">
-          <div className="mb-6 border-b border-gray-100 pb-4">
-            <span className="text-xs font-semibold text-indigo-600 uppercase tracking-wider">
-              {step.electionType.replace('_', ' ')}
-            </span>
-            <h1 className="text-3xl font-bold text-gray-900 mt-2">{step.title}</h1>
-            <p className="text-sm text-gray-500 mt-2 font-medium">Timeline: {step.dateRange}</p>
+        <div className="bg-white shadow-xs rounded-2xl border border-gray-200/80 p-6 sm:p-8">
+          {/* Header */}
+          <div className="mb-6 border-b border-gray-100 pb-5">
+            <div className="flex items-center gap-2 mb-2">
+              <span className="text-xs font-bold text-orange-700 bg-orange-50 border border-orange-200/60 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                {step.electionType.replace('_', ' ')}
+              </span>
+              <span className="text-xs font-semibold text-gray-400">
+                Step #{step.order}
+              </span>
+            </div>
+            <h1 className="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight mt-1">
+              {step.title}
+            </h1>
+            <div className="flex items-center gap-1.5 text-xs text-gray-500 mt-2 font-medium">
+              <span>⏱️ Expected Duration:</span>
+              <span className="font-semibold text-gray-700">{step.dateRange}</span>
+            </div>
           </div>
 
-          <div className="prose max-w-none text-gray-700 mb-8">
-            <p className="text-lg leading-relaxed">{step.description}</p>
+          {/* Description */}
+          <div className="prose max-w-none text-gray-700 mb-8 leading-relaxed">
+            <p className="text-base sm:text-lg text-gray-700 leading-relaxed font-normal">
+              {step.description}
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <div>
-              <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
-                <span className="mr-2">📅</span> Key Dates
+          {/* Key Dates & Responsible Parties */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
+            <div className="bg-slate-50/70 border border-slate-200/80 rounded-xl p-5">
+              <h2 className="text-sm font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <span>📅</span>
+                <span>Key Dates & Windows</span>
               </h2>
-              <ul className="list-disc pl-5 space-y-1 text-gray-600">
+              <ul className="space-y-1.5 text-xs sm:text-sm text-gray-600">
                 {step.keyDates.map((date, idx) => (
-                  <li key={idx}>{date}</li>
+                  <li key={idx} className="flex items-start gap-2">
+                    <span className="text-orange-500 font-bold">•</span>
+                    <span>{date}</span>
+                  </li>
                 ))}
               </ul>
             </div>
 
-            <div>
-              <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
-                <span className="mr-2">🏛️</span> Responsible Parties
+            <div className="bg-slate-50/70 border border-slate-200/80 rounded-xl p-5">
+              <h2 className="text-sm font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <span>🏛️</span>
+                <span>Responsible Authorities</span>
               </h2>
-              <ul className="list-disc pl-5 space-y-1 text-gray-600">
+              <ul className="space-y-1.5 text-xs sm:text-sm text-gray-600">
                 {step.responsibleParties.map((party, idx) => (
-                  <li key={idx}>{party}</li>
+                  <li key={idx} className="flex items-start gap-2">
+                    <span className="text-blue-500 font-bold">•</span>
+                    <span>{party}</span>
+                  </li>
                 ))}
               </ul>
             </div>
           </div>
 
-          <div className="mb-8 bg-indigo-50 p-6 rounded-lg border border-indigo-100">
-            <h2 className="text-lg font-bold text-indigo-900 mb-3 flex items-center">
-              <span className="mr-2">✅</span> Citizen Actions
+          {/* Citizen Actions */}
+          <div className="mb-8 bg-emerald-50/60 p-5 sm:p-6 rounded-xl border border-emerald-200/80">
+            <h2 className="text-sm font-bold text-emerald-950 mb-3 flex items-center gap-2">
+              <span className="text-base">✅</span>
+              <span>Citizen Action Items</span>
             </h2>
-            <ul className="list-disc pl-5 space-y-2 text-indigo-800">
+            <ul className="space-y-2 text-xs sm:text-sm text-emerald-900">
               {step.citizenActions.map((action, idx) => (
-                <li key={idx}>{action}</li>
+                <li key={idx} className="flex items-start gap-2.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 mt-2 flex-shrink-0" />
+                  <span>{action}</span>
+                </li>
               ))}
             </ul>
           </div>
 
+          {/* External Links */}
           {step.externalLinks && step.externalLinks.length > 0 && (
-            <div className="mb-8">
-              <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
-                <span className="mr-2">🔗</span> External Links
+            <div className="mb-8 pt-4 border-t border-gray-100">
+              <h2 className="text-sm font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <span>🔗</span>
+                <span>Official Resources & Guidelines</span>
               </h2>
-              <div className="flex flex-col space-y-2">
+              <div className="flex flex-wrap gap-2.5">
                 {step.externalLinks.map((link, idx) => (
                   <a
                     key={idx}
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800 hover:underline flex items-center transition-colors"
+                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-700 hover:text-blue-900 bg-blue-50/80 hover:bg-blue-100 border border-blue-200/80 px-3 py-1.5 rounded-lg transition-colors"
                   >
-                    {link.label}
-                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
+                    <span>{link.label}</span>
+                    <span className="text-[10px]">↗</span>
                   </a>
                 ))}
               </div>
             </div>
           )}
 
+          {/* Related Steps */}
           {step.relatedStepIds && step.relatedStepIds.length > 0 && (
-            <div className="border-t border-gray-200 pt-6">
-              <h2 className="text-lg font-bold text-gray-900 mb-3">Related Steps</h2>
+            <div className="border-t border-gray-100 pt-5">
+              <h2 className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">
+                Related Process Steps
+              </h2>
               <div className="flex flex-wrap gap-2">
                 {step.relatedStepIds.map((relatedId) => {
                   const relatedStep = state.electionSteps.find((s) => s.id === relatedId);
@@ -113,9 +146,10 @@ const StepDetailPage: React.FC = () => {
                     <Link
                       key={relatedId}
                       to={`/guide/${relatedId}`}
-                      className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm hover:bg-gray-200 transition-colors"
+                      className="inline-flex items-center gap-1 bg-gray-50 hover:bg-orange-50 text-gray-700 hover:text-orange-700 border border-gray-200 hover:border-orange-200 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors"
                     >
-                      {relatedStep.title}
+                      <span>{relatedStep.title}</span>
+                      <span className="text-gray-400">&rarr;</span>
                     </Link>
                   );
                 })}

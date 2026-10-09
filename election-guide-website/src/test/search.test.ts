@@ -1,7 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import fc from 'fast-check';
 import { searchRecords } from '../utils/searchIndex';
-import { SearchResult } from '../types';
 
 // Feature: election-guide-website, Property 7: Search Whitespace Rejection
 // Feature: election-guide-website, Property 8: Search Result Completeness
@@ -17,7 +16,7 @@ describe('Search Properties', () => {
 
   it('P7: Search whitespace rejection test', () => {
     // Generate whitespace-only strings
-    const whitespaceArbitrary = fc.stringOf(fc.constantFrom(' ', '\\t', '\\n', '\\r'), { minLength: 1 });
+    const whitespaceArbitrary = fc.stringOf(fc.constantFrom(' ', '\t', '\n', '\r'), { minLength: 1 });
     
     fc.assert(
       fc.property(

@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import { useAppData } from '../context/AppContext';
 
 interface StateSelectorProps {
@@ -16,23 +16,45 @@ export function StateSelector({ selectedState, onChange }: StateSelectorProps) {
   }, [statePartyTenures]);
 
   return (
-    <div className="mb-6">
-      <label htmlFor="state-selector" className="block text-sm font-medium text-gray-700 mb-2">
-        Filter by State
-      </label>
-      <select
-        id="state-selector"
-        value={selectedState || ''}
-        onChange={(e) => onChange(e.target.value === '' ? null : e.target.value)}
-        className="block w-full sm:max-w-xs p-2.5 border border-gray-300 rounded-lg bg-gray-50 focus:ring-indigo-500 focus:border-indigo-500 text-gray-900"
-      >
-        <option value="">Select a state...</option>
-        {distinctStates.map((st) => (
-          <option key={st} value={st}>
-            {st}
-          </option>
-        ))}
-      </select>
+    <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 bg-white p-4 sm:p-5 rounded-2xl shadow-xs border border-gray-200/80">
+      <div className="flex items-center gap-2.5">
+        <span className="w-8 h-8 rounded-lg bg-orange-50 border border-orange-200 flex items-center justify-center text-sm">
+          📍
+        </span>
+        <div>
+          <label htmlFor="state-select" className="text-sm font-bold text-gray-800 block">
+            Select State or National Overview
+          </label>
+          <span className="text-xs text-gray-500">
+            View national Lok Sabha records or state-level party governance
+          </span>
+        </div>
+      </div>
+
+      <div className="flex items-center gap-2">
+        <select
+          id="state-select"
+          value={selectedState || ''}
+          onChange={(e) => onChange(e.target.value ? e.target.value : null)}
+          className="w-full sm:w-72 border border-gray-300 rounded-xl px-3.5 py-2 text-xs sm:text-sm font-medium text-gray-800 bg-gray-50/50 hover:bg-white focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-transparent transition-all"
+        >
+          <option value="">🇮🇳 National Overview (All States)</option>
+          {distinctStates.map((s) => (
+            <option key={s} value={s}>
+              {s}
+            </option>
+          ))}
+        </select>
+        {selectedState && (
+          <button
+            onClick={() => onChange(null)}
+            className="px-3 py-2 text-xs font-semibold text-gray-600 hover:text-red-600 bg-gray-100 hover:bg-red-50 rounded-xl border border-gray-200 transition-colors whitespace-nowrap"
+            title="Reset to National"
+          >
+            ✕ Reset
+          </button>
+        )}
+      </div>
     </div>
   );
 }

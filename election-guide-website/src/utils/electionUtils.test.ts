@@ -22,29 +22,6 @@ const electionTypeArb: fc.Arbitrary<ElectionType> = fc.constantFrom(
   'state_assembly',
 );
 
-/**
- * Arbitrary ElectionStep with an unconstrained description.
- * We intentionally allow descriptions beyond 50 words so the property test
- * exercises both compliant and non-compliant inputs.
- */
-const electionStepArb: fc.Arbitrary<ElectionStep> = fc.record({
-  id: fc.hexaString({ minLength: 4, maxLength: 16 }),
-  title: fc.string({ minLength: 1, maxLength: 100 }),
-  electionType: electionTypeArb,
-  order: fc.integer({ min: 1, max: 100 }),
-  dateRange: fc.string({ minLength: 1, maxLength: 200 }),
-  description: fc.string({ minLength: 0, maxLength: 500 }),
-  keyDates: fc.array(fc.string({ minLength: 1, maxLength: 100 })),
-  responsibleParties: fc.array(fc.string({ minLength: 1, maxLength: 100 })),
-  citizenActions: fc.array(fc.string({ minLength: 1, maxLength: 200 })),
-  externalLinks: fc.array(
-    fc.record({
-      label: fc.string({ minLength: 1, maxLength: 100 }),
-      url: fc.webUrl(),
-    }),
-  ),
-  relatedStepIds: fc.array(fc.hexaString({ minLength: 4, maxLength: 16 })),
-});
 
 /**
  * Arbitrary ElectionStep whose description is ALWAYS within the 50-word limit.

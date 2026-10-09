@@ -1,7 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import fc from 'fast-check';
-import { render, screen, act } from '@testing-library/react';
-import React from 'react';
+import { render, screen } from '@testing-library/react';
 import { MemoryRouter, Routes, Route } from 'react-router-dom';
 import { AppProvider } from '../context/AppContext';
 import { InteractiveGuide } from '../components/InteractiveGuide';

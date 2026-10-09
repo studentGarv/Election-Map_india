@@ -25,7 +25,6 @@ export function InteractiveGuide({ stepId, children }: InteractiveGuideProps) {
   }, [stepId, markVisited, setCurrentStep]);
 
   if (currentIndex === -1) {
-    // handled by parent or NotFoundPage
     return <>{children}</>;
   }
 
@@ -42,31 +41,37 @@ export function InteractiveGuide({ stepId, children }: InteractiveGuideProps) {
         {children}
       </div>
 
-      <div className="mt-8 flex justify-between items-center border-t border-gray-200 pt-6">
+      <div className="mt-8 flex justify-between items-center border-t border-gray-200/80 pt-6">
         <button
           onClick={() => prevStep && navigate(`/guide/${prevStep.id}`)}
           disabled={!prevStep}
-          className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+          className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
             prevStep
-              ? 'bg-white border border-gray-300 text-gray-700 hover:bg-gray-50'
+              ? 'bg-white border border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400 shadow-2xs'
               : 'bg-gray-100 text-gray-400 cursor-not-allowed border border-transparent'
           }`}
           aria-label="Previous step"
         >
-          &larr; Previous
+          <span>&larr;</span>
+          <span>Previous Step</span>
         </button>
+
+        <span className="text-xs text-gray-400 font-medium hidden sm:inline">
+          Step {currentIndex + 1} of {steps.length}
+        </span>
 
         <button
           onClick={() => nextStep && navigate(`/guide/${nextStep.id}`)}
           disabled={!nextStep}
-          className={`px-6 py-2 rounded-md text-sm font-medium transition-colors ${
+          className={`inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold transition-all shadow-xs ${
             nextStep
-              ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-sm'
-              : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+              ? 'bg-orange-600 hover:bg-orange-700 text-white shadow-orange-600/20 hover:shadow-md'
+              : 'bg-emerald-600 text-white hover:bg-emerald-700'
           }`}
           aria-label="Next step"
         >
-          {nextStep ? 'Next \u2192' : 'Finish'}
+          <span>{nextStep ? 'Next Step' : 'Complete Guide'}</span>
+          <span>&rarr;</span>
         </button>
       </div>
     </div>

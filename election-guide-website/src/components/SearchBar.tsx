@@ -34,18 +34,18 @@ export function SearchBar() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="relative w-full max-w-lg mx-auto">
-      <div className="relative">
-        <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-          <svg aria-hidden="true" className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <form onSubmit={handleSubmit} className="relative w-full max-w-xl mx-auto">
+      <div className="relative flex items-center">
+        <div className="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none text-gray-400">
+          <svg aria-hidden="true" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
           </svg>
         </div>
         <input 
           type="search" 
           id="default-search" 
-          className="block w-full p-3 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-indigo-500 focus:border-indigo-500" 
-          placeholder="Search topics, states, leaders..." 
+          className="block w-full py-3.5 pl-11 pr-24 text-sm text-gray-900 border border-gray-300 rounded-2xl bg-white shadow-xs focus:ring-2 focus:ring-orange-400 focus:border-transparent transition-all" 
+          placeholder="Search processes, leaders, states, or FAQs..." 
           required 
           value={query}
           onChange={(e) => {
@@ -54,9 +54,14 @@ export function SearchBar() {
           }}
           aria-label="Search"
         />
-        <button type="submit" className="text-white absolute right-1.5 bottom-1.5 bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-md text-sm px-4 py-1.5">Search</button>
+        <button
+          type="submit"
+          className="absolute right-2 text-white bg-orange-600 hover:bg-orange-700 focus:ring-4 focus:outline-none focus:ring-orange-300 font-semibold rounded-xl text-xs sm:text-sm px-4 py-2 transition-all shadow-xs"
+        >
+          Search
+        </button>
       </div>
-      {error && <p className="absolute text-sm text-red-600 mt-1 left-1">{error}</p>}
+      {error && <p className="text-xs text-red-600 font-medium mt-1.5 ml-2">{error}</p>}
     </form>
   );
 }

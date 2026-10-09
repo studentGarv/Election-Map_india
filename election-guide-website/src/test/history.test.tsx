@@ -20,7 +20,7 @@ describe('History Properties', () => {
       fc.property(
         fc.array(pmRecordArbitrary, { minLength: 1, maxLength: 200 }),
         (pmRecords) => {
-          const counts: Record<string, number> = {};
+          const counts: Record<string, number> = Object.create(null);
           pmRecords.forEach((record) => {
             counts[record.party] = (counts[record.party] || 0) + 1;
           });

@@ -1,7 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import fc from 'fast-check';
 import { render, screen, fireEvent } from '@testing-library/react';
-import React from 'react';
 import { AppProvider } from '../context/AppContext';
 import { MemoryRouter } from 'react-router-dom';
 import ElectionResultsHistoryPage from '../pages/ElectionResultsHistoryPage';
