@@ -155,12 +155,17 @@ export function parseLokSabhaCsv(csvString: string): { records: LokSabhaRecord[]
       seatsWon = isNaN(parsed) ? null : Math.round(parsed);
     }
 
+    const startDate = row['start_date'] ? parseDate(row['start_date']) : null;
+    const endDate = row['end_date'] ? parseDate(row['end_date']) : null;
+
     records.push({
       electionYear: row['election_year'] ?? '',
       lokSabha: row['lok_sabha'] ?? '',
       partyInGovernment: row['party_in_government'] ?? '',
       seatsWon,
       primeMinister: row['prime_minister'] ?? '',
+      startDate,
+      endDate,
     });
   });
 
@@ -337,8 +342,8 @@ export function derivePMRecords(lokSabhaRecords: LokSabhaRecord[]): PMRecord[] {
     party: record.partyInGovernment,
     lokSabha: record.lokSabha,
     electionYear: record.electionYear,
-    startDate: null,
-    endDate: null,
+    startDate: record.startDate ?? null,
+    endDate: record.endDate ?? null,
     seatsWon: record.seatsWon,
   }));
 }

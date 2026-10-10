@@ -22,6 +22,8 @@ export interface LokSabhaRecord {
   partyInGovernment: string;
   seatsWon: number | null;
   primeMinister: string;
+  startDate?: Date | null;    // parsed from start_date (ISO or empty)
+  endDate?: Date | null;      // parsed from end_date (ISO or empty)
 }
 
 /** Parsed from state_party_years_all_states.csv */

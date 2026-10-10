@@ -1,156 +1,791 @@
-state,name,party,term_raw,start_date,end_date
-Andhra Pradesh,Position vacant (15 November 1954 – 28 March 1955) President's rule was imposed during this period[a],Position vacant (15 November 1954 – 28 March 1955) President's rule was imposed during this period[a],Position vacant (15 November 1954 – 28 March 1955) President's rule was imposed during this period[a],1954-11-15T00:00:00,2026-03-28T00:00:00
-Arunachal Pradesh,Prem Khandu Thungan (born 1946) MLA for Dirang Kalaktang,Janata Party,13 August 1975,1975-08-13T00:00:00,NaT
-Arunachal Pradesh,Prem Khandu Thungan (born 1946) MLA for Dirang Kalaktang,Janata Party,13 August 1975,1975-08-13T00:00:00,NaT
-Arunachal Pradesh,Tomo Riba (1934–2000) MLA for Basar,People's Party of Arunachal,18 September 1979,1979-09-18T00:00:00,NaT
-Arunachal Pradesh,Position vacant (3 November 1979 – 18 January 1980) President's rule was imposed during this period[a],Position vacant (3 November 1979 – 18 January 1980) President's rule was imposed during this period[a],Position vacant (3 November 1979 – 18 January 1980) President's rule was imposed during this period[a],1979-11-03T00:00:00,2026-01-18T00:00:00
-Arunachal Pradesh,Gegong Apang (born 1947) MLA for Tuting–Yingkiong,Indian National Congress,18 January 1980,1980-01-18T00:00:00,NaT
-Arunachal Pradesh,Gegong Apang (born 1947) MLA for Tuting–Yingkiong,Indian National Congress,18 January 1980,1980-01-18T00:00:00,NaT
-Assam,Muhammed Saadulah,Assam Valley Party (INC),1 April 1937,1937-04-01T00:00:00,NaT
-Assam,Gopinath Bordoloi,Indian National Congress,19 September 1938,1938-09-19T00:00:00,NaT
-Assam,Muhammed Saadulah,Assam Valley Party (AIML),17 November 1939,1939-11-17T00:00:00,NaT
-Assam,Muhammed Saadulah,Assam Valley Party (AIML),25 August 1942,1942-08-25T00:00:00,NaT
-Assam,Gopinath Bordoloi,Indian National Congress,11 February 1946,1946-02-11T00:00:00,NaT
-Bihar,Mohammad Yunus,Muslim Independent Party,1 April 1937 – 19 July 1937,1937-04-01T00:00:00,1937-07-19T00:00:00
-Bihar,Shri Krishna Sinha,Indian National Congress,20 July 1937 – 31 October 1939,1937-07-20T00:00:00,1939-10-31T00:00:00
-Bihar,Vacant,Vacant,Vacant – Vacant,NaT,NaT
-Bihar,Shri Krishna Sinha,Indian National Congress,23 March 1946 – 14 August 1947,1946-03-23T00:00:00,1947-08-14T00:00:00
-Chhattisgarh,Ajit Jogi (1946–2020) MLA for Marwahi,Indian National Congress,1 November 2000,2000-11-01T00:00:00,NaT
-Chhattisgarh,"Raman Singh (born 1952) MLA for Dongargaon, until 2004 MLA for Rajnandgaon, from 2004",Bharatiya Janata Party,7 December 2003,2003-12-07T00:00:00,NaT
-Chhattisgarh,"Raman Singh (born 1952) MLA for Dongargaon, until 2004 MLA for Rajnandgaon, from 2004",Bharatiya Janata Party,7 December 2003,2003-12-07T00:00:00,NaT
-Chhattisgarh,"Raman Singh (born 1952) MLA for Dongargaon, until 2004 MLA for Rajnandgaon, from 2004",Bharatiya Janata Party,7 December 2003,2003-12-07T00:00:00,NaT
-Chhattisgarh,Bhupesh Baghel (born 1960) MLA for Patan,Indian National Congress,17 December 2018,2018-12-17T00:00:00,NaT
-Chhattisgarh,Vishnu Deo Sai (born 1964) MLA for Kunkuri,Bharatiya Janata Party,13 December 2023,2023-12-13T00:00:00,NaT
-Goa,Dayanand Bandodkar,Maharashtrawadi Gomantak Party,20 December 1963,1963-12-20T00:00:00,NaT
-Goa,Dayanand Bandodkar,Maharashtrawadi Gomantak Party,5 April 1967,1967-04-05T00:00:00,NaT
-Goa,Dayanand Bandodkar,Maharashtrawadi Gomantak Party,23 March 1972,1972-03-23T00:00:00,NaT
-Goa,Shashikala Kakodkar,Maharashtrawadi Gomantak Party,12 August 1973,1973-08-12T00:00:00,NaT
-Goa,Shashikala Kakodkar,Maharashtrawadi Gomantak Party,7 June 1977,1977-06-07T00:00:00,NaT
-Goa,Pratapsingh Rane,Indian National Congress (U),16 January 1980,1980-01-16T00:00:00,NaT
-Goa,Pratapsingh Rane,Indian National Congress,7 January 1985,1985-01-07T00:00:00,NaT
-Gujarat,U. N. Dhebar,Indian National Congress,15 February 1948,1948-02-15T00:00:00,NaT
-Haryana,Bhagwat Dayal Sharma,Indian National Congress,1 November 1966,1966-11-01T00:00:00,NaT
-Haryana,Bhagwat Dayal Sharma,Indian National Congress,21 February 1967,1967-02-21T00:00:00,NaT
-Haryana,Rao Birender Singh,Vishal Haryana Party,24 March 1967,1967-03-24T00:00:00,NaT
-Haryana,Bansi Lal,Indian National Congress,21 May 1968,1968-05-21T00:00:00,NaT
-Haryana,Bansi Lal,Indian National Congress,14 March 1972,1972-03-14T00:00:00,NaT
-Haryana,Banarsi Das Gupta,Indian National Congress,1 December 1975,1975-12-01T00:00:00,NaT
-Haryana,Devi Lal,Janata Party,21 June 1977,1977-06-21T00:00:00,NaT
-Haryana,Bhajan Lal,Janata Party,28 June 1979,1979-06-28T00:00:00,NaT
-Haryana,Bhajan Lal,Indian National Congress,23 January 1980,1980-01-23T00:00:00,NaT
-Haryana,Bhajan Lal,Indian National Congress,23 May 1982,1982-05-23T00:00:00,NaT
-Haryana,Bansi Lal,Indian National Congress,5 June 1986,1986-06-05T00:00:00,NaT
-Haryana,Devi Lal,Janata Dal,20 June 1987,1987-06-20T00:00:00,NaT
-Haryana,Om Prakash Chautala,Janata Dal,2 December 1989,1989-12-02T00:00:00,NaT
-Haryana,Banarsi Das Gupta,Janata Dal,22 May 1990,1990-05-22T00:00:00,NaT
-Haryana,Om Prakash Chautala,Janata Dal,12 July 1990,1990-07-12T00:00:00,NaT
-Haryana,Hukam Singh,Janata Dal,17 July 1990,1990-07-17T00:00:00,NaT
-Haryana,Om Prakash Chautala,Samajwadi Janata Party (Rashtriya),22 March 1991,1991-03-22T00:00:00,NaT
-Haryana,Bhajan Lal,Indian National Congress,23 June 1991,1991-06-23T00:00:00,NaT
-Haryana,Bansi Lal,Haryana Vikas Party,11 May 1996,1996-05-11T00:00:00,NaT
-Haryana,Om Prakash Chautala,Indian National Lok Dal,24 July 1999,1999-07-24T00:00:00,NaT
-Haryana,Om Prakash Chautala,Indian National Lok Dal,2 March 2000,2000-03-02T00:00:00,NaT
-Haryana,Bhupinder Singh Hooda,Indian National Congress,5 March 2005,2005-03-05T00:00:00,NaT
-Haryana,Bhupinder Singh Hooda,Indian National Congress,25 October 2009,2009-10-25T00:00:00,NaT
-Haryana,Manohar Lal Khattar,Bharatiya Janata Party,26 October 2014,2014-10-26T00:00:00,NaT
-Haryana,Manohar Lal Khattar,Bharatiya Janata Party,27 October 2019,2019-10-27T00:00:00,NaT
-Haryana,Nayab Singh Saini,Bharatiya Janata Party,12 March 2024,2024-03-12T00:00:00,NaT
-Haryana,Nayab Singh Saini,Bharatiya Janata Party,17 October 2024,2024-10-17T00:00:00,NaT
-Himachal Pradesh,1,Indian National Congress,8 March 1952,1952-03-08T00:00:00,NaT
-Himachal Pradesh,"Office abolished, 1956–63 (Himachal Pradesh became a Union Territory)","Office abolished, 1956–63 (Himachal Pradesh became a Union Territory)","Office abolished, 1956–63 (Himachal Pradesh became a Union Territory)",1956-05-02T00:00:00,2063-05-02T00:00:00
-Jharkhand,Babulal Marandi (born 1958) MLA for Ramgarh,Bharatiya Janata Party,15 November 2000,2000-11-15T00:00:00,NaT
-Jharkhand,Arjun Munda (born 1968) MLA for Kharsawan,Bharatiya Janata Party,18 March 2003,2003-03-18T00:00:00,NaT
-Jharkhand,Shibu Soren (1944–2025) Non-elected,Jharkhand Mukti Morcha,2 March 2005,2005-03-02T00:00:00,NaT
-Jharkhand,Arjun Munda (born 1968) MLA for Kharsawan,Bharatiya Janata Party,12 March 2005[§],2005-03-12T00:00:00,NaT
-Jharkhand,Madhu Koda (born 1971) MLA for Jaganathpur,Independent,18 September 2006,2006-09-18T00:00:00,NaT
-Jharkhand,Shibu Soren (1944–2025) Non-elected,Jharkhand Mukti Morcha,27 August 2008[§],2008-08-27T00:00:00,NaT
-Jharkhand,Position vacant (19 January – 30 December 2009) President's rule was imposed during this period[a],Position vacant (19 January – 30 December 2009) President's rule was imposed during this period[a],Position vacant (19 January – 30 December 2009) President's rule was imposed during this period[a],2026-01-19T00:00:00,2026-12-30T00:00:00
-Jharkhand,Shibu Soren (1944–2025) Non-elected,Jharkhand Mukti Morcha,30 December 2009[§],2009-12-30T00:00:00,NaT
-Jharkhand,Position vacant (1 June – 11 September 2010) President's rule was imposed during this period[a],Position vacant (1 June – 11 September 2010) President's rule was imposed during this period[a],Position vacant (1 June – 11 September 2010) President's rule was imposed during this period[a],2026-06-01T00:00:00,2026-09-11T00:00:00
-Jharkhand,Arjun Munda (born 1968) MLA for Kharsawan,Bharatiya Janata Party,11 September 2010[§],2010-09-11T00:00:00,NaT
-Jharkhand,Position vacant (18 January – 13 July 2013) President's rule was imposed during this period[a],Position vacant (18 January – 13 July 2013) President's rule was imposed during this period[a],Position vacant (18 January – 13 July 2013) President's rule was imposed during this period[a],2026-01-18T00:00:00,2026-07-13T00:00:00
-Jharkhand,Hemant Soren (born 1975) MLA for Dumka,Jharkhand Mukti Morcha,13 July 2013,2013-07-13T00:00:00,NaT
-Jharkhand,Raghubar Das (born 1955) MLA for Jamshedpur East,Bharatiya Janata Party,28 December 2014,2014-12-28T00:00:00,NaT
-Jharkhand,Hemant Soren (born 1975) MLA for Barhait,Jharkhand Mukti Morcha,29 December 2019[§],2019-12-29T00:00:00,NaT
-Jharkhand,Champai Soren (born 1956) MLA for Seraikella,Jharkhand Mukti Morcha,2 February 2024,2024-02-02T00:00:00,NaT
-Jharkhand,Hemant Soren (born 1975) MLA for Barhait,Jharkhand Mukti Morcha,4 July 2024[§],2024-07-04T00:00:00,NaT
-Jharkhand,Hemant Soren (born 1975) MLA for Barhait,Jharkhand Mukti Morcha,4 July 2024[§],2024-07-04T00:00:00,NaT
-Karnataka,K. Chengalaraya Reddy,Indian National Congress,25 October 1947,1947-10-25T00:00:00,NaT
-Kerala,Pattom A. Thanu Pillai,Indian National Congress,24 March 1948,1948-03-24T00:00:00,NaT
-Kerala,Paravoor T. K. Narayana Pillai,Indian National Congress,22 October 1948,1948-10-22T00:00:00,NaT
-Madhya Pradesh,Awadhesh Pratap Singh,Indian National Congress,28 May 1948,1948-05-28T00:00:00,NaT
-Madhya Pradesh,Neil Bruniat Bonerji,Independent,15 April 1949,1949-04-15T00:00:00,NaT
-Madhya Pradesh,Shreenath Mehta,Independent,1 May 1949,1949-05-01T00:00:00,NaT
-Maharashtra,Dhanjishah Cooper,Independent,1 April 1937,1937-04-01T00:00:00,NaT
-Maharashtra,Balasaheb Gangadhar Kher,Indian National Congress,19 July 1937[13][14],1937-07-19T00:00:00,NaT
-Maharashtra,Balasaheb Gangadhar Kher,Indian National Congress,30 March 1946,1946-03-30T00:00:00,NaT
-Manipur,Mairembam Koireng Singh (1915–1994) MLA for Thanga,Indian National Congress,1 July 1963,1963-07-01T00:00:00,NaT
-Manipur,Position vacant (12 January – 19 March 1967) President's rule was imposed during this period[a],Position vacant (12 January – 19 March 1967) President's rule was imposed during this period[a],Position vacant (12 January – 19 March 1967) President's rule was imposed during this period[a],2026-01-12T00:00:00,2026-03-19T00:00:00
-Manipur,Mairembam Koireng Singh (1915–1994) MLA for Thanga,Indian National Congress,20 March 1967[§],1967-03-20T00:00:00,NaT
-Manipur,Longjam Thambou Singh MLA for Keishamthong,Manipur United Front,4 October 1967,1967-10-04T00:00:00,NaT
-Manipur,Position vacant (25 October 1967 – 18 February 1968) President's rule was imposed during this period[a],Position vacant (25 October 1967 – 18 February 1968) President's rule was imposed during this period[a],Position vacant (25 October 1967 – 18 February 1968) President's rule was imposed during this period[a],1967-10-25T00:00:00,2026-02-18T00:00:00
-Manipur,Mairembam Koireng Singh (1915–1994) MLA for Thanga,Indian National Congress,19 February 1968[§],1968-02-19T00:00:00,NaT
-Manipur,Position vacant (17 October 1969 – 20 January 1972) President's rule was imposed during this period[a],Position vacant (17 October 1969 – 20 January 1972) President's rule was imposed during this period[a],Position vacant (17 October 1969 – 20 January 1972) President's rule was imposed during this period[a],1969-10-17T00:00:00,2026-01-20T00:00:00
-Mizoram,C. Chhunga (1915–1988) MLA for Kolasib,Mizo Union,3 May 1972,1972-05-03T00:00:00,NaT
-Mizoram,Position vacant (11 May 1977 – 1 June 1978) President's rule was imposed during this period[a],Position vacant (11 May 1977 – 1 June 1978) President's rule was imposed during this period[a],Position vacant (11 May 1977 – 1 June 1978) President's rule was imposed during this period[a],1977-05-11T00:00:00,2026-06-01T00:00:00
-Mizoram,Brigadier Ṭhenphunga Sailo AVSM (1922–2015) MLA for Aizawl North,Mizoram People's Conference,2 June 1978,1978-06-02T00:00:00,NaT
-Mizoram,Position vacant (10 November 1978 – 8 May 1979) President's rule was imposed during this period[a],Position vacant (10 November 1978 – 8 May 1979) President's rule was imposed during this period[a],Position vacant (10 November 1978 – 8 May 1979) President's rule was imposed during this period[a],1978-11-10T00:00:00,2026-05-08T00:00:00
-Mizoram,Brigadier Ṭhenphunga Sailo AVSM (1922–2015) MLA for Aizawl North,Mizoram People's Conference,8 May 1979[§],1979-05-08T00:00:00,NaT
-Mizoram,Lal Thanhawla (born 1938) MLA for Serchhip,Indian National Congress,5 May 1984,1984-05-05T00:00:00,NaT
-Mizoram,Laldenga (1927–1990) MLA for Aizawl North II,Mizo National Front,21 August 1986,1986-08-21T00:00:00,NaT
-Nagaland,Position vacant (20 March 1975 – 25 November 1977) President's rule was imposed during this period[a],Position vacant (20 March 1975 – 25 November 1977) President's rule was imposed during this period[a],Position vacant (20 March 1975 – 25 November 1977) President's rule was imposed during this period[a],1975-03-20T00:00:00,2026-11-25T00:00:00
-Nagaland,Position vacant (7 August 1988 – 25 January 1989) President's rule was imposed during this period[a],Position vacant (7 August 1988 – 25 January 1989) President's rule was imposed during this period[a],Position vacant (7 August 1988 – 25 January 1989) President's rule was imposed during this period[a],1988-08-07T00:00:00,2026-01-25T00:00:00
-Nagaland,Position vacant (2 April 1992 – 22 February 1993) President's rule was imposed during this period[a],Position vacant (2 April 1992 – 22 February 1993) President's rule was imposed during this period[a],Position vacant (2 April 1992 – 22 February 1993) President's rule was imposed during this period[a],1992-04-02T00:00:00,2026-02-22T00:00:00
-Nagaland,Position vacant (3 January – 12 March 2008) President's rule was imposed during this period[a],Position vacant (3 January – 12 March 2008) President's rule was imposed during this period[a],Position vacant (3 January – 12 March 2008) President's rule was imposed during this period[a],2026-01-03T00:00:00,2026-03-12T00:00:00
-Odisha,Krushna Chandra Gajapati,Independent,1 April 1937,1937-04-01T00:00:00,NaT
-Odisha,Bishwanath Das,Indian National Congress,19 July 1937,1937-07-19T00:00:00,NaT
-Odisha,Krushna Chandra Gajapati,Independent,24 November 1941,1941-11-24T00:00:00,NaT
-Odisha,Harekrushna Mahatab,Indian National Congress,23 April 1946,1946-04-23T00:00:00,NaT
-Rajasthan,Shobha Ram Kumawat,Indian National Congress,18 March 1948,1948-03-18T00:00:00,NaT
-Sikkim,Kazi Lhendup Dorjee,Sikkim National Congress,16 May 1975 – 17 August 1979,1975-05-16T00:00:00,1979-08-17T00:00:00
-Sikkim,Kazi Lhendup Dorjee,Indian National Congress,16 May 1975 – 17 August 1979,1975-05-16T00:00:00,1979-08-17T00:00:00
-Sikkim,Nar Bahadur Bhandari,Sikkim Janata Parishad,18 October 1979 – 11 May 1984,1979-10-18T00:00:00,1984-05-11T00:00:00
-Sikkim,Bhim Bahadur Gurung,Indian National Congress,11 May 1984 – 25 May 1984,1984-05-11T00:00:00,1984-05-25T00:00:00
-Sikkim,Nar Bahadur Bhandari,Sikkim Sangram Parishad,8 March 1985 – 25 November 1989,1985-03-08T00:00:00,1989-11-25T00:00:00
-Sikkim,Nar Bahadur Bhandari,Sikkim Sangram Parishad,26 November 1989 – 17 May 1994,1989-11-26T00:00:00,1994-05-17T00:00:00
-Sikkim,Sanchaman Limboo,Sikkim Sangram Parishad,18 May 1994 – 12 December 1994,1994-05-18T00:00:00,1994-12-12T00:00:00
-Sikkim,Pawan Kumar Chamling,Sikkim Democratic Front,13 December 1994 – 10 October 1999,1994-12-13T00:00:00,1999-10-10T00:00:00
-Sikkim,Pawan Kumar Chamling,Sikkim Democratic Front,11 October 1999 – 21 May 2004,1999-10-11T00:00:00,2004-05-21T00:00:00
-Sikkim,Pawan Kumar Chamling,Sikkim Democratic Front,21 May 2004 – 20 May 2009,2004-05-21T00:00:00,2009-05-20T00:00:00
-Sikkim,Pawan Kumar Chamling,Sikkim Democratic Front,20 May 2009 – 21 May 2014,2009-05-20T00:00:00,2014-05-21T00:00:00
-Sikkim,Pawan Kumar Chamling,Sikkim Democratic Front,21 May 2014 – 27 May 2019,2014-05-21T00:00:00,2019-05-27T00:00:00
-Sikkim,Prem Singh Tamang,Sikkim Krantikari Morcha,27 May 2019 – 10 June 2024,2019-05-27T00:00:00,2024-06-10T00:00:00
-Sikkim,Prem Singh Tamang,Sikkim Krantikari Morcha,10 June 2024 – Incumbent,2024-06-10T00:00:00,NaT
-Tamil Nadu,A. Subbarayalu Reddiar (1855–1921),South Indian Liberal Federation,17 December 1920,1920-12-17T00:00:00,NaT
-Tamil Nadu,Panaganti Ramarayaningar (1866–1928),South Indian Liberal Federation,11 July 1921,1921-07-11T00:00:00,NaT
-Tamil Nadu,Panaganti Ramarayaningar (1866–1928),South Indian Liberal Federation,12 September 1923,1923-09-12T00:00:00,NaT
-Tamil Nadu,P. Subbarayan (1889–1962),Independent,4 December 1926,1926-12-04T00:00:00,NaT
-Tamil Nadu,B. Munuswamy Naidu (1885–1935),South Indian Liberal Federation,27 October 1930,1930-10-27T00:00:00,NaT
-Tamil Nadu,Ramakrishna Ranga Rao (1901–1978),South Indian Liberal Federation,5 November 1932,1932-11-05T00:00:00,NaT
-Tamil Nadu,Ramakrishna Ranga Rao (1901–1978),South Indian Liberal Federation,5 November 1934,1934-11-05T00:00:00,NaT
-Tamil Nadu,P. T. Rajan (1892–1974),South Indian Liberal Federation,4 April 1936,1936-04-04T00:00:00,NaT
-Tamil Nadu,Ramakrishna Ranga Rao (1901–1978),South Indian Liberal Federation,24 August 1936[§],1936-08-24T00:00:00,NaT
-Tamil Nadu,Kurma Venkata Reddy Naidu (1875–1942),Independent,1 April 1937,1937-04-01T00:00:00,NaT
-Tamil Nadu,C. Rajagopalachari (1878–1972),Indian National Congress,14 July 1937,1937-07-14T00:00:00,NaT
-Tamil Nadu,T. Prakasam (1872–1957),Indian National Congress,30 April 1946,1946-04-30T00:00:00,NaT
-Tamil Nadu,O. P. Ramaswamy Reddiyar (1895–1970),Indian National Congress,23 March 1947,1947-03-23T00:00:00,NaT
-Tamil Nadu,P. S. Kumaraswamy Raja (1898–1957),Indian National Congress,6 April 1949,1949-04-06T00:00:00,NaT
-Uttar Pradesh,1,Independent,3 April 1937,1937-04-03T00:00:00,NaT
-Uttar Pradesh,2,Indian National Congress,17 July 1937,1937-07-17T00:00:00,NaT
-Uttar Pradesh,(2),Indian National Congress,1 April 1946,1946-04-01T00:00:00,NaT
-Uttarakhand,Nityanand Swami,Bharatiya Janata Party,9 November 2000,2000-11-09T00:00:00,NaT
-Uttarakhand,Bhagat Singh Koshyari,Bharatiya Janata Party,30 October 2001,2001-10-30T00:00:00,NaT
-Uttarakhand,N. D. Tiwari,Indian National Congress,2 March 2002,2002-03-02T00:00:00,NaT
-Uttarakhand,B. C. Khanduri,Bharatiya Janata Party,7 March 2007,2007-03-07T00:00:00,NaT
-Uttarakhand,Ramesh Pokhriyal,Bharatiya Janata Party,27 June 2009,2009-06-27T00:00:00,NaT
-Uttarakhand,B. C. Khanduri,Bharatiya Janata Party,11 September 2011,2011-09-11T00:00:00,NaT
-Uttarakhand,Vijay Bahuguna,Indian National Congress,13 March 2012,2012-03-13T00:00:00,NaT
-Uttarakhand,Harish Rawat,Indian National Congress,1 February 2014,2014-02-01T00:00:00,NaT
-Uttarakhand,Harish Rawat,Indian National Congress,21 April 2016,2016-04-21T00:00:00,NaT
-Uttarakhand,Harish Rawat,Indian National Congress,11 May 2016,2016-05-11T00:00:00,NaT
-Uttarakhand,Trivendra Singh Rawat,Bharatiya Janata Party,18 March 2017,2017-03-18T00:00:00,NaT
-Uttarakhand,Tirath Singh Rawat,Bharatiya Janata Party,10 March 2021,2021-03-10T00:00:00,NaT
-Uttarakhand,Pushkar Singh Dhami,Bharatiya Janata Party,4 July 2021,2021-07-04T00:00:00,NaT
-Uttarakhand,Pushkar Singh Dhami,Bharatiya Janata Party,23 March 2022,2022-03-23T00:00:00,NaT
-West Bengal,Prafulla Chandra Ghosh,Indian National Congress,15 August 1947,1947-08-15T00:00:00,NaT
-West Bengal,Bidhan Chandra Roy,Indian National Congress,23 January 1948,1948-01-23T00:00:00,NaT
+state,name,party,start_date,end_date,term_raw
+Andhra Pradesh,Tanguturi Prakasam,Indian National Congress,1953-10-01,1954-11-14,1 Oct 1953 – 15 Nov 1954
+Andhra Pradesh,President's Rule,President's Rule,1954-11-15,1955-03-27,"15 Nov 1954 – 28 Mar 1955; President's / Governor's Rule — President's Rule, Andhra State"
+Andhra Pradesh,Bezawada Gopala Reddy,Indian National Congress,1955-03-28,1956-10-31,28 Mar 1955 – 31 Oct 1956
+Andhra Pradesh,Neelam Sanjiva Reddy,Indian National Congress,1956-11-01,1960-01-10,1 Nov 1956 – 11 Jan 1960
+Andhra Pradesh,Damodaram Sanjivayya,Indian National Congress,1960-01-11,1962-03-11,11 Jan 1960 – 12 Mar 1962
+Andhra Pradesh,Neelam Sanjiva Reddy,Indian National Congress,1962-03-12,1964-02-20,12 Mar 1962 – 20 Feb 1964
+Andhra Pradesh,Kasu Brahmananda Reddy,Indian National Congress,1964-02-21,1971-09-29,21 Feb 1964 – 30 Sep 1971
+Andhra Pradesh,P. V. Narasimha Rao,Indian National Congress (Requisitionists),1971-09-30,1973-01-10,30 Sep 1971 – 10 Jan 1973
+Andhra Pradesh,President's Rule,President's Rule,1973-01-11,1973-12-09,11 Jan 1973 – 10 Dec 1973; President's / Governor's Rule — President's Rule
+Andhra Pradesh,Jalagam Vengala Rao,Indian National Congress (Requisitionists),1973-12-10,1978-03-05,10 Dec 1973 – 6 Mar 1978
+Andhra Pradesh,Marri Chenna Reddy,Indian National Congress (Indira),1978-03-06,1980-10-10,6 Mar 1978 – 11 Oct 1980
+Andhra Pradesh,Tanguturi Anjaiah,Indian National Congress (Indira),1980-10-11,1982-02-23,11 Oct 1980 – 24 Feb 1982
+Andhra Pradesh,Bhavanam Venkatarami Reddy,Indian National Congress (Indira),1982-02-24,1982-09-19,24 Feb 1982 – 20 Sep 1982
+Andhra Pradesh,Kotla Vijaya Bhaskara Reddy,Indian National Congress (Indira),1982-09-20,1983-01-08,20 Sep 1982 – 9 Jan 1983
+Andhra Pradesh,N. T. Rama Rao,Telugu Desam Party,1983-01-09,1984-08-15,9 Jan 1983 – 16 Aug 1984
+Andhra Pradesh,N. Bhaskara Rao,Telugu Desam Party,1984-08-16,1984-09-15,16 Aug 1984 – 16 Sep 1984
+Andhra Pradesh,N. T. Rama Rao,Telugu Desam Party,1984-09-16,1989-12-02,16 Sep 1984 – 2 Dec 1989
+Andhra Pradesh,Marri Chenna Reddy,Indian National Congress (Indira),1989-12-03,1990-12-16,3 Dec 1989 – 17 Dec 1990
+Andhra Pradesh,N. Janardhana Reddy,Indian National Congress (Indira),1990-12-17,1992-10-08,17 Dec 1990 – 9 Oct 1992
+Andhra Pradesh,Kotla Vijaya Bhaskara Reddy,Indian National Congress (Indira),1992-10-09,1994-12-11,9 Oct 1992 – 12 Dec 1994
+Andhra Pradesh,N. T. Rama Rao,Telugu Desam Party,1994-12-12,1995-08-31,12 Dec 1994 – 1 Sep 1995
+Andhra Pradesh,N. Chandrababu Naidu,Telugu Desam Party,1995-09-01,2004-05-13,1 Sep 1995 – 13 May 2004
+Andhra Pradesh,Y. S. Rajasekhara Reddy,Indian National Congress,2004-05-14,2009-09-02,14 May 2004 – 2 Sep 2009
+Andhra Pradesh,Konijeti Rosaiah,Indian National Congress,2009-09-03,2010-11-24,3 Sep 2009 – 24 Nov 2010
+Andhra Pradesh,Kiran Kumar Reddy,Indian National Congress,2010-11-25,2014-02-28,25 Nov 2010 – 1 Mar 2014
+Andhra Pradesh,President's Rule,President's Rule,2014-03-01,2014-06-07,1 Mar 2014 – 8 Jun 2014; President's / Governor's Rule — President's Rule following Telangana bifurcation and 2014 general election
+Andhra Pradesh,N. Chandrababu Naidu,Telugu Desam Party,2014-06-08,2019-05-29,8 Jun 2014 – 29 May 2019
+Andhra Pradesh,Y. S. Jagan Mohan Reddy,Yuvajana Sramika Rythu Congress Party,2019-05-30,2024-06-11,30 May 2019 – 11 Jun 2024
+Andhra Pradesh,N. Chandrababu Naidu,Telugu Desam Party,2024-06-12,,12 Jun 2024 – present
+Arunachal Pradesh,Prem Khandu Thungon,Independent,1975-08-13,1978-03-13,13 Aug 1975 – 14 Mar 1978
+Arunachal Pradesh,Prem Khandu Thungon,Janata Party,1978-03-14,1979-09-17,14 Mar 1978 – 18 Sep 1979
+Arunachal Pradesh,Tomo Riba,PPA,1979-09-18,1979-11-02,18 Sep 1979 – 3 Nov 1979
+Arunachal Pradesh,President's Rule,President's Rule,1979-11-03,1980-01-17,3 Nov 1979 – 18 Jan 1980; President's / Governor's Rule — President's Rule
+Arunachal Pradesh,Gegong Apang,Indian National Congress,1980-01-18,1995-03-20,18 Jan 1980 – 21 Mar 1995
+Arunachal Pradesh,Gegong Apang,AC,1995-03-21,1999-01-18,21 Mar 1995 – 19 Jan 1999
+Arunachal Pradesh,Mukut Mithi,Indian National Congress,1999-01-19,2003-08-02,19 Jan 1999 – 3 Aug 2003
+Arunachal Pradesh,Gegong Apang,UDF,2003-08-03,2003-08-29,3 Aug 2003 – 30 Aug 2003
+Arunachal Pradesh,Gegong Apang,Bharatiya Janata Party,2003-08-30,2004-10-15,30 Aug 2003 – 16 Oct 2004
+Arunachal Pradesh,Gegong Apang,Indian National Congress,2004-10-16,2007-04-08,16 Oct 2004 – 9 Apr 2007
+Arunachal Pradesh,Dorjee Khandu,Indian National Congress,2007-04-09,2011-04-30,9 Apr 2007 – 30 Apr 2011
+Arunachal Pradesh,Jarbom Gamlin,Indian National Congress,2011-05-05,2011-10-31,5 May 2011 – 1 Nov 2011
+Arunachal Pradesh,Nabam Tuki,Indian National Congress,2011-11-01,2016-01-25,1 Nov 2011 – 26 Jan 2016
+Arunachal Pradesh,President's Rule,President's Rule,2016-01-26,2016-02-18,26 Jan 2016 – 19 Feb 2016; President's / Governor's Rule — President's Rule amid political crisis over Nabam Tuki's leadership
+Arunachal Pradesh,Kalikho Pul,PPA,2016-02-19,2016-07-12,19 Feb 2016 – 13 Jul 2016
+Arunachal Pradesh,Nabam Tuki,Indian National Congress,2016-07-13,2016-07-16,13 Jul 2016 – 17 Jul 2016
+Arunachal Pradesh,Pema Khandu,Indian National Congress,2016-07-17,2016-09-15,17 Jul 2016 – 16 Sep 2016
+Arunachal Pradesh,Pema Khandu,PPA,2016-09-16,2016-12-30,16 Sep 2016 – 31 Dec 2016
+Arunachal Pradesh,Pema Khandu,Bharatiya Janata Party,2016-12-31,,31 Dec 2016 – present
+Assam,Muhammed Saadulah,Akhila Vijaya Party,1937-04-01,1938-09-18,1 Apr 1937 – 19 Sep 1938
+Assam,Gopinath Bordoloi,Indian National Congress,1938-09-19,1939-11-16,19 Sep 1938 – 17 Nov 1939
+Assam,Muhammed Saadulah,Akhila Vijaya Party,1939-11-17,1941-12-24,17 Nov 1939 – 24 Dec 1941
+Assam,President's Rule,President's Rule,1941-12-25,1942-08-24,25 Dec 1941 – 24 Aug 1942; President's / Governor's Rule — Governor's Rule (no ministry could be formed)
+Assam,Muhammed Saadulah,Akhila Vijaya Party,1942-08-25,1946-02-10,25 Aug 1942 – 11 Feb 1946
+Assam,Gopinath Bordoloi,Indian National Congress,1946-02-11,1950-08-05,11 Feb 1946 – 5 Aug 1950
+Assam,Bishnuram Medhi,Indian National Congress,1950-08-09,1957-12-27,9 Aug 1950 – 28 Dec 1957
+Assam,Bimala Prasad Chaliha,Indian National Congress,1957-12-28,1970-11-10,28 Dec 1957 – 11 Nov 1970
+Assam,Mahendra Mohan Choudhry,Indian National Congress,1970-11-11,1972-01-30,11 Nov 1970 – 31 Jan 1972
+Assam,Sarat Chandra Sinha,Indian National Congress,1972-01-31,1978-03-11,31 Jan 1972 – 12 Mar 1978
+Assam,Golap Borbora,Janata Party,1978-03-12,1979-09-08,12 Mar 1978 – 9 Sep 1979
+Assam,Jogendra Nath Hazarika,Janata Party,1979-09-09,1979-12-11,9 Sep 1979 – 12 Dec 1979
+Assam,President's Rule,President's Rule,1979-12-12,1980-12-05,12 Dec 1979 – 6 Dec 1980; President's / Governor's Rule — President's Rule amid the Assam Movement
+Assam,Anwara Taimur,Indian National Congress,1980-12-06,1981-06-29,6 Dec 1980 – 30 Jun 1981
+Assam,President's Rule,President's Rule,1981-06-30,1982-01-12,30 Jun 1981 – 13 Jan 1982; President's / Governor's Rule — President's Rule amid the Assam Movement
+Assam,Keshab Chandra Gogoi,Indian National Congress,1982-01-13,1982-03-18,13 Jan 1982 – 19 Mar 1982
+Assam,President's Rule,President's Rule,1982-03-19,1983-02-26,19 Mar 1982 – 27 Feb 1983; President's / Governor's Rule — President's Rule amid the Assam Movement
+Assam,Hiteswar Saikia,Indian National Congress,1983-02-27,1985-12-23,27 Feb 1983 – 24 Dec 1985
+Assam,Prafulla Kumar Mahanta,Asom Gana Parishad,1985-12-24,1990-11-27,24 Dec 1985 – 28 Nov 1990
+Assam,President's Rule,President's Rule,1990-11-28,1991-06-29,28 Nov 1990 – 30 Jun 1991; President's / Governor's Rule — President's Rule
+Assam,Hiteswar Saikia,Indian National Congress,1991-06-30,1996-04-21,30 Jun 1991 – 22 Apr 1996
+Assam,Bhumidhar Barman,Indian National Congress,1996-04-22,1996-05-14,22 Apr 1996 – 15 May 1996
+Assam,Prafulla Kumar Mahanta,Asom Gana Parishad,1996-05-15,2001-05-17,15 May 1996 – 18 May 2001
+Assam,Tarun Gogoi,Indian National Congress,2001-05-18,2016-05-23,18 May 2001 – 24 May 2016
+Assam,Sarbananda Sonowal,Bharatiya Janata Party,2016-05-24,2021-05-09,24 May 2016 – 10 May 2021
+Assam,Himanta Biswa Sarma,Bharatiya Janata Party,2021-05-10,2026-05-11,10 May 2021 – 12 May 2026
+Assam,Himanta Biswa Sarma,Bharatiya Janata Party,2026-05-12,,12 May 2026 – present
+Bihar,Shri Krishna Sinha,Indian National Congress,1947-08-15,1961-01-31,15 Aug 1947 – 31 Jan 1961
+Bihar,Deep Narayan Singh,Indian National Congress,1961-02-01,1961-02-17,1 Feb 1961 – 18 Feb 1961
+Bihar,Binodanand Jha,Indian National Congress,1961-02-18,1963-10-01,18 Feb 1961 – 2 Oct 1963
+Bihar,Krishna Ballabh Sahay,Indian National Congress,1963-10-02,1967-03-04,2 Oct 1963 – 5 Mar 1967
+Bihar,Mahamaya Prasad Sinha,JKD,1967-03-05,1968-01-27,5 Mar 1967 – 28 Jan 1968
+Bihar,Satish Prasad Singh,SHD,1968-01-28,1968-01-31,28 Jan 1968 – 1 Feb 1968
+Bihar,B. P. Mandal,SHD,1968-02-01,1968-03-21,1 Feb 1968 – 22 Mar 1968
+Bihar,Bhola Paswan Shastri,Indian National Congress,1968-03-22,1968-06-28,22 Mar 1968 – 28 Jun 1968
+Bihar,President's Rule,President's Rule,1968-06-29,1969-02-25,29 Jun 1968 – 26 Feb 1969; President's / Governor's Rule — President's Rule
+Bihar,Harihar Singh,Indian National Congress,1969-02-26,1969-06-21,26 Feb 1969 – 22 Jun 1969
+Bihar,Bhola Paswan Shastri,Indian National Congress (Organisation),1969-06-22,1969-07-03,22 Jun 1969 – 4 Jul 1969
+Bihar,President's Rule,President's Rule,1969-07-04,1970-02-15,4 Jul 1969 – 16 Feb 1970; President's / Governor's Rule — President's Rule
+Bihar,Daroga Prasad Rai,Indian National Congress (Requisitionists),1970-02-16,1970-12-21,16 Feb 1970 – 22 Dec 1970
+Bihar,Karpoori Thakur,Socialist Party,1970-12-22,1971-06-01,22 Dec 1970 – 2 Jun 1971
+Bihar,Bhola Paswan Shastri,Indian National Congress (Requisitionists),1971-06-02,1972-01-08,2 Jun 1971 – 9 Jan 1972
+Bihar,President's Rule,President's Rule,1972-01-09,1972-03-18,9 Jan 1972 – 19 Mar 1972; President's / Governor's Rule — President's Rule
+Bihar,Kedar Pandey,Indian National Congress (Requisitionists),1972-03-19,1973-07-01,19 Mar 1972 – 2 Jul 1973
+Bihar,Abdul Ghafoor,Indian National Congress,1973-07-02,1975-04-10,2 Jul 1973 – 11 Apr 1975
+Bihar,Jagannath Mishra,Indian National Congress,1975-04-11,1977-04-29,11 Apr 1975 – 30 Apr 1977
+Bihar,President's Rule,President's Rule,1977-04-30,1977-06-23,30 Apr 1977 – 24 Jun 1977; President's / Governor's Rule — President's Rule
+Bihar,Karpoori Thakur,Janata Party,1977-06-24,1979-04-20,24 Jun 1977 – 21 Apr 1979
+Bihar,Ram Sundar Das,Janata Party,1979-04-21,1980-02-16,21 Apr 1979 – 17 Feb 1980
+Bihar,President's Rule,President's Rule,1980-02-17,1980-06-07,17 Feb 1980 – 8 Jun 1980; President's / Governor's Rule — President's Rule
+Bihar,Jagannath Mishra,Indian National Congress (Indira),1980-06-08,1983-08-13,8 Jun 1980 – 14 Aug 1983
+Bihar,Chandrashekhar Singh,Indian National Congress,1983-08-14,1985-03-11,14 Aug 1983 – 12 Mar 1985
+Bihar,Bindeshwari Dubey,Indian National Congress,1985-03-12,1988-02-12,12 Mar 1985 – 13 Feb 1988
+Bihar,Bhagwat Jha Azad,Indian National Congress,1988-02-13,1989-03-10,13 Feb 1988 – 10 Mar 1989
+Bihar,Satyendra Narayan Sinha,Indian National Congress,1989-03-11,1989-12-05,11 Mar 1989 – 6 Dec 1989
+Bihar,Jagannath Mishra,Indian National Congress,1989-12-06,1990-03-09,6 Dec 1989 – 10 Mar 1990
+Bihar,Lalu Prasad Yadav,Janata Dal,1990-03-10,1995-03-27,10 Mar 1990 – 28 Mar 1995
+Bihar,President's Rule,President's Rule,1995-03-28,1995-04-03,"28 Mar 1995 – 4 Apr 1995; President's / Governor's Rule — President's Rule after the 1995 assembly election, pending government formation"
+Bihar,Lalu Prasad Yadav,Janata Dal,1995-04-04,1997-07-04,4 Apr 1995 – 5 Jul 1997
+Bihar,Lalu Prasad Yadav,Rashtriya Janata Dal,1997-07-05,1997-07-24,5 Jul 1997 – 25 Jul 1997
+Bihar,Rabri Devi,Rashtriya Janata Dal,1997-07-25,1999-02-11,25 Jul 1997 – 11 Feb 1999
+Bihar,President's Rule,President's Rule,1999-02-12,1999-03-08,12 Feb 1999 – 9 Mar 1999; President's / Governor's Rule — President's Rule
+Bihar,Rabri Devi,Rashtriya Janata Dal,1999-03-09,2000-03-02,9 Mar 1999 – 2 Mar 2000
+Bihar,Nitish Kumar,SAP,2000-03-03,2000-03-10,3 Mar 2000 – 11 Mar 2000
+Bihar,Rabri Devi,Rashtriya Janata Dal,2000-03-11,2005-03-06,11 Mar 2000 – 7 Mar 2005
+Bihar,President's Rule,President's Rule,2005-03-07,2005-11-23,7 Mar 2005 – 24 Nov 2005; President's / Governor's Rule — President's Rule after the hung February 2005 assembly election
+Bihar,Nitish Kumar,Janata Dal (United),2005-11-24,2014-05-19,24 Nov 2005 – 20 May 2014
+Bihar,Jitan Ram Manjhi,Janata Dal (United),2014-05-20,2015-02-21,20 May 2014 – 22 Feb 2015
+Bihar,Nitish Kumar,Janata Dal (United),2015-02-22,2026-04-14,22 Feb 2015 – 15 Apr 2026
+Bihar,Samrat Choudhary,Bharatiya Janata Party,2026-04-15,,15 Apr 2026 – present
+Chhattisgarh,Ajit Jogi,Indian National Congress,2000-11-01,2003-12-06,1 Nov 2000 – 7 Dec 2003
+Chhattisgarh,Raman Singh,Bharatiya Janata Party,2003-12-07,2018-12-11,7 Dec 2003 – 11 Dec 2018
+Chhattisgarh,Bhupesh Baghel,Indian National Congress,2018-12-17,2023-12-12,17 Dec 2018 – 13 Dec 2023
+Chhattisgarh,Vishnu Deo Sai,Bharatiya Janata Party,2023-12-13,,13 Dec 2023 – present
+Delhi,Brahm Prakash,Indian National Congress,1952-03-17,1955-02-11,17 Mar 1952 – 12 Feb 1955
+Delhi,Gurmukh Nihal Singh,Indian National Congress,1955-02-12,1956-11-01,12 Feb 1955 – 1 Nov 1956
+Delhi,Madan Lal Khurana,Bharatiya Janata Party,1993-12-02,1996-02-25,2 Dec 1993 – 26 Feb 1996
+Delhi,Sahib Singh Verma,Bharatiya Janata Party,1996-02-26,1998-10-11,26 Feb 1996 – 12 Oct 1998
+Delhi,Sushma Swaraj,Bharatiya Janata Party,1998-10-12,1998-12-02,12 Oct 1998 – 3 Dec 1998
+Delhi,Sheila Dikshit,Indian National Congress,1998-12-03,2013-12-27,3 Dec 1998 – 28 Dec 2013
+Delhi,Arvind Kejriwal,Aam Aadmi Party,2013-12-28,2014-02-13,28 Dec 2013 – 14 Feb 2014
+Delhi,President's Rule,President's Rule,2014-02-14,2015-02-13,14 Feb 2014 – 14 Feb 2015; President's / Governor's Rule — President's Rule after Kejriwal's first-term resignation (49-day government)
+Delhi,Arvind Kejriwal,Aam Aadmi Party,2015-02-14,2024-09-20,14 Feb 2015 – 21 Sep 2024
+Delhi,Atishi,Aam Aadmi Party,2024-09-21,2025-02-19,21 Sep 2024 – 20 Feb 2025
+Delhi,Rekha Gupta,Bharatiya Janata Party,2025-02-20,,20 Feb 2025 – present
+Goa,Dayanand Bandodkar,Maharashtrawadi Gomantak Party,1963-12-20,1966-12-01,20 Dec 1963 – 2 Dec 1966
+Goa,President's Rule,President's Rule,1966-12-02,1967-04-04,2 Dec 1966 – 5 Apr 1967; President's / Governor's Rule — President's Rule
+Goa,Dayanand Bandodkar,Maharashtrawadi Gomantak Party,1967-04-05,1972-03-22,5 Apr 1967 – 23 Mar 1972
+Goa,Dayanand Bandodkar,Maharashtrawadi Gomantak Party,1972-03-23,1973-08-11,23 Mar 1972 – 12 Aug 1973
+Goa,Shashikala Kakodkar,Maharashtrawadi Gomantak Party,1973-08-12,1977-06-06,12 Aug 1973 – 7 Jun 1977
+Goa,Shashikala Kakodkar,Maharashtrawadi Gomantak Party,1977-06-07,1979-04-26,7 Jun 1977 – 27 Apr 1979
+Goa,President's Rule,President's Rule,1979-04-27,1980-01-15,27 Apr 1979 – 16 Jan 1980; President's / Governor's Rule — President's Rule
+Goa,Pratapsingh Rane,Indian National Congress (Urs),1980-01-16,1985-01-06,16 Jan 1980 – 7 Jan 1985
+Goa,Pratapsingh Rane,Indian National Congress,1985-01-07,1987-05-29,7 Jan 1985 – 30 May 1987
+Goa,Pratapsingh Rane,Indian National Congress,1987-05-30,1990-01-08,30 May 1987 – 9 Jan 1990
+Goa,Pratapsingh Rane,Indian National Congress,1990-01-09,1990-03-26,9 Jan 1990 – 27 Mar 1990
+Goa,Churchill Alemao,PDF,1990-03-27,1990-04-13,27 Mar 1990 – 14 Apr 1990
+Goa,Luis Proto Barbosa,Indian National Congress,1990-04-14,1990-12-13,14 Apr 1990 – 14 Dec 1990
+Goa,President's Rule,President's Rule,1990-12-14,1991-01-24,14 Dec 1990 – 25 Jan 1991; President's / Governor's Rule — President's Rule
+Goa,Ravi Naik,Indian National Congress,1991-01-25,1993-05-17,25 Jan 1991 – 18 May 1993
+Goa,Wilfred de Souza,Indian National Congress,1993-05-18,1994-04-01,18 May 1993 – 2 Apr 1994
+Goa,Ravi Naik,Indian National Congress,1994-04-02,1994-04-07,2 Apr 1994 – 8 Apr 1994
+Goa,Wilfred de Souza,Indian National Congress,1994-04-08,1994-12-15,8 Apr 1994 – 16 Dec 1994
+Goa,Pratapsingh Rane,Indian National Congress,1994-12-16,1998-07-28,16 Dec 1994 – 29 Jul 1998
+Goa,Wilfred de Souza,GRCP,1998-07-29,1998-11-25,29 Jul 1998 – 26 Nov 1998
+Goa,Luizinho Faleiro,Indian National Congress,1998-11-26,1999-02-09,26 Nov 1998 – 10 Feb 1999
+Goa,President's Rule,President's Rule,1999-02-10,1999-06-08,10 Feb 1999 – 9 Jun 1999; President's / Governor's Rule — President's Rule
+Goa,Luizinho Faleiro,Indian National Congress,1999-06-09,1999-11-23,9 Jun 1999 – 24 Nov 1999
+Goa,Francisco Sardinha,Goa People's Congress,1999-11-24,2000-10-23,24 Nov 1999 – 24 Oct 2000
+Goa,Manohar Parrikar,Bharatiya Janata Party,2000-10-24,2002-06-02,24 Oct 2000 – 3 Jun 2002
+Goa,Manohar Parrikar,Bharatiya Janata Party,2002-06-03,2005-02-02,3 Jun 2002 – 3 Feb 2005
+Goa,Pratapsingh Rane,Indian National Congress,2005-02-03,2005-03-03,3 Feb 2005 – 4 Mar 2005
+Goa,President's Rule,President's Rule,2005-03-04,2005-06-06,4 Mar 2005 – 7 Jun 2005; President's / Governor's Rule — President's Rule
+Goa,Pratapsingh Rane,Indian National Congress,2005-06-07,2007-06-07,7 Jun 2005 – 8 Jun 2007
+Goa,Digambar Kamat,Indian National Congress,2007-06-08,2012-03-08,8 Jun 2007 – 9 Mar 2012
+Goa,Manohar Parrikar,Bharatiya Janata Party,2012-03-09,2014-11-07,9 Mar 2012 – 8 Nov 2014
+Goa,Laxmikant Parsekar,Bharatiya Janata Party,2014-11-08,2017-03-13,8 Nov 2014 – 14 Mar 2017
+Goa,Manohar Parrikar,Bharatiya Janata Party,2017-03-14,2019-03-17,14 Mar 2017 – 17 Mar 2019
+Goa,Pramod Sawant,Bharatiya Janata Party,2019-03-19,2022-03-27,19 Mar 2019 – 28 Mar 2022
+Goa,Pramod Sawant,Bharatiya Janata Party,2022-03-28,,28 Mar 2022 – present
+Gujarat,Jivraj Mehta,Indian National Congress,1960-05-01,1962-03-07,1 May 1960 – 8 Mar 1962
+Gujarat,Jivraj Mehta,Indian National Congress,1962-03-08,1963-09-18,8 Mar 1962 – 19 Sep 1963
+Gujarat,Balwantrai Mehta,Indian National Congress,1963-09-19,1965-09-18,19 Sep 1963 – 19 Sep 1965
+Gujarat,Hitendra Desai,Indian National Congress,1965-09-19,1967-04-02,19 Sep 1965 – 3 Apr 1967
+Gujarat,Hitendra Desai,Indian National Congress,1967-04-03,1969-11-11,3 Apr 1967 – 12 Nov 1969
+Gujarat,Hitendra Desai,Indian National Congress (Organisation),1969-11-12,1971-05-12,12 Nov 1969 – 13 May 1971
+Gujarat,President's Rule,President's Rule,1971-05-13,1972-03-16,13 May 1971 – 17 Mar 1972; President's / Governor's Rule — President's Rule
+Gujarat,Ghanshyam Oza,Indian National Congress,1972-03-17,1973-07-16,17 Mar 1972 – 17 Jul 1973
+Gujarat,Chimanbhai Patel,Indian National Congress,1973-07-17,1974-02-08,17 Jul 1973 – 9 Feb 1974
+Gujarat,President's Rule,President's Rule,1974-02-09,1975-06-17,9 Feb 1974 – 18 Jun 1975; President's / Governor's Rule — President's Rule
+Gujarat,Babubhai J. Patel,Indian National Congress (Organisation),1975-06-18,1976-03-11,18 Jun 1975 – 12 Mar 1976
+Gujarat,President's Rule,President's Rule,1976-03-12,1976-12-23,12 Mar 1976 – 24 Dec 1976; President's / Governor's Rule — President's Rule
+Gujarat,Madhav Singh Solanki,Indian National Congress,1976-12-24,1977-04-10,24 Dec 1976 – 11 Apr 1977
+Gujarat,Babubhai J. Patel,Janata Party,1977-04-11,1980-02-16,11 Apr 1977 – 17 Feb 1980
+Gujarat,President's Rule,President's Rule,1980-02-17,1980-06-06,17 Feb 1980 – 7 Jun 1980; President's / Governor's Rule — President's Rule
+Gujarat,Madhav Singh Solanki,Indian National Congress,1980-06-07,1985-03-10,7 Jun 1980 – 10 Mar 1985
+Gujarat,Madhav Singh Solanki,Indian National Congress,1985-03-11,1985-07-05,11 Mar 1985 – 6 Jul 1985
+Gujarat,Amarsinh Chaudhary,Indian National Congress,1985-07-06,1989-12-09,6 Jul 1985 – 10 Dec 1989
+Gujarat,Madhav Singh Solanki,Indian National Congress,1989-12-10,1990-03-03,10 Dec 1989 – 4 Mar 1990
+Gujarat,Chimanbhai Patel,Janata Dal,1990-03-04,1990-10-24,4 Mar 1990 – 25 Oct 1990
+Gujarat,Chimanbhai Patel,Indian National Congress,1990-10-25,1994-02-16,25 Oct 1990 – 17 Feb 1994
+Gujarat,Chhabildas Mehta,Indian National Congress,1994-02-17,1995-03-13,17 Feb 1994 – 14 Mar 1995
+Gujarat,Keshubhai Patel,Bharatiya Janata Party,1995-03-14,1995-10-20,14 Mar 1995 – 21 Oct 1995
+Gujarat,Suresh Mehta,Bharatiya Janata Party,1995-10-21,1996-09-18,21 Oct 1995 – 19 Sep 1996
+Gujarat,President's Rule,President's Rule,1996-09-19,1996-10-22,19 Sep 1996 – 23 Oct 1996; President's / Governor's Rule — President's Rule
+Gujarat,Shankersinh Vaghela,RJP,1996-10-23,1997-10-26,23 Oct 1996 – 27 Oct 1997
+Gujarat,Dilip Parikh,RJP,1997-10-27,1998-03-03,27 Oct 1997 – 4 Mar 1998
+Gujarat,Keshubhai Patel,Bharatiya Janata Party,1998-03-04,2001-10-06,4 Mar 1998 – 7 Oct 2001
+Gujarat,Narendra Modi,Bharatiya Janata Party,2001-10-07,2002-12-21,7 Oct 2001 – 22 Dec 2002
+Gujarat,Narendra Modi,Bharatiya Janata Party,2002-12-22,2007-12-22,22 Dec 2002 – 22 Dec 2007
+Gujarat,Narendra Modi,Bharatiya Janata Party,2007-12-23,2012-12-19,23 Dec 2007 – 20 Dec 2012
+Gujarat,Narendra Modi,Bharatiya Janata Party,2012-12-20,2014-05-21,20 Dec 2012 – 22 May 2014
+Gujarat,Anandiben Patel,Bharatiya Janata Party,2014-05-22,2016-08-06,22 May 2014 – 7 Aug 2016
+Gujarat,Vijay Rupani,Bharatiya Janata Party,2016-08-07,2017-12-25,7 Aug 2016 – 26 Dec 2017
+Gujarat,Vijay Rupani,Bharatiya Janata Party,2017-12-26,2021-09-12,26 Dec 2017 – 13 Sep 2021
+Gujarat,Bhupendra Patel,Bharatiya Janata Party,2021-09-13,2022-12-11,13 Sep 2021 – 12 Dec 2022
+Gujarat,Bhupendra Patel,Bharatiya Janata Party,2022-12-12,,12 Dec 2022 – present
+Haryana,Bhagwat Dayal Sharma,Indian National Congress,1966-11-01,1967-02-20,1 Nov 1966 – 21 Feb 1967
+Haryana,Bhagwat Dayal Sharma,Indian National Congress,1967-02-21,1967-03-23,21 Feb 1967 – 24 Mar 1967
+Haryana,Rao Birender Singh,VHP,1967-03-24,1967-11-19,24 Mar 1967 – 20 Nov 1967
+Haryana,President's Rule,President's Rule,1967-11-20,1968-05-20,20 Nov 1967 – 21 May 1968; President's / Governor's Rule — President's Rule
+Haryana,Bansi Lal,Indian National Congress,1968-05-21,1972-03-13,21 May 1968 – 14 Mar 1972
+Haryana,Bansi Lal,Indian National Congress,1972-03-14,1975-11-30,14 Mar 1972 – 1 Dec 1975
+Haryana,Banarsi Das Gupta,Indian National Congress,1975-12-01,1977-04-29,1 Dec 1975 – 30 Apr 1977
+Haryana,President's Rule,President's Rule,1977-04-30,1977-06-20,30 Apr 1977 – 21 Jun 1977; President's / Governor's Rule — President's Rule
+Haryana,Devi Lal,Janata Party,1977-06-21,1979-06-27,21 Jun 1977 – 28 Jun 1979
+Haryana,Bhajan Lal,Janata Party,1979-06-28,1980-01-22,28 Jun 1979 – 23 Jan 1980
+Haryana,Bhajan Lal,Indian National Congress,1980-01-23,1982-05-22,23 Jan 1980 – 23 May 1982
+Haryana,Bhajan Lal,Indian National Congress,1982-05-23,1986-06-04,23 May 1982 – 5 Jun 1986
+Haryana,Bansi Lal,Indian National Congress,1986-06-05,1987-06-19,5 Jun 1986 – 20 Jun 1987
+Haryana,Devi Lal,Janata Dal,1987-06-20,1989-12-01,20 Jun 1987 – 2 Dec 1989
+Haryana,Om Prakash Chautala,Janata Dal,1989-12-02,1990-05-21,2 Dec 1989 – 22 May 1990
+Haryana,Banarsi Das Gupta,Janata Dal,1990-05-22,1990-07-11,22 May 1990 – 12 Jul 1990
+Haryana,Om Prakash Chautala,Janata Dal,1990-07-12,1990-07-16,12 Jul 1990 – 17 Jul 1990
+Haryana,Hukam Singh,Janata Dal,1990-07-17,1991-03-21,17 Jul 1990 – 22 Mar 1991
+Haryana,Om Prakash Chautala,SJPR,1991-03-22,1991-04-05,22 Mar 1991 – 6 Apr 1991
+Haryana,President's Rule,President's Rule,1991-04-06,1991-06-22,6 Apr 1991 – 23 Jun 1991; President's / Governor's Rule — President's Rule
+Haryana,Bhajan Lal,Indian National Congress,1991-06-23,1996-05-10,23 Jun 1991 – 11 May 1996
+Haryana,Bansi Lal,Haryana Vikas Party,1996-05-11,1999-07-23,11 May 1996 – 24 Jul 1999
+Haryana,Om Prakash Chautala,Indian National Lok Dal,1999-07-24,2000-03-01,24 Jul 1999 – 2 Mar 2000
+Haryana,Om Prakash Chautala,Indian National Lok Dal,2000-03-02,2005-03-04,2 Mar 2000 – 5 Mar 2005
+Haryana,Bhupinder Singh Hooda,Indian National Congress,2005-03-05,2009-10-24,5 Mar 2005 – 25 Oct 2009
+Haryana,Bhupinder Singh Hooda,Indian National Congress,2009-10-25,2014-10-25,25 Oct 2009 – 26 Oct 2014
+Haryana,Manohar Lal Khattar,Bharatiya Janata Party,2014-10-26,2019-10-26,26 Oct 2014 – 27 Oct 2019
+Haryana,Manohar Lal Khattar,Bharatiya Janata Party,2019-10-27,2024-03-11,27 Oct 2019 – 12 Mar 2024
+Haryana,Nayab Singh Saini,Bharatiya Janata Party,2024-03-12,2024-10-16,12 Mar 2024 – 17 Oct 2024
+Haryana,Nayab Singh Saini,Bharatiya Janata Party,2024-10-17,,17 Oct 2024 – present
+Himachal Pradesh,Yashwant Singh Parmar,Indian National Congress,1952-03-08,1956-10-31,8 Mar 1952 – 31 Oct 1956
+Himachal Pradesh,Yashwant Singh Parmar,Indian National Congress,1963-07-01,1971-01-24,1 Jul 1963 – 25 Jan 1971
+Himachal Pradesh,Yashwant Singh Parmar,Indian National Congress,1971-01-25,1977-01-27,25 Jan 1971 – 28 Jan 1977
+Himachal Pradesh,Thakur Ram Lal,Indian National Congress,1977-01-28,1977-04-29,28 Jan 1977 – 30 Apr 1977
+Himachal Pradesh,President's Rule,President's Rule,1977-04-30,1977-06-21,30 Apr 1977 – 22 Jun 1977; President's / Governor's Rule — President's Rule
+Himachal Pradesh,Shanta Kumar,Janata Party,1977-06-22,1980-02-13,22 Jun 1977 – 14 Feb 1980
+Himachal Pradesh,Thakur Ram Lal,Indian National Congress,1980-02-14,1983-04-07,14 Feb 1980 – 8 Apr 1983
+Himachal Pradesh,Virbhadra Singh,Indian National Congress,1983-04-08,1985-03-07,8 Apr 1983 – 8 Mar 1985
+Himachal Pradesh,Virbhadra Singh,Indian National Congress,1985-03-08,1990-03-04,8 Mar 1985 – 5 Mar 1990
+Himachal Pradesh,Shanta Kumar,Bharatiya Janata Party,1990-03-05,1992-12-14,5 Mar 1990 – 15 Dec 1992
+Himachal Pradesh,President's Rule,President's Rule,1992-12-15,1993-12-02,15 Dec 1992 – 3 Dec 1993; President's / Governor's Rule — President's Rule (BJP state government dismissed following the December 1992 Babri Masjid demolition)
+Himachal Pradesh,Virbhadra Singh,Indian National Congress,1993-12-03,1998-03-23,3 Dec 1993 – 24 Mar 1998
+Himachal Pradesh,Prem Kumar Dhumal,Bharatiya Janata Party,1998-03-24,2003-03-05,24 Mar 1998 – 6 Mar 2003
+Himachal Pradesh,Virbhadra Singh,Indian National Congress,2003-03-06,2007-12-29,6 Mar 2003 – 30 Dec 2007
+Himachal Pradesh,Prem Kumar Dhumal,Bharatiya Janata Party,2007-12-30,2012-12-24,30 Dec 2007 – 25 Dec 2012
+Himachal Pradesh,Virbhadra Singh,Indian National Congress,2012-12-25,2017-12-26,25 Dec 2012 – 27 Dec 2017
+Himachal Pradesh,Jai Ram Thakur,Bharatiya Janata Party,2017-12-27,2022-12-10,27 Dec 2017 – 11 Dec 2022
+Himachal Pradesh,Sukhvinder Singh Sukhu,Indian National Congress,2022-12-11,,11 Dec 2022 – present
+Jammu and Kashmir,Mehr Chand Mahajan,Independent,1947-10-15,1948-03-04,15 Oct 1947 – 5 Mar 1948
+Jammu and Kashmir,Sheikh Abdullah,Jammu & Kashmir National Conference,1948-03-05,1953-08-08,5 Mar 1948 – 9 Aug 1953
+Jammu and Kashmir,Bakshi Ghulam Mohammad,Jammu & Kashmir National Conference,1953-08-09,1963-10-11,9 Aug 1953 – 12 Oct 1963
+Jammu and Kashmir,Khwaja Shams-ud-Din,Jammu & Kashmir National Conference,1963-10-12,1964-02-28,12 Oct 1963 – 29 Feb 1964
+Jammu and Kashmir,Ghulam Mohammed Sadiq,Indian National Congress,1964-02-29,1971-12-11,29 Feb 1964 – 12 Dec 1971
+Jammu and Kashmir,Syed Mir Qasim,Indian National Congress,1971-12-12,1975-02-24,12 Dec 1971 – 25 Feb 1975
+Jammu and Kashmir,Sheikh Abdullah,Jammu & Kashmir National Conference,1975-02-25,1977-03-25,25 Feb 1975 – 26 Mar 1977
+Jammu and Kashmir,President's Rule,President's Rule,1977-03-26,1977-07-08,26 Mar 1977 – 9 Jul 1977; President's / Governor's Rule — Governor's Rule following dismissal of Sheikh Abdullah's ministry
+Jammu and Kashmir,Sheikh Abdullah,Jammu & Kashmir National Conference,1977-07-09,1982-09-07,9 Jul 1977 – 8 Sep 1982
+Jammu and Kashmir,Farooq Abdullah,Jammu & Kashmir National Conference,1982-09-08,1984-07-01,8 Sep 1982 – 2 Jul 1984
+Jammu and Kashmir,Ghulam Mohammad Shah,ANC,1984-07-02,1986-03-05,2 Jul 1984 – 6 Mar 1986
+Jammu and Kashmir,President's Rule,President's Rule,1986-03-06,1986-09-05,6 Mar 1986 – 6 Sep 1986; President's / Governor's Rule — Governor's Rule imposed after collapse of Ghulam Mohammad Shah ministry
+Jammu and Kashmir,President's Rule,President's Rule,1986-09-06,1986-11-06,6 Sep 1986 – 7 Nov 1986; President's / Governor's Rule — Governor's Rule converted to President's Rule
+Jammu and Kashmir,Farooq Abdullah,Jammu & Kashmir National Conference,1986-11-07,1990-01-18,7 Nov 1986 – 19 Jan 1990
+Jammu and Kashmir,President's Rule,President's Rule,1990-01-19,1990-07-18,19 Jan 1990 – 19 Jul 1990; President's / Governor's Rule — Governor's Rule imposed amid rising militancy following Farooq Abdullah's resignation
+Jammu and Kashmir,President's Rule,President's Rule,1990-07-19,1996-10-08,"19 Jul 1990 – 9 Oct 1996; President's / Governor's Rule — President's Rule, the longest such spell in J&K's history, during the peak of insurgency"
+Jammu and Kashmir,Farooq Abdullah,Jammu & Kashmir National Conference,1996-10-09,2002-10-17,9 Oct 1996 – 18 Oct 2002
+Jammu and Kashmir,President's Rule,President's Rule,2002-10-18,2002-11-01,18 Oct 2002 – 2 Nov 2002; President's / Governor's Rule — Brief Governor's Rule / caretaker period
+Jammu and Kashmir,Mufti Mohammad Sayeed,Jammu & Kashmir Peoples Democratic Party,2002-11-02,2005-11-01,2 Nov 2002 – 2 Nov 2005
+Jammu and Kashmir,Ghulam Nabi Azad,Indian National Congress,2005-11-02,2008-07-10,2 Nov 2005 – 11 Jul 2008
+Jammu and Kashmir,President's Rule,President's Rule,2008-07-11,2009-01-04,11 Jul 2008 – 5 Jan 2009; President's / Governor's Rule — Governor's Rule following collapse of the PDP-Congress coalition
+Jammu and Kashmir,Omar Abdullah,Jammu & Kashmir National Conference,2009-01-05,2015-01-07,5 Jan 2009 – 8 Jan 2015
+Jammu and Kashmir,President's Rule,President's Rule,2015-01-08,2015-02-28,8 Jan 2015 – 1 Mar 2015; President's / Governor's Rule — Governor's Rule during coalition talks
+Jammu and Kashmir,Mufti Mohammad Sayeed,Jammu & Kashmir Peoples Democratic Party,2015-03-01,2016-01-06,1 Mar 2015 – 7 Jan 2016
+Jammu and Kashmir,President's Rule,President's Rule,2016-01-07,2016-04-03,7 Jan 2016 – 4 Apr 2016; President's / Governor's Rule — Governor's Rule following the death of Chief Minister Mufti Mohammad Sayeed
+Jammu and Kashmir,Mehbooba Mufti,Jammu & Kashmir Peoples Democratic Party,2016-04-04,2018-06-19,4 Apr 2016 – 19 Jun 2018
+Jammu and Kashmir,President's Rule,President's Rule,2018-06-20,2018-12-19,20 Jun 2018 – 19 Dec 2018; President's / Governor's Rule — Governor's Rule after the BJP withdrew from its coalition with the PDP
+Jammu and Kashmir,President's Rule,President's Rule,2018-12-20,2019-10-30,20 Dec 2018 – 30 Oct 2019; President's / Governor's Rule — Governor's Rule converted to President's Rule; the assembly was later dissolved on 21 November 2018
+Jammu and Kashmir,President's Rule,President's Rule,2019-10-31,2024-10-15,31 Oct 2019 – 15 Oct 2024; President's / Governor's Rule — No Chief Minister existed. On 5 August 2019 Parliament revoked J&K's special status under Article 370 and split the state into two Union Territories effective 31 October 2019. The new UT of J&K had no legislative assembly and was governed directly under President's Rule via the Lieutenant Governor until the assembly was restored following the 2024 election; Omar Abdullah was sworn in as CM on 16 October 2024
+Jammu and Kashmir,Omar Abdullah,Jammu & Kashmir National Conference,2024-10-16,,16 Oct 2024 – present
+Jharkhand,Babulal Marandi,Bharatiya Janata Party,2000-11-15,2003-03-17,15 Nov 2000 – 18 Mar 2003
+Jharkhand,Arjun Munda,Bharatiya Janata Party,2003-03-18,2005-03-01,18 Mar 2003 – 2 Mar 2005
+Jharkhand,Shibu Soren,Jharkhand Mukti Morcha,2005-03-02,2005-03-11,2 Mar 2005 – 12 Mar 2005
+Jharkhand,Arjun Munda,Bharatiya Janata Party,2005-03-12,2006-09-17,12 Mar 2005 – 18 Sep 2006
+Jharkhand,Madhu Koda,Independent,2006-09-18,2008-08-26,18 Sep 2006 – 27 Aug 2008
+Jharkhand,Shibu Soren,Jharkhand Mukti Morcha,2008-08-27,2009-01-18,27 Aug 2008 – 19 Jan 2009
+Jharkhand,President's Rule,President's Rule,2009-01-19,2009-12-29,19 Jan 2009 – 30 Dec 2009; President's / Governor's Rule — President's Rule
+Jharkhand,Shibu Soren,Jharkhand Mukti Morcha,2009-12-30,2010-05-31,30 Dec 2009 – 1 Jun 2010
+Jharkhand,President's Rule,President's Rule,2010-06-01,2010-09-10,1 Jun 2010 – 11 Sep 2010; President's / Governor's Rule — President's Rule
+Jharkhand,Arjun Munda,Bharatiya Janata Party,2010-09-11,2013-01-17,11 Sep 2010 – 18 Jan 2013
+Jharkhand,President's Rule,President's Rule,2013-01-18,2013-07-12,18 Jan 2013 – 13 Jul 2013; President's / Governor's Rule — President's Rule
+Jharkhand,Hemant Soren,Jharkhand Mukti Morcha,2013-07-13,2014-12-27,13 Jul 2013 – 28 Dec 2014
+Jharkhand,Raghubar Das,Bharatiya Janata Party,2014-12-28,2019-12-28,28 Dec 2014 – 29 Dec 2019
+Jharkhand,Hemant Soren,Jharkhand Mukti Morcha,2019-12-29,2024-02-01,29 Dec 2019 – 2 Feb 2024
+Jharkhand,Champai Soren,Jharkhand Mukti Morcha,2024-02-02,2024-07-03,2 Feb 2024 – 3 Jul 2024
+Jharkhand,Hemant Soren,Jharkhand Mukti Morcha,2024-07-04,2024-11-27,4 Jul 2024 – 28 Nov 2024
+Jharkhand,Hemant Soren,Jharkhand Mukti Morcha,2024-11-28,,28 Nov 2024 – present
+Karnataka,K. Chengalaraya Reddy,Indian National Congress,1947-10-25,1952-03-29,25 Oct 1947 – 30 Mar 1952
+Karnataka,Kengal Hanumanthaiah,Indian National Congress,1952-03-30,1956-08-18,30 Mar 1952 – 19 Aug 1956
+Karnataka,Kadidal Manjappa,Indian National Congress,1956-08-19,1956-10-30,19 Aug 1956 – 31 Oct 1956
+Karnataka,S. Nijalingappa,Indian National Congress,1956-10-31,1958-05-15,31 Oct 1956 – 16 May 1958
+Karnataka,B. D. Jatti,Indian National Congress,1958-05-16,1962-03-13,16 May 1958 – 14 Mar 1962
+Karnataka,S. R. Kanthi,Indian National Congress,1962-03-14,1962-06-20,14 Mar 1962 – 21 Jun 1962
+Karnataka,S. Nijalingappa,Indian National Congress,1962-06-21,1968-05-28,21 Jun 1962 – 29 May 1968
+Karnataka,Veerendra Patil,Indian National Congress (Organisation),1968-05-29,1971-03-17,29 May 1968 – 18 Mar 1971
+Karnataka,President's Rule,President's Rule,1971-03-18,1972-03-19,18 Mar 1971 – 20 Mar 1972; President's / Governor's Rule — President's Rule after Veerendra Patil's government fell
+Karnataka,D. Devaraj Urs,Indian National Congress (Organisation),1972-03-20,1973-10-31,20 Mar 1972 – 31 Oct 1973
+Karnataka,D. Devaraj Urs,Indian National Congress (Indira),1973-11-01,1977-12-30,1 Nov 1973 – 31 Dec 1977
+Karnataka,President's Rule,President's Rule,1977-12-31,1978-02-27,31 Dec 1977 – 28 Feb 1978; President's / Governor's Rule — President's Rule after Devaraj Urs government / assembly dissolution
+Karnataka,D. Devaraj Urs,Indian National Congress (Indira),1978-02-28,1980-01-11,28 Feb 1978 – 12 Jan 1980
+Karnataka,R. Gundu Rao,Indian National Congress (Indira),1980-01-12,1983-01-09,12 Jan 1980 – 10 Jan 1983
+Karnataka,Ramakrishna Hegde,Janata Party,1983-01-10,1988-08-12,10 Jan 1983 – 13 Aug 1988
+Karnataka,S. R. Bommai,Janata Party,1988-08-13,1989-04-20,13 Aug 1988 – 21 Apr 1989
+Karnataka,President's Rule,President's Rule,1989-04-21,1989-11-29,21 Apr 1989 – 30 Nov 1989; President's / Governor's Rule — President's Rule after S.R. Bommai's government fell
+Karnataka,Veerendra Patil,Indian National Congress (Indira),1989-11-30,1990-10-09,30 Nov 1989 – 10 Oct 1990
+Karnataka,President's Rule,President's Rule,1990-10-10,1990-10-16,10 Oct 1990 – 17 Oct 1990; President's / Governor's Rule — Brief President's Rule after Veerendra Patil's second stint ended
+Karnataka,Sarekoppa Bangarappa,Indian National Congress (Indira),1990-10-17,1992-11-18,17 Oct 1990 – 19 Nov 1992
+Karnataka,Veerappa Moily,Indian National Congress (Indira),1992-11-19,1994-12-10,19 Nov 1992 – 11 Dec 1994
+Karnataka,H. D. Deve Gowda,Janata Dal,1994-12-11,1996-05-30,11 Dec 1994 – 31 May 1996
+Karnataka,J. H. Patel,Janata Dal,1996-05-31,1999-10-10,31 May 1996 – 11 Oct 1999
+Karnataka,S. M. Krishna,Indian National Congress,1999-10-11,2004-05-27,11 Oct 1999 – 28 May 2004
+Karnataka,Dharam Singh,Indian National Congress,2004-05-28,2006-02-02,28 May 2004 – 3 Feb 2006
+Karnataka,H. D. Kumaraswamy,Janata Dal (Secular),2006-02-03,2007-10-07,3 Feb 2006 – 8 Oct 2007
+Karnataka,President's Rule,President's Rule,2007-10-08,2007-11-11,8 Oct 2007 – 12 Nov 2007; President's / Governor's Rule — President's Rule after JD(S)-BJP coalition (Kumaraswamy) collapsed
+Karnataka,B. S. Yediyurappa,Bharatiya Janata Party,2007-11-12,2007-11-18,12 Nov 2007 – 19 Nov 2007
+Karnataka,President's Rule,President's Rule,2007-11-19,2008-05-29,19 Nov 2007 – 30 May 2008; President's / Governor's Rule — President's Rule after Yediyurappa's short-lived first government fell
+Karnataka,B. S. Yediyurappa,Bharatiya Janata Party,2008-05-30,2011-08-04,30 May 2008 – 5 Aug 2011
+Karnataka,Sadananda Gowda,Bharatiya Janata Party,2011-08-05,2012-07-11,5 Aug 2011 – 12 Jul 2012
+Karnataka,Jagadish Shettar,Bharatiya Janata Party,2012-07-12,2013-05-12,12 Jul 2012 – 13 May 2013
+Karnataka,Siddaramaiah,Indian National Congress,2013-05-13,2018-05-16,13 May 2013 – 17 May 2018
+Karnataka,B. S. Yediyurappa,Bharatiya Janata Party,2018-05-17,2018-05-22,17 May 2018 – 23 May 2018
+Karnataka,H. D. Kumaraswamy,Janata Dal (Secular),2018-05-23,2019-07-25,23 May 2018 – 26 Jul 2019
+Karnataka,B. S. Yediyurappa,Bharatiya Janata Party,2019-07-26,2021-07-27,26 Jul 2019 – 28 Jul 2021
+Karnataka,Basavaraj Bommai,Bharatiya Janata Party,2021-07-28,2023-05-19,28 Jul 2021 – 20 May 2023
+Karnataka,Siddaramaiah,Indian National Congress,2023-05-20,2026-06-02,20 May 2023 – 3 Jun 2026
+Karnataka,D. K. Shivakumar,Indian National Congress,2026-06-03,,3 Jun 2026 – present
+Kerala,P. Govinda Menon,Independent,1947-08-14,1947-10-22,14 Aug 1947 – 22 Oct 1947
+Kerala,T. K. Nair,Independent,1947-10-27,1948-03-23,27 Oct 1947 – 20 Sep 1948
+Kerala,Pattom A. Thanu Pillai,Indian National Congress,1948-03-24,1948-09-19,24 Mar 1948 – 17 Oct 1948
+Kerala,E. Ikkanda Warrier,Independent,1948-09-20,1948-10-21,20 Sep 1948 – 1 Jul 1949
+Kerala,Paravoor T. K. Narayana Pillai,Indian National Congress,1948-10-22,1951-02-27,22 Oct 1948 – 28 Feb 1951
+Kerala,C. Kesavan,Indian National Congress,1951-02-28,1952-03-11,28 Feb 1951 – 12 Mar 1952
+Kerala,A. J. John,Indian National Congress,1952-03-12,1954-03-15,12 Mar 1952 – 16 Mar 1954
+Kerala,Pattom A. Thanu Pillai,Praja Socialist Party,1954-03-16,1955-02-09,16 Mar 1954 – 10 Feb 1955
+Kerala,P. Govinda Menon,Indian National Congress,1955-02-10,1956-03-22,10 Feb 1955 – 23 Mar 1956
+Kerala,President's Rule,President's Rule,1956-03-23,1956-10-31,23 Mar 1956 – 31 Oct 1956; President's / Governor's Rule — President's Rule in Travancore-Cochin state before its dissolution into Kerala
+Kerala,President's Rule,President's Rule,1956-11-01,1957-04-04,1 Nov 1956 – 5 Apr 1957; President's / Governor's Rule — President's Rule from Kerala's formation until the first Legislative Assembly was convened
+Kerala,E. M. S. Namboodiripad,Communist Party of India,1957-04-05,1959-07-30,5 Apr 1957 – 31 Jul 1959
+Kerala,President's Rule,President's Rule,1959-07-31,1960-02-21,31 Jul 1959 – 22 Feb 1960; President's / Governor's Rule — President's Rule after E.M.S. Namboodiripad's first ministry fell
+Kerala,Pattom A. Thanu Pillai,Praja Socialist Party,1960-02-22,1962-09-25,22 Feb 1960 – 26 Sep 1962
+Kerala,R. Sankar,Indian National Congress,1962-09-26,1964-09-09,26 Sep 1962 – 10 Sep 1964
+Kerala,President's Rule,President's Rule,1964-09-10,1967-03-05,10 Sep 1964 – 6 Mar 1967; President's / Governor's Rule — President's Rule; continued after the inconclusive 1965 election produced no majority
+Kerala,E. M. S. Namboodiripad,Communist Party of India (Marxist),1967-03-06,1969-10-31,6 Mar 1967 – 1 Nov 1969
+Kerala,C. Achutha Menon,Communist Party of India,1969-11-01,1970-08-03,1 Nov 1969 – 3 Aug 1970
+Kerala,President's Rule,President's Rule,1970-08-04,1970-10-03,4 Aug 1970 – 4 Oct 1970; President's / Governor's Rule — Brief President's Rule between Achutha Menon's two ministries
+Kerala,C. Achutha Menon,Communist Party of India,1970-10-04,1977-03-24,4 Oct 1970 – 25 Mar 1977
+Kerala,K. Karunakaran,Indian National Congress,1977-03-25,1977-04-26,25 Mar 1977 – 27 Apr 1977
+Kerala,A. K. Antony,Indian National Congress,1977-04-27,1978-10-28,27 Apr 1977 – 29 Oct 1978
+Kerala,P. K. Vasudevan Nair,Communist Party of India,1978-10-29,1979-10-11,29 Oct 1978 – 12 Oct 1979
+Kerala,C. H. Mohammed Koya,Indian Union Muslim League,1979-10-12,1979-12-04,12 Oct 1979 – 4 Dec 1979
+Kerala,President's Rule,President's Rule,1979-12-05,1980-01-24,5 Dec 1979 – 25 Jan 1980; President's / Governor's Rule — President's Rule after C.H. Mohammed Koya's government fell
+Kerala,E. K. Nayanar,Communist Party of India (Marxist),1980-01-25,1981-10-20,25 Jan 1980 – 20 Oct 1981
+Kerala,President's Rule,President's Rule,1981-10-21,1981-12-27,21 Oct 1981 – 28 Dec 1981; President's / Governor's Rule — President's Rule after E.K. Nayanar's first ministry fell
+Kerala,K. Karunakaran,Indian National Congress,1981-12-28,1982-03-16,28 Dec 1981 – 17 Mar 1982
+Kerala,President's Rule,President's Rule,1982-03-17,1982-05-23,17 Mar 1982 – 24 May 1982; President's / Governor's Rule — President's Rule between Karunakaran's 2nd and 3rd ministries
+Kerala,K. Karunakaran,Indian National Congress,1982-05-24,1987-03-25,24 May 1982 – 26 Mar 1987
+Kerala,E. K. Nayanar,Communist Party of India (Marxist),1987-03-26,1991-06-23,26 Mar 1987 – 24 Jun 1991
+Kerala,K. Karunakaran,Indian National Congress,1991-06-24,1995-03-21,24 Jun 1991 – 22 Mar 1995
+Kerala,A. K. Antony,Indian National Congress,1995-03-22,1996-05-19,22 Mar 1995 – 20 May 1996
+Kerala,E. K. Nayanar,Communist Party of India (Marxist),1996-05-20,2001-05-16,20 May 1996 – 17 May 2001
+Kerala,A. K. Antony,Indian National Congress,2001-05-17,2004-08-30,17 May 2001 – 31 Aug 2004
+Kerala,Oommen Chandy,Indian National Congress,2004-08-31,2006-05-17,31 Aug 2004 – 18 May 2006
+Kerala,V. S. Achuthanandan,Communist Party of India (Marxist),2006-05-18,2011-05-17,18 May 2006 – 18 May 2011
+Kerala,Oommen Chandy,Indian National Congress,2011-05-18,2016-05-24,18 May 2011 – 25 May 2016
+Kerala,Pinarayi Vijayan,Communist Party of India (Marxist),2016-05-25,2026-05-17,25 May 2016 – 18 May 2026
+Kerala,V. D. Satheesan,Indian National Congress,2026-05-18,,18 May 2026 – present
+Madhya Pradesh,Ravishankar Shukla,Indian National Congress,1950-01-26,1956-12-31,26 Jan 1950 – 31 Dec 1956
+Madhya Pradesh,Bhagwantrao Mandloi,Indian National Congress,1957-01-09,1957-01-30,9 Jan 1957 – 31 Jan 1957
+Madhya Pradesh,Kailash Nath Katju,Indian National Congress,1957-01-31,1962-03-11,31 Jan 1957 – 12 Mar 1962
+Madhya Pradesh,Bhagwantrao Mandloi,Indian National Congress,1962-03-12,1963-09-29,12 Mar 1962 – 30 Sep 1963
+Madhya Pradesh,Dwarka Prasad Mishra,Indian National Congress,1963-09-30,1967-07-29,30 Sep 1963 – 30 Jul 1967
+Madhya Pradesh,Govind Narayan Singh,Samyukta Vidhayak Dal,1967-07-30,1969-03-12,30 Jul 1967 – 13 Mar 1969
+Madhya Pradesh,Nareshchandra Singh,Samyukta Vidhayak Dal,1969-03-13,1969-03-25,13 Mar 1969 – 26 Mar 1969
+Madhya Pradesh,Shyama Charan Shukla,Indian National Congress,1969-03-26,1972-01-28,26 Mar 1969 – 29 Jan 1972
+Madhya Pradesh,Prakash Chandra Sethi,Indian National Congress,1972-01-29,1975-12-22,29 Jan 1972 – 23 Dec 1975
+Madhya Pradesh,Shyama Charan Shukla,Indian National Congress,1975-12-23,1977-04-29,23 Dec 1975 – 30 Apr 1977
+Madhya Pradesh,President's Rule,President's Rule,1977-04-30,1977-06-23,30 Apr 1977 – 24 Jun 1977; President's / Governor's Rule — President's Rule after Shyama Charan Shukla's second ministry fell
+Madhya Pradesh,Kailash Chandra Joshi,Janata Party,1977-06-24,1978-01-17,24 Jun 1977 – 18 Jan 1978
+Madhya Pradesh,Virendra Kumar Sakhlecha,Janata Party,1978-01-18,1980-01-19,18 Jan 1978 – 20 Jan 1980
+Madhya Pradesh,Sunder Lal Patwa,Janata Party,1980-01-20,1980-02-16,20 Jan 1980 – 17 Feb 1980
+Madhya Pradesh,President's Rule,President's Rule,1980-02-17,1980-06-08,17 Feb 1980 – 9 Jun 1980; President's / Governor's Rule — President's Rule after Sunder Lal Patwa's short-lived first (Janata Party) ministry fell
+Madhya Pradesh,Arjun Singh,Indian National Congress,1980-06-09,1985-03-12,9 Jun 1980 – 13 Mar 1985
+Madhya Pradesh,Motilal Vora,Indian National Congress,1985-03-13,1988-02-13,13 Mar 1985 – 14 Feb 1988
+Madhya Pradesh,Arjun Singh,Indian National Congress,1988-02-14,1989-01-24,14 Feb 1988 – 25 Jan 1989
+Madhya Pradesh,Motilal Vora,Indian National Congress,1989-01-25,1989-12-08,25 Jan 1989 – 9 Dec 1989
+Madhya Pradesh,Shyama Charan Shukla,Indian National Congress,1989-12-09,1990-03-04,9 Dec 1989 – 5 Mar 1990
+Madhya Pradesh,Sunder Lal Patwa,Bharatiya Janata Party,1990-03-05,1992-12-14,5 Mar 1990 – 15 Dec 1992
+Madhya Pradesh,President's Rule,President's Rule,1992-12-15,1993-12-06,"15 Dec 1992 – 7 Dec 1993; President's / Governor's Rule — President's Rule imposed after Sunder Lal Patwa's second ministry, following the demolition of the Babri Masjid and subsequent unrest"
+Madhya Pradesh,Digvijaya Singh,Indian National Congress,1993-12-07,2003-12-07,7 Dec 1993 – 8 Dec 2003
+Madhya Pradesh,Uma Bharti,Bharatiya Janata Party,2003-12-08,2004-08-22,8 Dec 2003 – 23 Aug 2004
+Madhya Pradesh,Babulal Gaur,Bharatiya Janata Party,2004-08-23,2005-11-28,23 Aug 2004 – 29 Nov 2005
+Madhya Pradesh,Shivraj Singh Chouhan,Bharatiya Janata Party,2005-11-29,2018-12-16,29 Nov 2005 – 17 Dec 2018
+Madhya Pradesh,Kamal Nath,Indian National Congress,2018-12-17,2020-03-22,17 Dec 2018 – 23 Mar 2020
+Madhya Pradesh,Shivraj Singh Chouhan,Bharatiya Janata Party,2020-03-23,2023-12-12,23 Mar 2020 – 13 Dec 2023
+Madhya Pradesh,Mohan Yadav,Bharatiya Janata Party,2023-12-13,,13 Dec 2023 – present
+Maharashtra,Dhanjishah Cooper,Independent,1937-04-01,1937-07-18,1 Apr 1937 – 19 Jul 1937
+Maharashtra,B. G. Kher,Indian National Congress,1937-07-19,1939-11-01,19 Jul 1937 – 2 Nov 1939
+Maharashtra,President's Rule,President's Rule,1939-11-02,1946-03-29,"2 Nov 1939 – 30 Mar 1946; President's / Governor's Rule — Governor's Rule in the Bombay Presidency, predating independence"
+Maharashtra,B. G. Kher,Indian National Congress,1946-03-30,1952-04-20,30 Mar 1946 – 21 Apr 1952
+Maharashtra,Morarji Desai,Indian National Congress,1952-04-21,1956-10-31,21 Apr 1952 – 31 Oct 1956
+Maharashtra,Yashwantrao Chavan,Indian National Congress,1956-11-01,1962-11-19,1 Nov 1956 – 20 Nov 1962
+Maharashtra,Marotrao Kannamwar,Indian National Congress,1962-11-20,1963-11-24,20 Nov 1962 – 24 Nov 1963
+Maharashtra,P. K. Sawant,Indian National Congress,1963-11-25,1963-12-04,25 Nov 1963 – 5 Dec 1963
+Maharashtra,Vasantrao Naik,Indian National Congress,1963-12-05,1975-02-20,5 Dec 1963 – 21 Feb 1975
+Maharashtra,Shankarrao Chavan,Indian National Congress,1975-02-21,1977-05-16,21 Feb 1975 – 17 May 1977
+Maharashtra,Vasantdada Patil,Indian National Congress,1977-05-17,1978-03-04,17 May 1977 – 5 Mar 1978
+Maharashtra,Vasantdada Patil,Indian National Congress (Urs),1978-03-05,1978-07-17,5 Mar 1978 – 18 Jul 1978
+Maharashtra,Sharad Pawar,Indian National Congress (Socialist),1978-07-18,1980-02-16,18 Jul 1978 – 17 Feb 1980
+Maharashtra,President's Rule,President's Rule,1980-02-17,1980-06-08,17 Feb 1980 – 9 Jun 1980; President's / Governor's Rule — President's Rule after Sharad Pawar's Progressive Democratic Front government fell
+Maharashtra,A. R. Antulay,Indian National Congress,1980-06-09,1982-01-20,9 Jun 1980 – 21 Jan 1982
+Maharashtra,Babasaheb Bhosale,Indian National Congress,1982-01-21,1983-02-01,21 Jan 1982 – 2 Feb 1983
+Maharashtra,Vasantdada Patil,Indian National Congress,1983-02-02,1985-06-02,2 Feb 1983 – 3 Jun 1985
+Maharashtra,Shivajirao Patil Nilangekar,Indian National Congress,1985-06-03,1986-03-11,3 Jun 1985 – 12 Mar 1986
+Maharashtra,Shankarrao Chavan,Indian National Congress,1986-03-12,1988-06-25,12 Mar 1986 – 26 Jun 1988
+Maharashtra,Sharad Pawar,Indian National Congress,1988-06-26,1991-06-24,26 Jun 1988 – 25 Jun 1991
+Maharashtra,Sudhakarrao Naik,Indian National Congress,1991-06-25,1993-03-05,25 Jun 1991 – 6 Mar 1993
+Maharashtra,Sharad Pawar,Indian National Congress,1993-03-06,1995-03-13,6 Mar 1993 – 14 Mar 1995
+Maharashtra,Manohar Joshi,Shiv Sena,1995-03-14,1999-01-31,14 Mar 1995 – 1 Feb 1999
+Maharashtra,Narayan Rane,Shiv Sena,1999-02-01,1999-10-17,1 Feb 1999 – 18 Oct 1999
+Maharashtra,Vilasrao Deshmukh,Indian National Congress,1999-10-18,2003-01-17,18 Oct 1999 – 18 Jan 2003
+Maharashtra,Sushilkumar Shinde,Indian National Congress,2003-01-18,2004-10-31,18 Jan 2003 – 1 Nov 2004
+Maharashtra,Vilasrao Deshmukh,Indian National Congress,2004-11-01,2008-12-07,1 Nov 2004 – 8 Dec 2008
+Maharashtra,Ashok Chavan,Indian National Congress,2008-12-08,2010-11-10,8 Dec 2008 – 11 Nov 2010
+Maharashtra,Prithviraj Chavan,Indian National Congress,2010-11-11,2014-09-27,11 Nov 2010 – 28 Sep 2014
+Maharashtra,President's Rule,President's Rule,2014-09-28,2014-10-30,28 Sep 2014 – 31 Oct 2014; President's / Governor's Rule — President's Rule after Prithviraj Chavan's government's term ended and coalition talks stalled
+Maharashtra,Devendra Fadnavis,Bharatiya Janata Party,2014-10-31,2019-11-11,31 Oct 2014 – 12 Nov 2019
+Maharashtra,President's Rule,President's Rule,2019-11-12,2019-11-22,12 Nov 2019 – 23 Nov 2019; President's / Governor's Rule — President's Rule after the 2019 election produced no immediate government
+Maharashtra,Devendra Fadnavis,Bharatiya Janata Party,2019-11-23,2019-11-27,23 Nov 2019 – 28 Nov 2019
+Maharashtra,Uddhav Thackeray,Shiv Sena,2019-11-28,2022-06-29,28 Nov 2019 – 30 Jun 2022
+Maharashtra,Eknath Shinde,Shiv Sena,2022-06-30,2024-12-04,30 Jun 2022 – 5 Dec 2024
+Maharashtra,Devendra Fadnavis,Bharatiya Janata Party,2024-12-05,,5 Dec 2024 – present
+Manipur,Mairembam Koireng Singh,Indian National Congress,1963-07-01,1967-01-11,1 Jul 1963 – 11 Jan 1967
+Manipur,President's Rule,President's Rule,1967-01-12,1967-03-19,12 Jan 1967 – 19 Mar 1967; President's / Governor's Rule — President's Rule after Mairembam Koireng Singh's first ministry
+Manipur,Mairembam Koireng Singh,Indian National Congress,1967-03-20,1967-10-03,20 Mar 1967 – 4 Oct 1967
+Manipur,Longjam Thambou Singh,Manipur United Front,1967-10-04,1967-10-24,4 Oct 1967 – 24 Oct 1967
+Manipur,President's Rule,President's Rule,1967-10-25,1968-02-18,25 Oct 1967 – 18 Feb 1968; President's / Governor's Rule — President's Rule after Longjam Thambou Singh's government fell
+Manipur,Mairembam Koireng Singh,Indian National Congress,1968-02-19,1969-10-16,19 Feb 1968 – 16 Oct 1969
+Manipur,President's Rule,President's Rule,1969-10-17,1972-03-22,"17 Oct 1969 – 22 Mar 1972; President's / Governor's Rule — President's Rule, continuing through Manipur's transition from Union Territory to full statehood (21 January 1972)"
+Manipur,Mohammed Alimuddin,MPP,1972-03-23,1973-03-27,23 Mar 1972 – 27 Mar 1973
+Manipur,President's Rule,President's Rule,1973-03-28,1974-03-03,28 Mar 1973 – 3 Mar 1974; President's / Governor's Rule — President's Rule after Mohammed Alimuddin's first ministry
+Manipur,Mohammed Alimuddin,MPP,1974-03-04,1974-07-08,4 Mar 1974 – 9 Jul 1974
+Manipur,Yangmaso Shaiza,MHU,1974-07-09,1974-12-04,9 Jul 1974 – 5 Dec 1974
+Manipur,Rajkumar Dorendra Singh,Indian National Congress,1974-12-05,1977-05-15,5 Dec 1974 – 15 May 1977
+Manipur,President's Rule,President's Rule,1977-05-16,1977-06-28,16 May 1977 – 28 Jun 1977; President's / Governor's Rule — President's Rule after Rajkumar Dorendra Singh's first ministry
+Manipur,Yangmaso Shaiza,Janata Party,1977-06-29,1979-11-13,29 Jun 1977 – 13 Nov 1979
+Manipur,President's Rule,President's Rule,1979-11-14,1980-01-13,14 Nov 1979 – 13 Jan 1980; President's / Governor's Rule — President's Rule after Yangmaso Shaiza's second ministry
+Manipur,Rajkumar Dorendra Singh,Indian National Congress,1980-01-14,1980-11-26,14 Jan 1980 – 26 Nov 1980
+Manipur,Rishang Keishing,Indian National Congress,1980-11-27,1981-02-27,27 Nov 1980 – 27 Feb 1981
+Manipur,President's Rule,President's Rule,1981-02-28,1981-06-18,28 Feb 1981 – 19 Jun 1981; President's / Governor's Rule — President's Rule after Rishang Keishing's first ministry
+Manipur,Rishang Keishing,Indian National Congress,1981-06-19,1988-03-03,19 Jun 1981 – 3 Mar 1988
+Manipur,Rajkumar Jaichandra Singh,Indian National Congress,1988-03-04,1990-02-22,4 Mar 1988 – 22 Feb 1990
+Manipur,Rajkumar Ranbir Singh,MPP,1990-02-23,1992-01-06,23 Feb 1990 – 6 Jan 1992
+Manipur,President's Rule,President's Rule,1992-01-07,1992-04-07,7 Jan 1992 – 7 Apr 1992; President's / Governor's Rule — President's Rule after Rajkumar Ranbir Singh's government fell
+Manipur,Rajkumar Dorendra Singh,Indian National Congress,1992-04-08,1993-12-30,8 Apr 1992 – 31 Dec 1993
+Manipur,President's Rule,President's Rule,1993-12-31,1994-12-13,31 Dec 1993 – 13 Dec 1994; President's / Governor's Rule — President's Rule after Rajkumar Dorendra Singh's third ministry
+Manipur,Rishang Keishing,Indian National Congress,1994-12-14,1997-12-15,14 Dec 1994 – 15 Dec 1997
+Manipur,Wahengbam Nipamacha Singh,Indian National Congress,1997-12-16,2000-02-21,16 Dec 1997 – 22 Feb 2000
+Manipur,Wahengbam Nipamacha Singh,MSCP,2000-02-22,2001-02-14,22 Feb 2000 – 14 Feb 2001
+Manipur,Radhabinod Koijam,SAP,2001-02-15,2001-06-01,15 Feb 2001 – 1 Jun 2001
+Manipur,President's Rule,President's Rule,2001-06-02,2002-03-06,2 Jun 2001 – 6 Mar 2002; President's / Governor's Rule — President's Rule after Radhabinod Koijam's government fell
+Manipur,Okram Ibobi Singh,Indian National Congress,2002-03-07,2017-03-14,7 Mar 2002 – 14 Mar 2017
+Manipur,N. Biren Singh,Bharatiya Janata Party,2017-03-15,2025-02-12,15 Mar 2017 – 13 Feb 2025
+Manipur,President's Rule,President's Rule,2025-02-13,2026-02-03,13 Feb 2025 – 4 Feb 2026; President's / Governor's Rule — President's Rule after N. Biren Singh's resignation amid the Manipur ethnic conflict
+Manipur,Yumnam Khemchand Singh,Bharatiya Janata Party,2026-02-04,,4 Feb 2026 – present
+Meghalaya,Williamson A. Sangma,All Party Hill Leaders Conference,1970-04-02,1972-01-20,2 Apr 1970 – 20 Jan 1972
+Meghalaya,Williamson A. Sangma,All Party Hill Leaders Conference,1972-01-21,1976-11-15,21 Jan 1972 – 16 Nov 1976
+Meghalaya,Williamson A. Sangma,Indian National Congress,1976-11-16,1978-03-03,16 Nov 1976 – 3 Mar 1978
+Meghalaya,Darwin Diengdoh Pugh,All Party Hill Leaders Conference,1978-03-10,1979-05-06,10 Mar 1978 – 6 May 1979
+Meghalaya,B. B. Lyngdoh,All Party Hill Leaders Conference,1979-05-07,1981-05-06,7 May 1979 – 7 May 1981
+Meghalaya,Williamson A. Sangma,Indian National Congress,1981-05-07,1983-03-01,7 May 1981 – 2 Mar 1983
+Meghalaya,B. B. Lyngdoh,All Party Hill Leaders Conference,1983-03-02,1983-04-01,2 Mar 1983 – 1 Apr 1983
+Meghalaya,Williamson A. Sangma,Indian National Congress,1983-04-02,1988-02-05,2 Apr 1983 – 5 Feb 1988
+Meghalaya,P. A. Sangma,Indian National Congress,1988-02-06,1990-03-25,6 Feb 1988 – 25 Mar 1990
+Meghalaya,B. B. Lyngdoh,HPU,1990-03-26,1991-10-10,26 Mar 1990 – 10 Oct 1991
+Meghalaya,President's Rule,President's Rule,1991-10-11,1992-02-04,11 Oct 1991 – 5 Feb 1992; President's / Governor's Rule — President's rule
+Meghalaya,D. D. Lapang,Indian National Congress,1992-02-05,1993-02-18,5 Feb 1992 – 19 Feb 1993
+Meghalaya,S. C. Marak,Indian National Congress,1993-02-19,1998-03-09,19 Feb 1993 – 10 Mar 1998
+Meghalaya,B. B. Lyngdoh,United Democratic Party,1998-03-10,2000-03-07,10 Mar 1998 – 8 Mar 2000
+Meghalaya,E. K. Mawlong,United Democratic Party,2000-03-08,2001-12-07,8 Mar 2000 – 8 Dec 2001
+Meghalaya,Flinder Anderson Khonglam,Independent,2001-12-08,2003-03-03,8 Dec 2001 – 4 Mar 2003
+Meghalaya,D. D. Lapang,Indian National Congress,2003-03-04,2006-06-14,4 Mar 2003 – 15 Jun 2006
+Meghalaya,J. D. Rymbai,Indian National Congress,2006-06-15,2007-03-09,15 Jun 2006 – 10 Mar 2007
+Meghalaya,D. D. Lapang,Indian National Congress,2007-03-10,2008-03-18,10 Mar 2007 – 19 Mar 2008
+Meghalaya,Donkupar Roy,United Democratic Party,2008-03-19,2009-03-18,19 Mar 2008 – 19 Mar 2009
+Meghalaya,President's Rule,President's Rule,2009-03-19,2009-05-12,19 Mar 2009 – 12 May 2009; President's / Governor's Rule — President's rule
+Meghalaya,D. D. Lapang,Indian National Congress,2009-05-13,2010-04-19,13 May 2009 – 19 Apr 2010
+Meghalaya,Mukul Sangma,Indian National Congress,2010-04-20,2018-03-05,20 Apr 2010 – 6 Mar 2018
+Meghalaya,Conrad Sangma,National People's Party,2018-03-06,,6 Mar 2018 – present
+Mizoram,C. Chhunga,Mizo Union,1972-05-03,1977-05-10,3 May 1972 – 10 May 1977
+Mizoram,President's Rule,President's Rule,1977-05-11,1978-06-01,11 May 1977 – 1 Jun 1978; President's / Governor's Rule — President's rule
+Mizoram,T. Sailo,MPC,1978-06-02,1978-11-09,2 Jun 1978 – 10 Nov 1978
+Mizoram,President's Rule,President's Rule,1978-11-10,1979-05-07,10 Nov 1978 – 8 May 1979; President's / Governor's Rule — President's rule
+Mizoram,T. Sailo,MPC,1979-05-08,1984-05-04,8 May 1979 – 4 May 1984
+Mizoram,Lal Thanhawla,Indian National Congress,1984-05-05,1986-08-20,5 May 1984 – 20 Aug 1986
+Mizoram,Laldenga,Mizo National Front,1986-08-21,1988-09-06,21 Aug 1986 – 7 Sep 1988
+Mizoram,President's Rule,President's Rule,1988-09-07,1989-01-23,7 Sep 1988 – 24 Jan 1989; President's / Governor's Rule — President's rule
+Mizoram,Lal Thanhawla,Indian National Congress,1989-01-24,1998-12-02,24 Jan 1989 – 3 Dec 1998
+Mizoram,Zoramthanga,Mizo National Front,1998-12-03,2008-12-10,3 Dec 1998 – 11 Dec 2008
+Mizoram,Lal Thanhawla,Indian National Congress,2008-12-11,2018-12-13,11 Dec 2008 – 14 Dec 2018
+Mizoram,Zoramthanga,Mizo National Front,2018-12-14,2023-12-07,14 Dec 2018 – 7 Dec 2023
+Mizoram,Lalduhoma,Zoram People's Movement,2023-12-08,,8 Dec 2023 – present
+Nagaland,P. Shilu Ao,NNO,1963-12-01,1966-08-13,1 Dec 1963 – 14 Aug 1966
+Nagaland,Thepfülo-u Nakhro,NNO,1966-08-14,1969-02-21,14 Aug 1966 – 22 Feb 1969
+Nagaland,Hokishe Sema,NNO,1969-02-22,1974-02-25,22 Feb 1969 – 26 Feb 1974
+Nagaland,Vizol Angami,UDF,1974-02-26,1975-03-09,26 Feb 1974 – 10 Mar 1975
+Nagaland,John Bosco Jasokie,Naga National Democratic Party,1975-03-10,1975-03-19,10 Mar 1975 – 20 Mar 1975
+Nagaland,President's Rule,President's Rule,1975-03-20,1977-11-24,20 Mar 1975 – 25 Nov 1977; President's / Governor's Rule — President's rule
+Nagaland,Vizol Angami,UDF,1977-11-25,1980-04-17,25 Nov 1977 – 18 Apr 1980
+Nagaland,S. C. Jamir,United Democratic Front Progressive,1980-04-18,1980-06-04,18 Apr 1980 – 5 Jun 1980
+Nagaland,John Bosco Jasokie,Naga National Democratic Party,1980-06-05,1982-11-17,5 Jun 1980 – 18 Nov 1982
+Nagaland,S. C. Jamir,United Democratic Front Progressive,1982-11-18,1986-10-27,18 Nov 1982 – 28 Oct 1986
+Nagaland,Hokishe Sema,Indian National Congress,1986-10-28,1988-08-06,28 Oct 1986 – 7 Aug 1988
+Nagaland,President's Rule,President's Rule,1988-08-07,1989-01-24,7 Aug 1988 – 25 Jan 1989; President's / Governor's Rule — President's rule
+Nagaland,S. C. Jamir,Indian National Congress,1989-01-25,1990-05-10,25 Jan 1989 – 10 May 1990
+Nagaland,K. L. Chishi,Indian National Congress,1990-05-16,1990-06-18,16 May 1990 – 19 Jun 1990
+Nagaland,Vamüzo Phesao,NPC,1990-06-19,1992-04-01,19 Jun 1990 – 2 Apr 1992
+Nagaland,President's Rule,President's Rule,1992-04-02,1993-02-21,2 Apr 1992 – 22 Feb 1993; President's / Governor's Rule — President's rule
+Nagaland,S. C. Jamir,Indian National Congress,1993-02-22,2003-03-05,22 Feb 1993 – 6 Mar 2003
+Nagaland,Neiphiu Rio,Naga People's Front,2003-03-06,2008-01-02,6 Mar 2003 – 3 Jan 2008
+Nagaland,President's Rule,President's Rule,2008-01-03,2008-03-11,3 Jan 2008 – 12 Mar 2008; President's / Governor's Rule — President's rule
+Nagaland,Neiphiu Rio,Naga People's Front,2008-03-12,2014-05-23,12 Mar 2008 – 24 May 2014
+Nagaland,T. R. Zeliang,Naga People's Front,2014-05-24,2017-02-21,24 May 2014 – 22 Feb 2017
+Nagaland,Shürhozelie Liezietsu,Naga People's Front,2017-02-22,2017-07-18,22 Feb 2017 – 19 Jul 2017
+Nagaland,T. R. Zeliang,Naga People's Front,2017-07-19,2018-03-07,19 Jul 2017 – 8 Mar 2018
+Nagaland,Neiphiu Rio,NDPP,2018-03-08,2025-10-17,8 Mar 2018 – 18 Oct 2025
+Nagaland,Neiphiu Rio,Naga People's Front,2025-10-18,,18 Oct 2025 – present
+Odisha,Krushna Chandra Gajapati,Independent,1937-04-01,1937-07-18,1 Apr 1937 – 19 Jul 1937
+Odisha,Bishwanath Das,Indian National Congress,1937-07-19,1939-11-05,19 Jul 1937 – 6 Nov 1939
+Odisha,President's Rule,President's Rule,1939-11-06,1941-11-23,6 Nov 1939 – 24 Nov 1941; President's / Governor's Rule — No Premier in office after Congress ministries resigned across British India at the start of WWII; source table does not explicitly label this as Governor's rule
+Odisha,Krushna Chandra Gajapati,Independent,1941-11-24,1944-06-29,24 Nov 1941 – 30 Jun 1944
+Odisha,President's Rule,President's Rule,1944-06-30,1946-04-22,30 Jun 1944 – 23 Apr 1946; President's / Governor's Rule — No Premier in office; source table does not explicitly label this gap
+Odisha,Harekrushna Mahatab,Indian National Congress,1946-04-23,1950-01-25,23 Apr 1946 – 26 Jan 1950
+Odisha,Harekrushna Mahatab,Indian National Congress,1950-01-26,1950-05-11,26 Jan 1950 – 12 May 1950
+Odisha,Nabakrushna Choudhuri,Indian National Congress,1950-05-12,1956-10-18,12 May 1950 – 19 Oct 1956
+Odisha,Harekrushna Mahatab,Indian National Congress,1956-10-19,1961-02-24,19 Oct 1956 – 25 Feb 1961
+Odisha,President's Rule,President's Rule,1961-02-25,1961-06-22,25 Feb 1961 – 23 Jun 1961; President's / Governor's Rule — President's rule
+Odisha,Biju Patnaik,Indian National Congress,1961-06-23,1963-10-01,23 Jun 1961 – 2 Oct 1963
+Odisha,Biren Mitra,Indian National Congress,1963-10-02,1965-02-20,2 Oct 1963 – 21 Feb 1965
+Odisha,Sadashiva Tripathy,Indian National Congress,1965-02-21,1967-03-07,21 Feb 1965 – 8 Mar 1967
+Odisha,Rajendra Narayan Singh Deo,Swatantra Party,1967-03-08,1971-01-08,8 Mar 1967 – 9 Jan 1971
+Odisha,President's Rule,President's Rule,1971-01-09,1971-04-02,9 Jan 1971 – 3 Apr 1971; President's / Governor's Rule — President's rule
+Odisha,Bishwanath Das,Independent,1971-04-03,1972-06-13,3 Apr 1971 – 14 Jun 1972
+Odisha,Nandini Satpathy,Indian National Congress,1972-06-14,1973-03-02,14 Jun 1972 – 3 Mar 1973
+Odisha,President's Rule,President's Rule,1973-03-03,1974-03-05,3 Mar 1973 – 6 Mar 1974; President's / Governor's Rule — President's rule
+Odisha,Nandini Satpathy,Indian National Congress,1974-03-06,1976-12-15,6 Mar 1974 – 16 Dec 1976
+Odisha,President's Rule,President's Rule,1976-12-16,1976-12-28,16 Dec 1976 – 29 Dec 1976; President's / Governor's Rule — President's rule
+Odisha,Binayak Acharya,Indian National Congress,1976-12-29,1977-04-29,29 Dec 1976 – 30 Apr 1977
+Odisha,President's Rule,President's Rule,1977-04-30,1977-06-25,30 Apr 1977 – 26 Jun 1977; President's / Governor's Rule — President's rule
+Odisha,Nilamani Routray,Janata Party,1977-06-26,1980-02-16,26 Jun 1977 – 17 Feb 1980
+Odisha,President's Rule,President's Rule,1980-02-17,1980-06-08,17 Feb 1980 – 9 Jun 1980; President's / Governor's Rule — President's rule
+Odisha,Janaki Ballabh Patnaik,Indian National Congress,1980-06-09,1989-12-06,9 Jun 1980 – 7 Dec 1989
+Odisha,Hemananda Biswal,Indian National Congress,1989-12-07,1990-03-04,7 Dec 1989 – 5 Mar 1990
+Odisha,Biju Patnaik,Janata Dal,1990-03-05,1995-03-14,5 Mar 1990 – 15 Mar 1995
+Odisha,Janaki Ballabh Patnaik,Indian National Congress,1995-03-15,1999-02-16,15 Mar 1995 – 17 Feb 1999
+Odisha,Giridhar Gamang,Indian National Congress,1999-02-17,1999-12-05,17 Feb 1999 – 6 Dec 1999
+Odisha,Hemananda Biswal,Indian National Congress,1999-12-06,2000-03-04,6 Dec 1999 – 5 Mar 2000
+Odisha,Naveen Patnaik,Biju Janata Dal,2000-03-05,2024-06-11,5 Mar 2000 – 12 Jun 2024
+Odisha,Mohan Charan Majhi,Bharatiya Janata Party,2024-06-12,,12 Jun 2024 – present
+Puducherry,Edouard Goubert,Indian National Congress,1963-07-01,1964-09-10,1 Jul 1963 – 10 Sep 1964
+Puducherry,V. Venkatasubba Reddiar,Indian National Congress,1964-09-11,1967-04-08,11 Sep 1964 – 8 Apr 1967
+Puducherry,M. O. H. Farook,Dravida Munnetra Kazhagam,1967-04-09,1968-03-05,9 Apr 1967 – 5 Mar 1968
+Puducherry,V. Venkatasubba Reddiar,Indian National Congress,1968-03-06,1968-09-17,6 Mar 1968 – 18 Sep 1968
+Puducherry,President's Rule,President's Rule,1968-09-18,1969-03-16,18 Sep 1968 – 16 Mar 1969; President's / Governor's Rule — President's Rule
+Puducherry,M. O. H. Farook,Dravida Munnetra Kazhagam,1969-03-17,1974-01-02,17 Mar 1969 – 3 Jan 1974
+Puducherry,President's Rule,President's Rule,1974-01-03,1974-03-05,3 Jan 1974 – 5 Mar 1974; President's / Governor's Rule — President's Rule
+Puducherry,S. Ramassamy,All India Anna Dravida Munnetra Kazhagam,1974-03-06,1974-03-27,6 Mar 1974 – 28 Mar 1974
+Puducherry,President's Rule,President's Rule,1974-03-28,1977-07-01,28 Mar 1974 – 1 Jul 1977; President's / Governor's Rule — President's Rule
+Puducherry,S. Ramassamy,All India Anna Dravida Munnetra Kazhagam,1977-07-02,1978-11-11,2 Jul 1977 – 12 Nov 1978
+Puducherry,President's Rule,President's Rule,1978-11-12,1980-01-15,12 Nov 1978 – 15 Jan 1980; President's / Governor's Rule — President's Rule
+Puducherry,M. D. R. Ramachandran,Dravida Munnetra Kazhagam,1980-01-16,1983-06-23,16 Jan 1980 – 24 Jun 1983
+Puducherry,President's Rule,President's Rule,1983-06-24,1985-03-16,24 Jun 1983 – 16 Mar 1985; President's / Governor's Rule — President's Rule
+Puducherry,M. O. H. Farook,Indian National Congress,1985-03-17,1990-03-07,17 Mar 1985 – 7 Mar 1990
+Puducherry,M. D. R. Ramachandran,Dravida Munnetra Kazhagam,1990-03-08,1991-03-03,8 Mar 1990 – 4 Mar 1991
+Puducherry,President's Rule,President's Rule,1991-03-04,1991-07-03,4 Mar 1991 – 3 Jul 1991; President's / Governor's Rule — President's Rule
+Puducherry,V. Vaithilingam,Indian National Congress,1991-07-04,1996-05-26,4 Jul 1991 – 26 May 1996
+Puducherry,R. V. Janakiraman,Dravida Munnetra Kazhagam,1996-05-27,2000-03-21,27 May 1996 – 21 Mar 2000
+Puducherry,P. Shanmugam,Indian National Congress,2000-03-22,2001-10-26,22 Mar 2000 – 26 Oct 2001
+Puducherry,N. Rangasamy,All India N.R. Congress,2001-10-27,2006-05-17,27 Oct 2001 – 17 May 2006
+Puducherry,N. Rangasamy,All India N.R. Congress,2006-05-18,2008-09-03,18 May 2006 – 3 Sep 2008
+Puducherry,V. Vaithilingam,Indian National Congress,2008-09-04,2011-05-15,4 Sep 2008 – 15 May 2011
+Puducherry,N. Rangasamy,All India N.R. Congress,2011-05-16,2016-06-05,16 May 2011 – 5 Jun 2016
+Puducherry,V. Narayanasamy,Indian National Congress,2016-06-06,2021-02-24,6 Jun 2016 – 25 Feb 2021
+Puducherry,President's Rule,President's Rule,2021-02-25,2021-05-06,25 Feb 2021 – 6 May 2021; President's / Governor's Rule — President's Rule
+Puducherry,N. Rangasamy,All India N.R. Congress,2021-05-07,2026-05-12,7 May 2021 – 12 May 2026
+Puducherry,N. Rangasamy,All India N.R. Congress,2026-05-13,,13 May 2026 – present
+Punjab,Gopi Chand Bhargava,Indian National Congress,1947-08-15,1949-04-12,15 Aug 1947 – 13 Apr 1949
+Punjab,Bhim Sen Sachar,Indian National Congress,1949-04-13,1949-10-17,13 Apr 1949 – 18 Oct 1949
+Punjab,Gopi Chand Bhargava,Indian National Congress,1949-10-18,1951-06-19,18 Oct 1949 – 20 Jun 1951
+Punjab,President's Rule,President's Rule,1951-06-20,1952-04-16,20 Jun 1951 – 17 Apr 1952; President's / Governor's Rule — President's rule
+Punjab,Bhim Sen Sachar,Indian National Congress,1952-04-17,1956-01-22,17 Apr 1952 – 23 Jan 1956
+Punjab,Partap Singh Kairon,Indian National Congress,1956-01-23,1964-06-20,23 Jan 1956 – 21 Jun 1964
+Punjab,Gopi Chand Bhargava,Indian National Congress,1964-06-21,1964-07-06,21 Jun 1964 – 6 Jul 1964
+Punjab,Ram Kishan,Indian National Congress,1964-07-07,1966-07-04,7 Jul 1964 – 5 Jul 1966
+Punjab,President's Rule,President's Rule,1966-07-05,1966-10-31,5 Jul 1966 – 1 Nov 1966; President's / Governor's Rule — President's rule
+Punjab,Gurmukh Singh Musafir,Indian National Congress,1966-11-01,1967-03-07,1 Nov 1966 – 8 Mar 1967
+Punjab,Gurnam Singh,Akali Dal (Sant Fateh Singh),1967-03-08,1967-11-24,8 Mar 1967 – 25 Nov 1967
+Punjab,Lachhman Singh Gill,Political Justice Party,1967-11-25,1968-08-22,25 Nov 1967 – 23 Aug 1968
+Punjab,President's Rule,President's Rule,1968-08-23,1969-02-16,23 Aug 1968 – 17 Feb 1969; President's / Governor's Rule — President's rule
+Punjab,Gurnam Singh,Shiromani Akali Dal,1969-02-17,1970-03-26,17 Feb 1969 – 27 Mar 1970
+Punjab,Parkash Singh Badal,Shiromani Akali Dal,1970-03-27,1971-06-13,27 Mar 1970 – 14 Jun 1971
+Punjab,President's Rule,President's Rule,1971-06-14,1972-03-16,14 Jun 1971 – 17 Mar 1972; President's / Governor's Rule — President's rule
+Punjab,Zail Singh,Indian National Congress,1972-03-17,1977-04-29,17 Mar 1972 – 30 Apr 1977
+Punjab,President's Rule,President's Rule,1977-04-30,1977-06-19,30 Apr 1977 – 20 Jun 1977; President's / Governor's Rule — President's rule
+Punjab,Parkash Singh Badal,Shiromani Akali Dal,1977-06-20,1980-02-16,20 Jun 1977 – 17 Feb 1980
+Punjab,President's Rule,President's Rule,1980-02-17,1980-06-05,17 Feb 1980 – 6 Jun 1980; President's / Governor's Rule — President's rule
+Punjab,Darbara Singh,Indian National Congress,1980-06-06,1983-10-05,6 Jun 1980 – 6 Oct 1983
+Punjab,President's Rule,President's Rule,1983-10-06,1985-09-28,6 Oct 1983 – 29 Sep 1985; President's / Governor's Rule — President's rule
+Punjab,Surjit Singh Barnala,Shiromani Akali Dal,1985-09-29,1987-06-10,29 Sep 1985 – 11 Jun 1987
+Punjab,President's Rule,President's Rule,1987-06-11,1992-02-24,11 Jun 1987 – 25 Feb 1992; President's / Governor's Rule — President's rule
+Punjab,Beant Singh,Indian National Congress,1992-02-25,1995-08-30,25 Feb 1992 – 31 Aug 1995
+Punjab,Harcharan Singh Brar,Indian National Congress,1995-08-31,1996-11-20,31 Aug 1995 – 21 Nov 1996
+Punjab,Rajinder Kaur Bhattal,Indian National Congress,1996-11-21,1997-02-11,21 Nov 1996 – 11 Feb 1997
+Punjab,Parkash Singh Badal,Shiromani Akali Dal,1997-02-12,2002-02-25,12 Feb 1997 – 26 Feb 2002
+Punjab,Amarinder Singh,Indian National Congress,2002-02-26,2007-02-28,26 Feb 2002 – 1 Mar 2007
+Punjab,Parkash Singh Badal,Shiromani Akali Dal,2007-03-01,2017-03-15,1 Mar 2007 – 16 Mar 2017
+Punjab,Amarinder Singh,Indian National Congress,2017-03-16,2021-09-19,16 Mar 2017 – 20 Sep 2021
+Punjab,Charanjit Singh Channi,Indian National Congress,2021-09-20,2022-03-15,20 Sep 2021 – 16 Mar 2022
+Punjab,Bhagwant Mann,Aam Aadmi Party,2022-03-16,,16 Mar 2022 – present
+Rajasthan,Heera Lal Shastri,Indian National Congress,1950-01-26,1951-01-05,26 Jan 1950 – 6 Jan 1951
+Rajasthan,C. S. Venkatachar,Indian National Congress,1951-01-06,1951-04-25,6 Jan 1951 – 26 Apr 1951
+Rajasthan,Jai Narayan Vyas,Indian National Congress,1951-04-26,1952-03-02,26 Apr 1951 – 3 Mar 1952
+Rajasthan,Tika Ram Paliwal,Indian National Congress,1952-03-03,1952-10-31,3 Mar 1952 – 1 Nov 1952
+Rajasthan,Jai Narayan Vyas,Indian National Congress,1952-11-01,1954-11-12,1 Nov 1952 – 13 Nov 1954
+Rajasthan,Mohan Lal Sukhadia,Indian National Congress,1954-11-13,1957-04-10,13 Nov 1954 – 11 Apr 1957
+Rajasthan,Mohan Lal Sukhadia,Indian National Congress,1957-04-11,1962-03-11,11 Apr 1957 – 11 Mar 1962
+Rajasthan,Mohan Lal Sukhadia,Indian National Congress,1962-03-12,1967-03-12,12 Mar 1962 – 13 Mar 1967
+Rajasthan,President's Rule,President's Rule,1967-03-13,1967-04-25,13 Mar 1967 – 26 Apr 1967; President's / Governor's Rule — President's Rule
+Rajasthan,Mohan Lal Sukhadia,Indian National Congress,1967-04-26,1971-07-08,26 Apr 1967 – 9 Jul 1971
+Rajasthan,Barkatullah Khan,Indian National Congress,1971-07-09,1973-10-10,9 Jul 1971 – 11 Oct 1973
+Rajasthan,Hari Dev Joshi,Indian National Congress,1973-10-11,1977-04-28,11 Oct 1973 – 29 Apr 1977
+Rajasthan,President's Rule,President's Rule,1977-04-29,1977-06-21,29 Apr 1977 – 22 Jun 1977; President's / Governor's Rule — President's Rule
+Rajasthan,Bhairon Singh Shekhawat,Janata Party,1977-06-22,1980-02-15,22 Jun 1977 – 16 Feb 1980
+Rajasthan,President's Rule,President's Rule,1980-02-16,1980-06-05,16 Feb 1980 – 6 Jun 1980; President's / Governor's Rule — President's Rule
+Rajasthan,Jagannath Pahadia,Indian National Congress,1980-06-06,1981-07-13,6 Jun 1980 – 14 Jul 1981
+Rajasthan,Shiv Charan Mathur,Indian National Congress,1981-07-14,1985-02-22,14 Jul 1981 – 23 Feb 1985
+Rajasthan,Hira Lal Devpura,Indian National Congress,1985-02-23,1985-03-09,23 Feb 1985 – 10 Mar 1985
+Rajasthan,Hari Dev Joshi,Indian National Congress,1985-03-10,1988-01-19,10 Mar 1985 – 20 Jan 1988
+Rajasthan,Shiv Charan Mathur,Indian National Congress,1988-01-20,1989-12-03,20 Jan 1988 – 4 Dec 1989
+Rajasthan,Hari Dev Joshi,Indian National Congress,1989-12-04,1990-03-03,4 Dec 1989 – 4 Mar 1990
+Rajasthan,Bhairon Singh Shekhawat,Bharatiya Janata Party,1990-03-04,1992-12-14,4 Mar 1990 – 15 Dec 1992
+Rajasthan,President's Rule,President's Rule,1992-12-15,1993-12-03,"15 Dec 1992 – 4 Dec 1993; President's / Governor's Rule — President's Rule (after demolition of Babri Masjid, BJP govt dismissed)"
+Rajasthan,Bhairon Singh Shekhawat,Bharatiya Janata Party,1993-12-04,1998-11-30,4 Dec 1993 – 1 Dec 1998
+Rajasthan,Ashok Gehlot,Indian National Congress,1998-12-01,2003-12-07,1 Dec 1998 – 8 Dec 2003
+Rajasthan,Vasundhara Raje,Bharatiya Janata Party,2003-12-08,2008-12-11,8 Dec 2003 – 12 Dec 2008
+Rajasthan,Ashok Gehlot,Indian National Congress,2008-12-12,2013-12-12,12 Dec 2008 – 13 Dec 2013
+Rajasthan,Vasundhara Raje,Bharatiya Janata Party,2013-12-13,2018-12-16,13 Dec 2013 – 17 Dec 2018
+Rajasthan,Ashok Gehlot,Indian National Congress,2018-12-17,2023-12-14,17 Dec 2018 – 15 Dec 2023
+Rajasthan,Bhajan Lal Sharma,Bharatiya Janata Party,2023-12-15,,15 Dec 2023 – present
+Sikkim,Kazi Lhendup Dorjee,Sikkim National Congress,1975-05-16,1979-08-17,16 May 1975 – 17 Aug 1979
+Sikkim,President's Rule,President's Rule,1979-08-18,1979-10-17,18 Aug 1979 – 17 Oct 1979; President's / Governor's Rule — President's/Governor's Rule
+Sikkim,Nar Bahadur Bhandari,Samajwadi Jan Parishad,1979-10-18,1984-05-10,18 Oct 1979 – 11 May 1984
+Sikkim,Bhim Bahadur Gurung,Indian National Congress,1984-05-11,1984-05-24,11 May 1984 – 25 May 1984
+Sikkim,President's Rule,President's Rule,1984-05-25,1985-03-07,25 May 1984 – 8 Mar 1985; President's / Governor's Rule — President's/Governor's Rule
+Sikkim,Nar Bahadur Bhandari,SSgP,1985-03-08,1989-11-25,8 Mar 1985 – 25 Nov 1989
+Sikkim,Nar Bahadur Bhandari,SSgP,1989-11-26,1994-05-17,26 Nov 1989 – 17 May 1994
+Sikkim,Sanchaman Limboo,SSgP,1994-05-18,1994-12-12,18 May 1994 – 12 Dec 1994
+Sikkim,Pawan Kumar Chamling,Sikkim Democratic Front,1994-12-13,2019-05-26,13 Dec 1994 – 27 May 2019
+Sikkim,Prem Singh Tamang,Sikkim Krantikari Morcha,2019-05-27,2024-06-09,27 May 2019 – 10 Jun 2024
+Sikkim,Prem Singh Tamang,Sikkim Krantikari Morcha,2024-06-10,,10 Jun 2024 – present
+Tamil Nadu,C. N. Annadurai,Dravida Munnetra Kazhagam,1969-01-14,1969-02-02,14 Jan 1969 – 3 Feb 1969
+Tamil Nadu,V. R. Nedunchezhiyan,Dravida Munnetra Kazhagam,1969-02-03,1969-02-09,3 Feb 1969 – 10 Feb 1969
+Tamil Nadu,M. Karunanidhi,Dravida Munnetra Kazhagam,1969-02-10,1971-03-14,10 Feb 1969 – 14 Mar 1971
+Tamil Nadu,M. Karunanidhi,Dravida Munnetra Kazhagam,1971-03-15,1976-01-30,15 Mar 1971 – 31 Jan 1976
+Tamil Nadu,President's Rule,President's Rule,1976-01-31,1977-06-29,31 Jan 1976 – 29 Jun 1977; President's / Governor's Rule — President's Rule
+Tamil Nadu,M. G. Ramachandran,All India Anna Dravida Munnetra Kazhagam,1977-06-30,1980-02-16,30 Jun 1977 – 17 Feb 1980
+Tamil Nadu,President's Rule,President's Rule,1980-02-17,1980-06-08,17 Feb 1980 – 8 Jun 1980; President's / Governor's Rule — President's Rule
+Tamil Nadu,M. G. Ramachandran,All India Anna Dravida Munnetra Kazhagam,1980-06-09,1985-02-09,9 Jun 1980 – 9 Feb 1985
+Tamil Nadu,M. G. Ramachandran,All India Anna Dravida Munnetra Kazhagam,1985-02-10,1987-12-23,10 Feb 1985 – 24 Dec 1987
+Tamil Nadu,V. R. Nedunchezhiyan,All India Anna Dravida Munnetra Kazhagam,1987-12-24,1988-01-06,24 Dec 1987 – 7 Jan 1988
+Tamil Nadu,V. N. Janaki,All India Anna Dravida Munnetra Kazhagam,1988-01-07,1988-01-29,7 Jan 1988 – 30 Jan 1988
+Tamil Nadu,President's Rule,President's Rule,1988-01-30,1989-01-26,30 Jan 1988 – 26 Jan 1989; President's / Governor's Rule — President's Rule
+Tamil Nadu,M. Karunanidhi,Dravida Munnetra Kazhagam,1989-01-27,1991-01-29,27 Jan 1989 – 30 Jan 1991
+Tamil Nadu,President's Rule,President's Rule,1991-01-30,1991-06-23,30 Jan 1991 – 23 Jun 1991; President's / Governor's Rule — President's Rule
+Tamil Nadu,J. Jayalalithaa,All India Anna Dravida Munnetra Kazhagam,1991-06-24,1996-05-12,24 Jun 1991 – 12 May 1996
+Tamil Nadu,M. Karunanidhi,Dravida Munnetra Kazhagam,1996-05-13,2001-05-13,13 May 1996 – 13 May 2001
+Tamil Nadu,J. Jayalalithaa,All India Anna Dravida Munnetra Kazhagam,2001-05-14,2001-09-20,14 May 2001 – 21 Sep 2001
+Tamil Nadu,O. Panneerselvam,All India Anna Dravida Munnetra Kazhagam,2001-09-21,2002-03-01,21 Sep 2001 – 2 Mar 2002
+Tamil Nadu,J. Jayalalithaa,All India Anna Dravida Munnetra Kazhagam,2002-03-02,2006-05-12,2 Mar 2002 – 12 May 2006
+Tamil Nadu,M. Karunanidhi,Dravida Munnetra Kazhagam,2006-05-13,2011-05-15,13 May 2006 – 15 May 2011
+Tamil Nadu,J. Jayalalithaa,All India Anna Dravida Munnetra Kazhagam,2011-05-16,2014-09-27,16 May 2011 – 27 Sep 2014
+Tamil Nadu,O. Panneerselvam,All India Anna Dravida Munnetra Kazhagam,2014-09-28,2015-05-22,28 Sep 2014 – 23 May 2015
+Tamil Nadu,J. Jayalalithaa,All India Anna Dravida Munnetra Kazhagam,2015-05-23,2016-12-05,23 May 2015 – 5 Dec 2016
+Tamil Nadu,O. Panneerselvam,All India Anna Dravida Munnetra Kazhagam,2016-12-06,2017-02-15,6 Dec 2016 – 15 Feb 2017
+Tamil Nadu,Edappadi K. Palaniswami,All India Anna Dravida Munnetra Kazhagam,2017-02-16,2021-05-06,16 Feb 2017 – 6 May 2021
+Tamil Nadu,M. K. Stalin,Dravida Munnetra Kazhagam,2021-05-07,2026-05-09,7 May 2021 – 9 May 2026
+Tamil Nadu,C. Joseph Vijay,TVK,2026-05-10,,10 May 2026 – present
+Telangana,K. Chandrashekar Rao,Bharat Rashtra Samithi,2014-06-02,2023-12-06,2 Jun 2014 – 6 Dec 2023
+Telangana,Revanth Reddy,Indian National Congress,2023-12-07,,7 Dec 2023 – present
+Tripura,Sachindra Lal Singh,Indian National Congress,1963-07-01,1971-10-31,1 Jul 1963 – 1 Nov 1971
+Tripura,President's Rule,President's Rule,1971-11-01,1972-03-19,1 Nov 1971 – 20 Mar 1972; President's / Governor's Rule — President's Rule spanning Tripura's transition from Union Territory to full statehood (21 Jan 1972)
+Tripura,Sukhamoy Sen Gupta,Indian National Congress,1972-03-20,1977-03-31,20 Mar 1972 – 1 Apr 1977
+Tripura,Prafulla Kumar Das,Congress for Democracy,1977-04-01,1977-07-25,1 Apr 1977 – 26 Jul 1977
+Tripura,Radhika Ranjan Gupta,Janata Party,1977-07-26,1977-11-04,26 Jul 1977 – 4 Nov 1977
+Tripura,President's Rule,President's Rule,1977-11-05,1978-01-04,5 Nov 1977 – 5 Jan 1978; President's / Governor's Rule — President's Rule
+Tripura,Nripen Chakraborty,Communist Party of India (Marxist),1978-01-05,1988-02-04,5 Jan 1978 – 5 Feb 1988
+Tripura,Sudhir Ranjan Majumdar,Indian National Congress,1988-02-05,1992-02-18,5 Feb 1988 – 19 Feb 1992
+Tripura,Samir Ranjan Barman,Indian National Congress,1992-02-19,1993-03-10,19 Feb 1992 – 10 Mar 1993
+Tripura,President's Rule,President's Rule,1993-03-11,1993-04-09,11 Mar 1993 – 10 Apr 1993; President's / Governor's Rule — President's Rule
+Tripura,Dasarath Deb,Communist Party of India (Marxist),1993-04-10,1998-03-10,10 Apr 1993 – 11 Mar 1998
+Tripura,Manik Sarkar,Communist Party of India (Marxist),1998-03-11,2018-03-08,11 Mar 1998 – 9 Mar 2018
+Tripura,Biplab Kumar Deb,Bharatiya Janata Party,2018-03-09,2022-05-14,9 Mar 2018 – 15 May 2022
+Tripura,Manik Saha,Bharatiya Janata Party,2022-05-15,,15 May 2022 – present
+Uttar Pradesh,Govind Ballabh Pant,Indian National Congress,1950-01-26,1954-12-27,26 Jan 1950 – 28 Dec 1954
+Uttar Pradesh,Sampurnanand,Indian National Congress,1954-12-28,1960-12-06,28 Dec 1954 – 7 Dec 1960
+Uttar Pradesh,Chandra Bhanu Gupta,Indian National Congress,1960-12-07,1963-10-01,7 Dec 1960 – 2 Oct 1963
+Uttar Pradesh,Sucheta Kripalani,Indian National Congress,1963-10-02,1967-03-13,2 Oct 1963 – 14 Mar 1967
+Uttar Pradesh,Chandra Bhanu Gupta,Indian National Congress,1967-03-14,1967-04-02,14 Mar 1967 – 3 Apr 1967
+Uttar Pradesh,Charan Singh,Bhartiya Krishak Dal,1967-04-03,1968-02-24,3 Apr 1967 – 25 Feb 1968
+Uttar Pradesh,President's Rule,President's Rule,1968-02-25,1969-02-25,25 Feb 1968 – 26 Feb 1969; President's / Governor's Rule — President's Rule
+Uttar Pradesh,Chandra Bhanu Gupta,Indian National Congress,1969-02-26,1970-02-17,26 Feb 1969 – 18 Feb 1970
+Uttar Pradesh,Charan Singh,Bhartiya Krishak Dal,1970-02-18,1970-09-30,18 Feb 1970 – 1 Oct 1970
+Uttar Pradesh,President's Rule,President's Rule,1970-10-01,1970-10-17,1 Oct 1970 – 18 Oct 1970; President's / Governor's Rule — President's Rule
+Uttar Pradesh,Tribhuvan Narain Singh,Indian National Congress (Organisation),1970-10-18,1971-04-03,18 Oct 1970 – 4 Apr 1971
+Uttar Pradesh,Kamalapati Tripathi,Indian National Congress,1971-04-04,1973-06-12,4 Apr 1971 – 13 Jun 1973
+Uttar Pradesh,President's Rule,President's Rule,1973-06-13,1973-11-07,13 Jun 1973 – 8 Nov 1973; President's / Governor's Rule — President's Rule
+Uttar Pradesh,Hemwati Nandan Bahuguna,Indian National Congress,1973-11-08,1975-11-29,8 Nov 1973 – 30 Nov 1975
+Uttar Pradesh,President's Rule,President's Rule,1975-11-30,1976-01-20,30 Nov 1975 – 21 Jan 1976; President's / Governor's Rule — President's Rule (coincided with National Emergency period)
+Uttar Pradesh,N. D. Tiwari,Indian National Congress,1976-01-21,1977-04-29,21 Jan 1976 – 30 Apr 1977
+Uttar Pradesh,President's Rule,President's Rule,1977-04-30,1977-06-22,30 Apr 1977 – 23 Jun 1977; President's / Governor's Rule — President's Rule
+Uttar Pradesh,Ram Naresh Yadav,Janata Party,1977-06-23,1979-02-27,23 Jun 1977 – 28 Feb 1979
+Uttar Pradesh,Banarasi Das,Janata Party,1979-02-28,1980-02-16,28 Feb 1979 – 17 Feb 1980
+Uttar Pradesh,President's Rule,President's Rule,1980-02-17,1980-06-08,17 Feb 1980 – 9 Jun 1980; President's / Governor's Rule — President's Rule
+Uttar Pradesh,V. P. Singh,Indian National Congress,1980-06-09,1982-07-18,9 Jun 1980 – 19 Jul 1982
+Uttar Pradesh,Sripati Mishra,Indian National Congress,1982-07-19,1984-08-02,19 Jul 1982 – 3 Aug 1984
+Uttar Pradesh,N. D. Tiwari,Indian National Congress,1984-08-03,1985-09-23,3 Aug 1984 – 24 Sep 1985
+Uttar Pradesh,Vir Bahadur Singh,Indian National Congress,1985-09-24,1988-06-24,24 Sep 1985 – 25 Jun 1988
+Uttar Pradesh,N. D. Tiwari,Indian National Congress,1988-06-25,1989-12-04,25 Jun 1988 – 5 Dec 1989
+Uttar Pradesh,Mulayam Singh Yadav,Janata Dal,1989-12-05,1991-06-23,5 Dec 1989 – 24 Jun 1991
+Uttar Pradesh,Kalyan Singh,Bharatiya Janata Party,1991-06-24,1992-12-05,24 Jun 1991 – 6 Dec 1992
+Uttar Pradesh,President's Rule,President's Rule,1992-12-06,1993-12-03,6 Dec 1992 – 4 Dec 1993; President's / Governor's Rule — President's Rule imposed after the demolition of the Babri Masjid
+Uttar Pradesh,Mulayam Singh Yadav,Samajwadi Party,1993-12-04,1995-06-02,4 Dec 1993 – 3 Jun 1995
+Uttar Pradesh,Mayawati,Bahujan Samaj Party,1995-06-03,1995-10-17,3 Jun 1995 – 18 Oct 1995
+Uttar Pradesh,President's Rule,President's Rule,1995-10-18,1997-03-20,18 Oct 1995 – 21 Mar 1997; President's / Governor's Rule — President's Rule after Mayawati's resignation amid BSP-BJP coalition breakdown
+Uttar Pradesh,Mayawati,Bahujan Samaj Party,1997-03-21,1997-09-20,21 Mar 1997 – 21 Sep 1997
+Uttar Pradesh,Kalyan Singh,Bharatiya Janata Party,1997-09-21,1999-11-11,21 Sep 1997 – 12 Nov 1999
+Uttar Pradesh,Ram Prakash Gupta,Bharatiya Janata Party,1999-11-12,2000-10-27,12 Nov 1999 – 28 Oct 2000
+Uttar Pradesh,Rajnath Singh,Bharatiya Janata Party,2000-10-28,2002-03-07,28 Oct 2000 – 8 Mar 2002
+Uttar Pradesh,President's Rule,President's Rule,2002-03-08,2002-05-02,8 Mar 2002 – 3 May 2002; President's / Governor's Rule — President's Rule following the inconclusive 2002 assembly election
+Uttar Pradesh,Mayawati,Bahujan Samaj Party,2002-05-03,2003-08-28,3 May 2002 – 29 Aug 2003
+Uttar Pradesh,Mulayam Singh Yadav,Samajwadi Party,2003-08-29,2007-05-12,29 Aug 2003 – 13 May 2007
+Uttar Pradesh,Mayawati,Bahujan Samaj Party,2007-05-13,2012-03-14,13 May 2007 – 15 Mar 2012
+Uttar Pradesh,Akhilesh Yadav,Samajwadi Party,2012-03-15,2017-03-18,15 Mar 2012 – 19 Mar 2017
+Uttar Pradesh,Yogi Adityanath,Bharatiya Janata Party,2017-03-19,2022-03-24,19 Mar 2017 – 25 Mar 2022
+Uttar Pradesh,Yogi Adityanath,Bharatiya Janata Party,2022-03-25,,25 Mar 2022 – present
+Uttarakhand,Nityanand Swami,Bharatiya Janata Party,2000-11-09,2001-10-29,9 Nov 2000 – 29 Oct 2001
+Uttarakhand,Bhagat Singh Koshyari,Bharatiya Janata Party,2001-10-30,2002-03-01,30 Oct 2001 – 1 Mar 2002
+Uttarakhand,N. D. Tiwari,Indian National Congress,2002-03-02,2007-03-06,2 Mar 2002 – 7 Mar 2007
+Uttarakhand,B. C. Khanduri,Bharatiya Janata Party,2007-03-07,2009-06-26,7 Mar 2007 – 27 Jun 2009
+Uttarakhand,Ramesh Pokhriyal,Bharatiya Janata Party,2009-06-27,2011-09-10,27 Jun 2009 – 11 Sep 2011
+Uttarakhand,B. C. Khanduri,Bharatiya Janata Party,2011-09-11,2012-03-12,11 Sep 2011 – 13 Mar 2012
+Uttarakhand,Vijay Bahuguna,Indian National Congress,2012-03-13,2014-01-31,13 Mar 2012 – 31 Jan 2014
+Uttarakhand,Harish Rawat,Indian National Congress,2014-02-01,2016-03-26,1 Feb 2014 – 27 Mar 2016
+Uttarakhand,President's Rule,President's Rule,2016-03-27,2016-04-20,27 Mar 2016 – 21 Apr 2016; President's / Governor's Rule — President's Rule following political crisis/defections
+Uttarakhand,Harish Rawat,Indian National Congress,2016-04-21,2016-04-21,21 Apr 2016 – 22 Apr 2016
+Uttarakhand,President's Rule,President's Rule,2016-04-22,2016-05-10,22 Apr 2016 – 11 May 2016; President's / Governor's Rule — Second spell of President's Rule after a court reinstatement order was stayed pending floor test
+Uttarakhand,Harish Rawat,Indian National Congress,2016-05-11,2017-03-17,11 May 2016 – 18 Mar 2017
+Uttarakhand,Trivendra Singh Rawat,Bharatiya Janata Party,2017-03-18,2021-03-09,18 Mar 2017 – 10 Mar 2021
+Uttarakhand,Tirath Singh Rawat,Bharatiya Janata Party,2021-03-10,2021-07-03,10 Mar 2021 – 4 Jul 2021
+Uttarakhand,Pushkar Singh Dhami,Bharatiya Janata Party,2021-07-04,2022-03-22,4 Jul 2021 – 23 Mar 2022
+Uttarakhand,Pushkar Singh Dhami,Bharatiya Janata Party,2022-03-23,,23 Mar 2022 – present
+West Bengal,Prafulla Chandra Ghosh,Indian National Congress,1947-08-15,1948-01-22,15 Aug 1947 – 23 Jan 1948
+West Bengal,Bidhan Chandra Roy,Indian National Congress,1948-01-23,1962-07-01,23 Jan 1948 – 1 Jul 1962
+West Bengal,Prafulla Chandra Sen,Indian National Congress,1962-07-02,1967-02-28,2 Jul 1962 – 1 Mar 1967
+West Bengal,Ajoy Mukherjee,BAC,1967-03-01,1967-11-20,1 Mar 1967 – 21 Nov 1967
+West Bengal,Prafulla Chandra Ghosh,Independent,1967-11-21,1968-02-19,21 Nov 1967 – 20 Feb 1968
+West Bengal,President's Rule,President's Rule,1968-02-20,1969-02-24,20 Feb 1968 – 25 Feb 1969; President's / Governor's Rule — President's Rule
+West Bengal,Ajoy Mukherjee,BAC,1969-02-25,1970-07-29,25 Feb 1969 – 30 Jul 1970
+West Bengal,President's Rule,President's Rule,1970-07-30,1971-04-01,30 Jul 1970 – 2 Apr 1971; President's / Governor's Rule — President's Rule
+West Bengal,Ajoy Mukherjee,Indian National Congress,1971-04-02,1971-06-28,2 Apr 1971 – 29 Jun 1971
+West Bengal,President's Rule,President's Rule,1971-06-29,1972-03-19,29 Jun 1971 – 20 Mar 1972; President's / Governor's Rule — President's Rule
+West Bengal,Siddhartha Shankar Ray,Indian National Congress,1972-03-20,1977-04-29,20 Mar 1972 – 30 Apr 1977
+West Bengal,President's Rule,President's Rule,1977-04-30,1977-06-20,30 Apr 1977 – 21 Jun 1977; President's / Governor's Rule — President's Rule
+West Bengal,Jyoti Basu,Communist Party of India (Marxist),1977-06-21,2000-11-05,21 Jun 1977 – 6 Nov 2000
+West Bengal,Buddhadeb Bhattacharjee,Communist Party of India (Marxist),2000-11-06,2011-05-19,6 Nov 2000 – 20 May 2011
+West Bengal,Mamata Banerjee,All India Trinamool Congress,2011-05-20,2026-05-06,20 May 2011 – 7 May 2026
+West Bengal,President's Rule,President's Rule,2026-05-07,2026-05-08,"7 May 2026 – 9 May 2026; President's / Governor's Rule — Brief Governor's Rule after BJP's 2026 assembly win, until Suvendu Adhikari sworn in"
+West Bengal,Suvendu Adhikari,Bharatiya Janata Party,2026-05-09,,9 May 2026 – present
