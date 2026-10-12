@@ -15,6 +15,7 @@
 import React from 'react';
 import type { CMRecord, StatePartyTenure } from '../types';
 import { getPartyColor } from '../utils/partyColors';
+import { sortCMChronological } from '../utils/dateUtils';
 
 // ─── Props ────────────────────────────────────────────────────────────────────
 
@@ -49,18 +50,6 @@ function tenureRange(startDate: Date | null, endDate: Date | null): string {
   return `${start} – ${end}`;
 }
 
-/**
- * Sorts CM records chronologically (ascending by startDate).
- * Records with null startDate are placed at the end.
- */
-function sortCMChronological(records: CMRecord[]): CMRecord[] {
-  return [...records].sort((a, b) => {
-    if (!a.startDate && !b.startDate) return 0;
-    if (!a.startDate) return 1;
-    if (!b.startDate) return -1;
-    return a.startDate.getTime() - b.startDate.getTime();
-  });
-}
 
 /**
  * Sorts party tenure records by totalYears descending.

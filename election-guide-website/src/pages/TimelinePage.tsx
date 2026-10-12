@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import type { ElectionType } from '../types';
 import { ElectionTimeline, ElectionTypeSwitcher } from '../components';
 import { useAppData } from '../context/AppContext';
+import { isStale, formatDate } from '../utils/dateUtils';
 
 // ─── Valid election types ─────────────────────────────────────────────────────
 
@@ -51,18 +52,10 @@ const TimelinePage: React.FC = () => {
   };
 
   // Format lastUpdated for display
-  const lastUpdatedText = state.lastUpdated
-    ? state.lastUpdated.toLocaleDateString('en-IN', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-      })
-    : null;
+  const lastUpdatedText = formatDate(state.lastUpdated) || null;
 
   // Staleness check: warn if last updated more than 180 days ago
-  const isStale =
-    state.lastUpdated !== null &&
-    Date.now() - state.lastUpdated.getTime() > 180 * 24 * 60 * 60 * 1000;
+  const stale = isStale(state.lastUpdated);
 
   return (
     <main className="container mx-auto px-4 py-8 max-w-6xl">
@@ -91,7 +84,7 @@ const TimelinePage: React.FC = () => {
               {lastUpdatedText}
             </time>
           </p>
-          {isStale && (
+          {stale && (
             <div
               role="alert"
               className="flex items-start gap-2 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-xs text-amber-800"

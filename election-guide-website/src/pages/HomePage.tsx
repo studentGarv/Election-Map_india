@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import type { ElectionType } from '../types';
 import { ElectionTimeline, ElectionTypeSwitcher } from '../components';
 import { useAppData } from '../context/AppContext';
+import { isStale, formatDate } from '../utils/dateUtils';
 
 // ─── Type labels ──────────────────────────────────────────────────────────────
 
@@ -71,18 +72,10 @@ const HomePage: React.FC = () => {
   };
 
   // Format lastUpdated for display (Requirement 12.1)
-  const lastUpdatedText = state.lastUpdated
-    ? state.lastUpdated.toLocaleDateString('en-IN', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-      })
-    : null;
+  const lastUpdatedText = formatDate(state.lastUpdated) || null;
 
   // Staleness check: warn if data is more than 180 days old
-  const isStale =
-    state.lastUpdated !== null &&
-    Date.now() - state.lastUpdated.getTime() > 180 * 24 * 60 * 60 * 1000;
+  const stale = isStale(state.lastUpdated);
 
   return (
     <main className="min-h-screen bg-slate-50/50">
@@ -129,7 +122,7 @@ const HomePage: React.FC = () => {
                   {lastUpdatedText}
                 </time>
               </div>
-              {isStale && (
+              {stale && (
                 <div
                   role="alert"
                   className="flex items-start gap-2.5 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-xs sm:text-sm text-amber-800 text-left max-w-lg shadow-xs"
